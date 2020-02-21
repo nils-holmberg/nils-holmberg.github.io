@@ -1063,7 +1063,7 @@ dvs_descriptive
 <div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb17-1" title="1"><span class="co">###################### extra interaction analyses</span></a>
 <a class="sourceLine" id="cb17-2" title="2"><span class="co">#dft$com_view = ifelse(dft$num_com_viewed==0, 0, 1)</span></a>
 <a class="sourceLine" id="cb17-3" title="3">dft<span class="op">$</span>com_view_binary =<span class="st"> </span><span class="dv">0</span></a>
-<a class="sourceLine" id="cb17-4" title="4">dft<span class="op">$</span>com_view_binary[dft<span class="op">$</span>com_view<span class="op">==</span><span class="dv">0</span>] =<span class="st"> </span><span class="ot">NA</span></a>
+<a class="sourceLine" id="cb17-4" title="4">dft<span class="op">$</span>com_view_binary[dft<span class="op">$</span>com_view<span class="op">==</span><span class="st">&quot;00&quot;</span>] =<span class="st"> </span><span class="ot">NA</span></a>
 <a class="sourceLine" id="cb17-5" title="5">dft<span class="op">$</span>com_view_binary[dft<span class="op">$</span>com_view<span class="op">==</span><span class="st">&quot;11&quot;</span>] =<span class="st"> </span><span class="dv">1</span></a>
 <a class="sourceLine" id="cb17-6" title="6"></a>
 <a class="sourceLine" id="cb17-7" title="7">m =<span class="st"> </span><span class="kw">glmer</span>(com_view_binary <span class="op">~</span><span class="st"> </span></a>
@@ -1080,27 +1080,27 @@ dvs_descriptive
 ##  Subset: condition != &quot;trial&quot;
 ## 
 ##      AIC      BIC   logLik deviance df.resid 
-##   1875.5   1892.2   -934.8   1869.5     1917 
+##   1583.1   1599.3   -788.6   1577.1     1621 
 ## 
 ## Scaled residuals: 
 ##     Min      1Q  Median      3Q     Max 
-## -3.8960 -0.4886  0.1643  0.5251  3.8159 
+## -4.0784 -0.5080  0.2053  0.5281  2.1166 
 ## 
 ## Random effects:
 ##  Groups  Name        Variance Std.Dev.
-##  subject (Intercept) 5.18     2.276   
-## Number of obs: 1920, groups:  subject, 96
+##  subject (Intercept) 3.376    1.837   
+## Number of obs: 1624, groups:  subject, 96
 ## 
 ## Fixed effects:
-##                             Estimate Std. Error z value Pr(&gt;|z|)  
-## (Intercept)                  0.52664    0.28775   1.830   0.0672 .
-## post_genre_subject_interest  0.11647    0.04864   2.395   0.0166 *
+##                             Estimate Std. Error z value Pr(&gt;|z|)   
+## (Intercept)                  0.81667    0.25946   3.148  0.00165 **
+## post_genre_subject_interest  0.14491    0.05286   2.741  0.00612 **
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
 ## 
 ## Correlation of Fixed Effects:
 ##             (Intr)
-## pst_gnr_sb_ -0.514</code></pre>
+## pst_gnr_sb_ -0.607</code></pre>
 <div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb19-1" title="1"><span class="co">#m = glm(com_view_binary ~ </span></a>
 <a class="sourceLine" id="cb19-2" title="2"><span class="co">#post_genre_subject_interest,</span></a>
 <a class="sourceLine" id="cb19-3" title="3"><span class="co">#family=&quot;binomial&quot;, data=dft, subset=condition!=&quot;trial&quot;)#, nAGQ=0)</span></a>
