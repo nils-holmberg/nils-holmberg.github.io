@@ -421,7 +421,7 @@ summary {
 
 <h1 class="title toc-ignore">effects of social media comments - reproducible data analysis on open science framework</h1>
 <h4 class="author">authors: holmberg, niehorster, bossetta, &amp; dutceac segesten</h4>
-<h4 class="date">updated: feb 18, 2020</h4>
+<h4 class="date">updated: feb 20, 2020</h4>
 
 </div>
 
@@ -430,10 +430,10 @@ summary {
 <h2>data and descriptives</h2>
 <p>some text content</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="co">#import dataset</span></a>
-<a class="sourceLine" id="cb1-2" title="2"><span class="co">#dft &lt;- read.csv(&quot;https://github.com/nils-holmberg/scom-socm/blob/master/csv/dataset-trials-200218.csv&quot;, sep=&#39;\t&#39;, header=T, strip.white=TRUE)</span></a>
+<a class="sourceLine" id="cb1-2" title="2"><span class="co">#dft &lt;- read.csv(&quot;https://github.com/nils-holmberg/scom-socm/blob/master/csv/dataset-trials-200218.csv&quot;, sep=&#39;\t&#39;, header=T, strip.white=TRUE, colClasses=c(&quot;com_view&quot;=&quot;character&quot;))</span></a>
 <a class="sourceLine" id="cb1-3" title="3"></a>
 <a class="sourceLine" id="cb1-4" title="4"><span class="co">#import dataset</span></a>
-<a class="sourceLine" id="cb1-5" title="5">dft &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;https://raw.githubusercontent.com/nils-holmberg/nils-holmberg.github.io/master/scom-socm/csv/dataset-trials-200218.csv&quot;</span>, <span class="dt">sep=</span><span class="st">&#39;</span><span class="ch">\t</span><span class="st">&#39;</span>, <span class="dt">header=</span>T, <span class="dt">strip.white=</span><span class="ot">TRUE</span>)</a>
+<a class="sourceLine" id="cb1-5" title="5">dft &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;https://raw.githubusercontent.com/nils-holmberg/nils-holmberg.github.io/master/scom-socm/csv/dataset-trials-200218.csv&quot;</span>, <span class="dt">sep=</span><span class="st">&#39;</span><span class="ch">\t</span><span class="st">&#39;</span>, <span class="dt">header=</span>T, <span class="dt">strip.white=</span><span class="ot">TRUE</span>, <span class="dt">colClasses=</span><span class="kw">c</span>(<span class="st">&quot;com_view&quot;</span>=<span class="st">&quot;character&quot;</span>))</a>
 <a class="sourceLine" id="cb1-6" title="6"></a>
 <a class="sourceLine" id="cb1-7" title="7"><span class="co">#number of trials</span></a>
 <a class="sourceLine" id="cb1-8" title="8"><span class="kw">nrow</span>(dft)</a></code></pre></div>
@@ -965,8 +965,8 @@ dvs_descriptive
 </tbody>
 </table>
 </div>
-<div id="interaction-on-dwell" class="section level2">
-<h2>interaction on dwell</h2>
+<div id="dwell-interaction-analyses" class="section level2">
+<h2>dwell interaction analyses</h2>
 <p>main effects and interaction</p>
 <div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb13-1" title="1"><span class="co">###################### statistical test on interaction </span></a>
 <a class="sourceLine" id="cb13-2" title="2">dft<span class="op">$</span>condition =<span class="st"> </span><span class="kw">droplevels</span>(dft<span class="op">$</span>condition)</a>
@@ -1080,27 +1080,27 @@ dvs_descriptive
 ##  Subset: condition != &quot;trial&quot;
 ## 
 ##      AIC      BIC   logLik deviance df.resid 
-##   1583.1   1599.3   -788.6   1577.1     1621 
+##   1875.5   1892.2   -934.8   1869.5     1917 
 ## 
 ## Scaled residuals: 
 ##     Min      1Q  Median      3Q     Max 
-## -4.0784 -0.5080  0.2053  0.5281  2.1166 
+## -3.8960 -0.4886  0.1643  0.5251  3.8159 
 ## 
 ## Random effects:
 ##  Groups  Name        Variance Std.Dev.
-##  subject (Intercept) 3.376    1.837   
-## Number of obs: 1624, groups:  subject, 96
+##  subject (Intercept) 5.18     2.276   
+## Number of obs: 1920, groups:  subject, 96
 ## 
 ## Fixed effects:
-##                             Estimate Std. Error z value Pr(&gt;|z|)   
-## (Intercept)                  0.81667    0.25946   3.148  0.00165 **
-## post_genre_subject_interest  0.14491    0.05286   2.741  0.00612 **
+##                             Estimate Std. Error z value Pr(&gt;|z|)  
+## (Intercept)                  0.52664    0.28775   1.830   0.0672 .
+## post_genre_subject_interest  0.11647    0.04864   2.395   0.0166 *
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
 ## 
 ## Correlation of Fixed Effects:
 ##             (Intr)
-## pst_gnr_sb_ -0.607</code></pre>
+## pst_gnr_sb_ -0.514</code></pre>
 <div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb19-1" title="1"><span class="co">#m = glm(com_view_binary ~ </span></a>
 <a class="sourceLine" id="cb19-2" title="2"><span class="co">#post_genre_subject_interest,</span></a>
 <a class="sourceLine" id="cb19-3" title="3"><span class="co">#family=&quot;binomial&quot;, data=dft, subset=condition!=&quot;trial&quot;)#, nAGQ=0)</span></a>
