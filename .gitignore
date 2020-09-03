@@ -1,0 +1,7 @@
+# folders
+log/*
+tmp/*
+
+# keep empty dir
+!log/.gitkeep
+!tmp/.gitkeep
