@@ -9,7 +9,7 @@ planering-av-forskningsfrågor
 rapportering-av-forskningsfrågor
 operationalisering
 rapportering-av-operationalisering
-hypoteser
+hypotestestning
 rapportering-av-hypoteser
 chap7
 pilottest-5-sidor
