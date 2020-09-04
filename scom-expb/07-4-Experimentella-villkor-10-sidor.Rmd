@@ -1,0 +1,60 @@
+## 7.4 Experimentella villkor \[10 sidor\]
+
+Ett typiskt experiment består ofta av ett kontrollvillkor och ett eller flera experimentella villkor. Ett kontrollvillkor refererar till ett slags naturligt normaltillstånd, som kännetecknas av att deltagaren **inte** genomgår någon form av behandling, eller exponeras för någon form av manipulation. Experimentella villkor å andra sidan betyder att försöksdeltagaren genomgår just en sådan behandling (t.ex. genom att inta en verksam medicinsk substans) eller utsätts för en manipulation (t.ex. genom exponering för en viss nivå av belysning). I ett enkelt experiment förekommer endast dessa två tillstånd, vilket kan beskrivas med en s.k. oberoende variabel, där frånvaron av behandling (kontrollvillkor) exempelvis representeras av symbolen \"0\", medan förekomsten av en behandling (behandlingsvillkor) representeras av symbolen \"1\". I mer invecklade experiment kan det förekomma kombinationer av flera behandlingar (t.ex. intag av medicin **och** exponering för belysning) som dessutom utdelas i flera olika nivåer (t.ex. \"ingen dos\", \"låg dos\", och \"hög dos\"). Mer om detta längre fram.
+
+Genom att mäta försöksdeltagarnas responser med hjälp av någon relevant beroende variabel (t.ex. blodtryck) under både kontrollvillkor och experimentella villkor, undersöks därefter eventuella skillnader mellan dessa villkor (dvs. effekter av behandling jämfört med normaltillståndet). På engelska kallas sådana villkor ofta för \"conditions\" eller \"treatments\". I detta sammanhang är det viktigt att betänka att kontrollvillkor och experimentella villkor (\"conditions\") bör betraktas som abstrakta begrepp, vilka sedan behöver konkretiseras i form av faktiska, reella behandlingar (\"treatments\"), ofta med hjälp av teknisk utrustning och laboratoriemateriel, samt en standardiserad procedur för att utdela dessa behandlingar. Denna process, i vilken abstrakta villkor implementeras som någon form av konkreta behandlingar, kallas ibland för operationalisering (se tidigare avsnitt 6.2). Inom ett experiment är det även vanligt att behandlingar upprepas ett visst antal gånger, vilket kallas för försök, eller på engelska \"trials\" (se experimentdesign nedan).
+
+### 7.4.1 Kontrollvillkor och behandlingsvillkor
+
+Låt oss återvända till bokens tänka exempel-experiment för att utveckla och konkretisera resonemanget kring experimentella villkor. Som vi har sagt tidigare, kräver den enklaste formen av experiment en kontrast mellan att deltagaren genomgår en behandling eller att de inte gör det. Att **inte** genomgå en behandling kallas för ett kontrollvillkor, och dessa deltagare sägs därmed tillhöra kontrollgruppen. I fallet med medicinsk forskning kan detta villkor tyckas ganska uppenbart: det kan bestå i att en grupp deltagare inte tar ett läkemedel. Men i ett samhällsvetenskapligt experiment kan det vara betydligt svårare att definiera vad som är ett kontrollvillkor.
+
+I vårt Facebook-experiment exponeras deltagare för två olika typer av bildinnehåll \-- antingen presenteras en Facebook-post med en bild på en auktoritetsperson, eller en bild på en neutral person. Vilket av dessa två bildvillkor utgör då kontrollvillkoret? Båda grupperna av försöksdeltagare exponeras ju för någon form av bild, och omvänt, ingen av grupperna får titta på Facebook-posten utan bild. För att resonera om kontrollvillkoret i detta exempel kan vi börja med att tänka oss samtliga bilder på personer som existerar på Facebook. Därefter låter vi en slumpmässigt utvald Facebook-användare titta på tio slumpmässigt utvalda bilder ur samlingen av alla bilder. Slutligen ställer vi oss frågan: kommer denna användare se fler bilder på okända, och i den meningen neutrala personer, eller kommer användaren att se fler bilder som han eller hon relaterar till som auktoritetspersoner? Statistiskt sett skulle vi nog säga att de flesta bilderna användaren ser troligen kommer föreställa okända och därmed neutrala personer, och därigenom kan vi resonera att Facebook-bilder med neutrala personer bör utgöra vårt kontrollvillkor. Mer generellt uttryckt är det vanligt att kontrollvillkoret får motsvara det typiska fallet, medan behandlingsvillkoret innehåller en otypisk manipulering av något slag.
+
+Behandlingsvillkoret består därmed i att visa en Facebook-post med en bild föreställande en auktoritetsperson. För att ta ett konkret exempel kan vi anta att personen Leif G.W. Persson för många användare utgör en auktoritet i samband med Facebook-poster gällande kriminalitet. Att presentera en Facebook-post om kriminalitet tillsammans med en bild på Leif G.W. Persson skulle alltså utgöra behandlingsvillkoret i vårt experiment, medan att presentera samma Facebook-post med en neutral och okänd person skulle utgöra kontrollvillkoret. Det är mycket viktigt att betona att Facebook-posten (om kriminalitet) är samma i båda villkoren, medan bildinnehållet (auktoritetsperson, neutral person) varieras.
+
+Detta innebär att så mycket som möjligt i Facebook-posten hålls konstant över båda villkoren, medan en enda aspekt varieras. Detta är helt centralt för experimentell metod, eftersom det innebär att om vi uppmäter skillnader i de beroende variablerna (visuell uppmärksamhet och upplevd trovärdighet) så kan dessa skillnader mer sannolikt härledas till själva bildvillkoren och inget annat. Denna härledning blir betydligt svårare eller kanske till och med omöjlig att göra om vi samtidig varierar andra egenskaper hos Facebook-posten, t.ex. antal gillningar och rubriktext. I en undersökning är alltså behandlingsvillkor och kontrollvillkor lika viktiga, och allt annat utom själva villkoren bör hållas konstant.
+
+använder behandlingsvillkor i rubriken till detta stycke mest för att skapa en tydlig kontrast till kontrollvillkor i föregående avsnitt. Behandlingsvillkor benämns nämligen ofta som experimentella villkor, och fortsättningsvis kommer vi huvudsakligen använda denna beteckning.
+
+### 7.4.2 Oberoende variabler
+
+Oberoende variabler hänger konceptuellt samman med experimentella villkor, eller behandlingsvillkor, på så sätt att oberoende variabler används för att operationalisera experimentella villkor. Här påminner vi oss som hastigast om att operationalisering hittills definierats som att göra ett koncept mätbart. Vi kan nu utveckla och konkretisera denna definition genom att säga att en oberoende variabel registrerar varje gång en försöksdeltagare genomgår kontrollvillkoret eller behandlingsvillkoret inom en undersökning. Denna registrering görs i praktiken ofta med hjälp av ett datorprogram för hantering av tabelldata (registerdata) såsom Microsoft Excel, där första kolumnen kan tänkas innehålla alla deltagare i undersökningen (t.ex. deltagarnummer \"1\", \"2\", \"3\", osv), medan den andra kolumnen registrerar om respektive deltagare exponerats för kontrollvillkoret (\"Kontroll\") eller behandlingsvillkoret (\"Behandling\"). Med hjälp av denna uppställning kan alltså en enda oberoende variabel (kolumnen \"Villkor\" i figuren nedan) användas för att representera både kontrollvillkor och behandlingsvillkor. Slutligen används en kolumn för att registrera eller uppmäta den beroende variabeln i undersökningen (kolumnen \"Utfall\"), vilket behandlades i föregående kapitel.
+
+Tabell 1.1 Det här är tabellrubriken
+
+  Deltagare   Villkor      Utfall
+  ----------- ------------ ------------
+  1           Kontroll     Oförändrat
+  2           Behandling   Positivt
+  3           Kontroll     Oförändrat
+  4           Behandling   Oförändrat
+  \...        \...         \...
+
+I exempel-experimentet som beskrivs i denna bok, skulle kolumnen \"Villkor\" i figuren ovan kanske innehålla värdena \"Neutral person\" (för kontrollvillkoret) eller \"Auktoritetsperson\" (för behandlingsvillkoret), beroende på vilken typ av Facebook-post respektive deltagare exponerats för i undersökningen. I detta fall blir både kategoriska variabler. Skulle finnas två utfallsvariabler, nämligen visuell uppmärksamhet mätt i sekunder, samt upplevd trovärdighet mätt på en skala från 1-7.
+
+Experimentella villkor är starkt kopplade till oberoende variabler. Inom den experimentella forskningen syftar begreppet på klargörandet av vilka mätvariabler som uppmäts i en undersökning (oftast en eller flera **beroende variabler** kopplade till deltagarnas responser), samt vilka variabler som varieras eller manipuleras i undersökningen (oftast en eller flera **oberoende variabler** kopplade till undersökningens behandlingar). En undersökning skulle till exempel kunna fokusera på effekten av olika typer av lärarledd feedback på studenters studieresultat (dock inte inlärningsförmåga). I denna situation representerar lärares feedback den oberoende variabeln, medan något mått på studenters inlärning kan representera den beroende variabeln. Förutom att klargöra dessa två kategorier av variabler, så bör den experimentella designen också specificera de olika värden eller nivåer som de oberoende variablerna kan anta. I exemplet med inlärning ovan kan man tänka sig att variabeln \"lärares feedback\" kan anta värden som varierar mellan \"positiv\", \"negativ\" eller \"neutral\" feedback. I detta fall skulle man säga att den oberoende variabeln feedback har tre olika nivåer eller \"levels\" på engelska (dessa nivåer kan vidare betraktas som mer kategoriska eller mer kontinuerliga till sin natur, se variabler kapitel xx). Här är det viktigt att tydliggöra att dessa nivåer på den oberoende variabeln är den operationaliserade versionen av de experimentella villkor vi diskuterade i kapitlet innan.
+
+En viss uppgift eller instruktion kan också vara ett experimentellt villkor. I sådana fall kontrasteras ofta denna uppgift mot ett kontrollvillkor där ingen uppgift eller instruktion förekommer (t.ex. fri interaktion)
+
+Till skillnad från beroende variabler, ofta kategoriska, faktorer med nivåer.
+
+### 7.4.3 Kontrollvariabler
+
+En annan faktor som har stor betydelse i samband med urvalet av
+
+### 7.4.4 Utrustning och materiel
+
+Implementation (operationalisering) av abstrakt villkor till konkret behandling. Kan vara intag av en medicinsk substans eller exponering för ett visuellt stimuli (material). Utrustning som används för att distribuera materiel. Efter att man avhandlat försöksdeltagare och eventuella pilottest, är det vanligt att man i en journalartikel övergår till att diskutera den tekniska utrustning och apparatur som använts i samband med genomförandet av ett experiment.
+
+Generellt: Utrustning som används för att på ett kontrollerat sätt generera eller presentera ett stimuli eller en behandling. Teknisk utrustning som används för att genomföra ett experiment, datorer som används för att spela in data, datorskärm som används för att presentera stimuli (Facebook-artiklar). Presenteras som HTML-sidor I webbläsaren. Synonymt med materiel (engelska materials)?
+
+Material, Stimulikonstruktion. Här förklarar vi exakt vad det är vi manipulerar eller varierar I experimentet, samt I vilka nivåer en egenskap manipuleras. I exemplet med Facebook-artiklar varierar vi bildinnehållet i två nivåer, \"neutral person\" och \"auktoritetsperson\". Vi beskriver också hur vi säkerställt att denna skillnad bildinnehåll är objektiv och uppfattas på samma sätt av olika delagare (intercoder reliability). Vi varierar inte antalet \"likes\" som respektive Facebook-artikel har fått, eller vilken källa som visas. Vad varieras, vad hålls konstant? Full factorial design may also be called a fully crossed design. Se följande stycke om experimentdesign.
+
+### 7.4.5 Planering av experimentella villkor
+
+Tillvägagångssätt, planering. Sammanfattning av avsnitt 7.4. Diskutera utifrån exempel-experiment med bildinnehåll hos Facebook-poster. Giltighet och tillförlitlighet hos alla förklaringsvariabler, oberoende variabler som används i studien. Återkoppla till betydelsen av pilottest.
+
+### 7.4.6 Rapportering av experimentella villkor
+
+Rapportering - exempel på hur detta skulle kunna formuleras i ett manuskript
+

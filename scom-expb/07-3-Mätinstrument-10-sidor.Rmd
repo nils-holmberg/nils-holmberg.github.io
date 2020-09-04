@@ -1,0 +1,28 @@
+## 7.3 Mätinstrument \[10 sidor\]
+
+I en experimentell studie är det avgörande att införliva mätinstrument som på ett giltigt och tillförlitligt sätt kan uppmäta effekten av en behandling på en eller flera responsvariabler. En viktig anledning till att experiment och mätinstrument är nära förknippade, är att denna typ av positivistisk forskning syftar till att försöka säkerställa en faktisk skillnad mellan olika grupper av deltagare och olika typer av behandlingar, vilket till syvende och sist kräver analys med hjälp av statistiska metoder. Det räcker alltså inte med att forskaren rapporterar en subjektivt upplevd skillnad mellan försöksgrupper; denna skillnad måste bevisas!
+
+I detta sammanhang bör mätinstrument uppfattas som ett relativt abstrakt begrepp; det kan röra sig om medicinsk eller fysiologisk mätutrustning, men i många samhällsvetenskapliga ämnen handlar mätinstrument ofta om enkätfrågor där svarsalternativen är utformade som Likert-skalor, exempelvis med skalsteg från 1-7. Med hjälp av ett sådant survey-instrument tänker man sig att det går att uppmäta försöksdeltagarnas attityder kring något ämne. Men man skulle också kunna tänka sig ett experiment inom marknadsföring som använder en binär mätvariabel. I detta fall skulle två deltagargrupper kanske titta på varsin version av en reklamfilm, och sedan svara \"ja\" eller \"nej\" på frågan om de var intresserade av att köpa den produkt som marknadsfördes i båda filmerna.
+
+I det hypotetiska experiment som vi resonerar om i denna bok används två olika mätinstrument för att registrera olika typer av responser hos deltagarna i samband med att de tittar på Facebook-poster med bilder föreställande auktoritetspersoner respektive neutrala eller okända personer. I första steget används en ögonrörelsemätare för att mäta hur försöksdeltagarna visuella uppmärksamhet fördelar sig över Facebook-posten, och sedan används en 7-gradig Likert-skala för att mäta hur bildinnehållet påverkat deras attityder angående postens trovärdighet. De hypoteser som antagits för detta experiment är att auktoritetspersoner kommer att orsaka en ökning av visuell uppmärksamhet (dvs. hur länge deltagarna tittar på bilden), samt en ökning av upplevd trovärdighet hos posten (dvs. hur höga värden som väljs på Likert-skalan). En viktig skillnad mellan dessa två mätinstrument är att ögonrörelsemätning fångar ett objektivt beteende hos deltagaren, medan Likert-skalor registrerar mer subjektiva responser som rapporteras av deltagaren själv. Denna skillnad utvecklas lite mer i det följande.
+
+### 7.3.1 Mätning av subjektiva responser
+
+Survey-frågor + svarsalternativ, likertskalor, attityder, beroende variabler. Självrapportering. Intervjusvar. Potentiellt problem med validitet, reliabilitet. Hänvisa till litteratur om enkätundersökningar, t.ex. Trost. Dessutom använder vi surveyfrågor med likertskalor för att mäta hur läsarna skattar artiklarnas trovärdighet. Implementeras som t.ex. Google forms. Diskutera validitet. Objektiva eller självrapporterade mätningar
+
+### 7.3.2 Mätning av objektiva responser
+
+I det tänkta experiment som ligger till grund för denna bok, använder vi oss huvudsakligen av två mätinstrument. Vi använder en så kallad ögonrörelsemätare (på engelska \"eye-tracker\") för att göra objektiva och kontinuerliga mätningar av hur läsarnas visuella uppmärksamhet fördelar sig över ytan på de Facebook-artiklar vi använder som stimuli i studien (se 2.2.5 nedan). Fysiologiska och beteendevetenskapliga, (mer) objektiva responser. Potentiellt bättre validitet, reliabilitet. Tillvägagångssätt, planering. Reaktionstider. Viljestyrda eller autonoma, reflexiva. Pupilldilatation eller visuell uppmärksamhet. Top-down och bottom-up
+
+### 7.3.3 Beroende variabler
+
+Syftar generellt till att uppmäta och registrera en respons på ett stimuli eller en behandling, därför säger man ibland att syftet med mätinstrumenten är att på ett giltigt och tillförlitligt sätt mäta en responsvariabel. Ofta kontinuerlig eller binär (logistisk regression), men kan också vara multinomial eller kategorisk. Survey-frågor, svarsalternativ, likertskalor, attityder. \"Beror\" av en kronologiskt föregående orsak, dvs. behandling. På engelska kallas detta \"dependent variable\". Beroende variabler kallas ibland också mätvariabler eller utfallsvariabler. Jämför med oberoende variabler, förklaringsvariabler, experimentella villkor, behandlingar i nästa stycke av boken. På engelska \"independent variable\".
+
+### 7.3.4 Planering av mätinstrument
+
+Tillvägagångssätt, planering. Diskutera utifrån exempel-experiment med bildinnehåll hos Facebook-poster. Ögonrörelsemätning för visuell uppmärksamhet, Likert-skalor för attitydmätning. Giltighet och tillförlitlighet hos alla mätvariabler, beroende variabler som används i studien. Återkoppla till pilottest.
+
+### 7.3.5 Rapportering av mätinstrument
+
+Rapportering. På engelska kallas detta avsnitt ofta för \"apparatus\". Exempel på hur detta skulle kunna formuleras i ett artikelmanuskript. Utgår från exempel-experimentet.
+
