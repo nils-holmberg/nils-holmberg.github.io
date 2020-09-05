@@ -1,10 +1,12 @@
-## 7.4 Experimentella villkor \[10 sidor\]
+## 7.4 Experimentella villkor  {#sec7.4}
+
+\[10 sidor\]
 
 Ett typiskt experiment består ofta av ett kontrollvillkor och ett eller flera experimentella villkor. Ett kontrollvillkor refererar till ett slags naturligt normaltillstånd, som kännetecknas av att deltagaren **inte** genomgår någon form av behandling, eller exponeras för någon form av manipulation. Experimentella villkor å andra sidan betyder att försöksdeltagaren genomgår just en sådan behandling (t.ex. genom att inta en verksam medicinsk substans) eller utsätts för en manipulation (t.ex. genom exponering för en viss nivå av belysning). I ett enkelt experiment förekommer endast dessa två tillstånd, vilket kan beskrivas med en s.k. oberoende variabel, där frånvaron av behandling (kontrollvillkor) exempelvis representeras av symbolen \"0\", medan förekomsten av en behandling (behandlingsvillkor) representeras av symbolen \"1\". I mer invecklade experiment kan det förekomma kombinationer av flera behandlingar (t.ex. intag av medicin **och** exponering för belysning) som dessutom utdelas i flera olika nivåer (t.ex. \"ingen dos\", \"låg dos\", och \"hög dos\"). Mer om detta längre fram.
 
 Genom att mäta försöksdeltagarnas responser med hjälp av någon relevant beroende variabel (t.ex. blodtryck) under både kontrollvillkor och experimentella villkor, undersöks därefter eventuella skillnader mellan dessa villkor (dvs. effekter av behandling jämfört med normaltillståndet). På engelska kallas sådana villkor ofta för \"conditions\" eller \"treatments\". I detta sammanhang är det viktigt att betänka att kontrollvillkor och experimentella villkor (\"conditions\") bör betraktas som abstrakta begrepp, vilka sedan behöver konkretiseras i form av faktiska, reella behandlingar (\"treatments\"), ofta med hjälp av teknisk utrustning och laboratoriemateriel, samt en standardiserad procedur för att utdela dessa behandlingar. Denna process, i vilken abstrakta villkor implementeras som någon form av konkreta behandlingar, kallas ibland för operationalisering (se tidigare avsnitt 6.2). Inom ett experiment är det även vanligt att behandlingar upprepas ett visst antal gånger, vilket kallas för försök, eller på engelska \"trials\" (se experimentdesign nedan).
 
-### 7.4.1 Kontrollvillkor och behandlingsvillkor
+### 7.4.1 Kontrollvillkor och behandlingsvillkor {#sub7.4.1}
 
 Låt oss återvända till bokens tänka exempel-experiment för att utveckla och konkretisera resonemanget kring experimentella villkor. Som vi har sagt tidigare, kräver den enklaste formen av experiment en kontrast mellan att deltagaren genomgår en behandling eller att de inte gör det. Att **inte** genomgå en behandling kallas för ett kontrollvillkor, och dessa deltagare sägs därmed tillhöra kontrollgruppen. I fallet med medicinsk forskning kan detta villkor tyckas ganska uppenbart: det kan bestå i att en grupp deltagare inte tar ett läkemedel. Men i ett samhällsvetenskapligt experiment kan det vara betydligt svårare att definiera vad som är ett kontrollvillkor.
 
@@ -16,7 +18,7 @@ Detta innebär att så mycket som möjligt i Facebook-posten hålls konstant öv
 
 använder behandlingsvillkor i rubriken till detta stycke mest för att skapa en tydlig kontrast till kontrollvillkor i föregående avsnitt. Behandlingsvillkor benämns nämligen ofta som experimentella villkor, och fortsättningsvis kommer vi huvudsakligen använda denna beteckning.
 
-### 7.4.2 Oberoende variabler
+### 7.4.2 Oberoende variabler {#sub7.4.2}
 
 Oberoende variabler hänger konceptuellt samman med experimentella villkor, eller behandlingsvillkor, på så sätt att oberoende variabler används för att operationalisera experimentella villkor. Här påminner vi oss som hastigast om att operationalisering hittills definierats som att göra ett koncept mätbart. Vi kan nu utveckla och konkretisera denna definition genom att säga att en oberoende variabel registrerar varje gång en försöksdeltagare genomgår kontrollvillkoret eller behandlingsvillkoret inom en undersökning. Denna registrering görs i praktiken ofta med hjälp av ett datorprogram för hantering av tabelldata (registerdata) såsom Microsoft Excel, där första kolumnen kan tänkas innehålla alla deltagare i undersökningen (t.ex. deltagarnummer \"1\", \"2\", \"3\", osv), medan den andra kolumnen registrerar om respektive deltagare exponerats för kontrollvillkoret (\"Kontroll\") eller behandlingsvillkoret (\"Behandling\"). Med hjälp av denna uppställning kan alltså en enda oberoende variabel (kolumnen \"Villkor\" i figuren nedan) användas för att representera både kontrollvillkor och behandlingsvillkor. Slutligen används en kolumn för att registrera eller uppmäta den beroende variabeln i undersökningen (kolumnen \"Utfall\"), vilket behandlades i föregående kapitel.
 
@@ -38,11 +40,11 @@ En viss uppgift eller instruktion kan också vara ett experimentellt villkor. I 
 
 Till skillnad från beroende variabler, ofta kategoriska, faktorer med nivåer.
 
-### 7.4.3 Kontrollvariabler
+### 7.4.3 Kontrollvariabler {#sub7.4.3}
 
 En annan faktor som har stor betydelse i samband med urvalet av
 
-### 7.4.4 Utrustning och materiel
+### 7.4.4 Utrustning och materiel {#sub7.4.4}
 
 Implementation (operationalisering) av abstrakt villkor till konkret behandling. Kan vara intag av en medicinsk substans eller exponering för ett visuellt stimuli (material). Utrustning som används för att distribuera materiel. Efter att man avhandlat försöksdeltagare och eventuella pilottest, är det vanligt att man i en journalartikel övergår till att diskutera den tekniska utrustning och apparatur som använts i samband med genomförandet av ett experiment.
 
@@ -50,11 +52,11 @@ Generellt: Utrustning som används för att på ett kontrollerat sätt generera 
 
 Material, Stimulikonstruktion. Här förklarar vi exakt vad det är vi manipulerar eller varierar I experimentet, samt I vilka nivåer en egenskap manipuleras. I exemplet med Facebook-artiklar varierar vi bildinnehållet i två nivåer, \"neutral person\" och \"auktoritetsperson\". Vi beskriver också hur vi säkerställt att denna skillnad bildinnehåll är objektiv och uppfattas på samma sätt av olika delagare (intercoder reliability). Vi varierar inte antalet \"likes\" som respektive Facebook-artikel har fått, eller vilken källa som visas. Vad varieras, vad hålls konstant? Full factorial design may also be called a fully crossed design. Se följande stycke om experimentdesign.
 
-### 7.4.5 Planering av experimentella villkor
+### 7.4.5 Planering av experimentella villkor {#sub7.4.5}
 
 Tillvägagångssätt, planering. Sammanfattning av avsnitt 7.4. Diskutera utifrån exempel-experiment med bildinnehåll hos Facebook-poster. Giltighet och tillförlitlighet hos alla förklaringsvariabler, oberoende variabler som används i studien. Återkoppla till betydelsen av pilottest.
 
-### 7.4.6 Rapportering av experimentella villkor
+### 7.4.6 Rapportering av experimentella villkor {#sub7.4.6}
 
 Rapportering - exempel på hur detta skulle kunna formuleras i ett manuskript
 

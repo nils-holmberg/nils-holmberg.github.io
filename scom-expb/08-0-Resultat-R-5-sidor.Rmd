@@ -1,5 +1,7 @@
 # 8 Resultat (R) {#chap8}
 
+
+
 \[5 sidor\]
 
 Här hänvisar vi främst läsaren till befintlig litteratur inom statistiska metoder

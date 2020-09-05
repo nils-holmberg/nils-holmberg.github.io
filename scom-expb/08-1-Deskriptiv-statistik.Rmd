@@ -1,4 +1,4 @@
-## 8.1 Deskriptiv statistik
+## 8.1 Deskriptiv statistik {#sec8.1}
 
 Här kommer lite Brödtext igen. Här ko
 

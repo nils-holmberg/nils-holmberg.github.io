@@ -1,4 +1,6 @@
-## 7.6 Procedur \[10 sidor\]
+## 7.6 Procedur  {#sec7.6}
+
+\[10 sidor\]
 
 \- reliabilitet, standardisering, alla deltagare genomgår samma procedur, externa faktorer hålls så konstanta som möjligt - **Instruktion**, **uppgift**, dvs läs Facebook-artiklarna och bedöm sedan trovärdighet på en ordinal skala. Alternativt kan den skarpa uppgiften döljas, och istället ger man en skenuppgift till deltagarna för att hålla dem naiva om experimentets syfte och undvika bias
 

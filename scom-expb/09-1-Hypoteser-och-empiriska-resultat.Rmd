@@ -1,4 +1,4 @@
-## 9.1 Hypoteser och empiriska resultat
+## 9.1 Hypoteser och empiriska resultat {#sec9.1}
 
 Relatera faktiska observationer till ursprungliga förväntade hypoteser. Här kommer lite Brödtext igen. Här ko
 

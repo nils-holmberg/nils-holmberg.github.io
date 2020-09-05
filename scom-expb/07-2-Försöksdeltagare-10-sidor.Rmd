@@ -1,14 +1,16 @@
-## 7.2 Försöksdeltagare \[10 sidor\]
+## 7.2 Försöksdeltagare  {#sec7.2}
+
+\[10 sidor\]
 
 De individer som deltar i en studie kallades tidigare kort och gott \"subjekt\" (på engelska \"subjects\"). På senare tid har man vänt sig emot detta något avhumaniserande språkbruk och istället antagit den generella termen \"deltagare\". Här använder vi ibland beteckningen "försökspersoner" eller \"försöksdeltagare\" för att ytterligare betona den experimentella forskningens användning av kontrasterande behandlingar, villkor eller \"försök\" för att studera dess effekter på deltagarna (på engelska kallas sådana upprepade försök oftast för \"trials\", vilket är ett viktigt begrepp inom området experimentdesign som diskuteras längre fram i detta kapitel).
 
-### 7.2.1 Representativt urval
+### 7.2.1 Representativt urval {#sub7.2.1}
 
 Inom samhällsvetenskapliga forskningsområden är det vanligt att anta att deltagarna i en studie ska vara så representativa som möjligt i förhållande till en viss målpopulation. Tanken bakom detta är att man av praktiska skäl bara har möjlighet att inkludera en mindre grupp deltagare i en studie (t.ex. studenter på ett visst utbildningsprogram), och utifrån detta begränsade urval vill man sedan kunna generalisera undersökningens resultat till en större grupp människor (t.ex. alla universitetsstuderande i Sverige). Även om detta resonemang i grund och botten är rimligt, är det främst användbart inom större enkätstudier som syftar till att undersöka attityder, kunskaper och beteenden hos en avgränsad och väldefinierad population av individer. Ett annat vanligt exempel på enkätundersökning där deltagarnas representativitet är avgörande är politiska opinionsundersökningar. Utifrån drygt tusen deltagare vill man här kunna generalisera till hela Sveriges befolkning med relativt låg felmarginal.
 
 \- ska vi ta upp termer som "obundet slumpmässig urval", stratifierat urval, bekvämlighetsurval, snöbollsurval (inom intervjustudier)?
 
-### 7.2.2 Demografiska egenskaper
+### 7.2.2 Demografiska egenskaper {#sub7.2.2}
 
 Inom experimentell forskning tenderar man att tänka lite annorlunda kring frågan om att erhålla ett representativt urval av försöksdeltagare till en studie. Det är framför allt två saker som föranleder detta. För det första är det vanligt att man använder sig av objektiva och mätbara observationer i ett experiment, till skillnad från subjektiva (självrapporterade) och kvalitativa observationer i en survey, vilket antas leda till lägre nivåer av brus i de mätningar som genomförs. För det andra är det vanligt att de experimentella effekter man studerar är så små och svåra att uppmäta, att alltför stora individuella skillnader hos deltagarna riskerar att generera så mycket brus att effekten av en behandling inte kan detekteras. Av dessa två skäl är det vanligt att man eftersträvar någorlunda homogena deltagargrupper när man syftar till att genomföra experimentella studier.
 
@@ -16,11 +18,11 @@ Att man delvis frångår principen om representativt urval inom experimentell me
 
 En annan faktor som har stor betydelse i samband med urvalet av försöksdeltagare är naturligtvis om de forskningsfrågor man undersöker är kopplade till någon specifik befolkningsgrupp, t.ex. vad gäller ålder (barn eller äldre), språk (enspråkiga eller flerspråkiga) och kognition (funktionsnedsatta och normalbefolkning). Om så är fallet, blir det ju naturligt att rekrytera deltagare från just dessa grupper och därmed ge avkall på möjligheten att kunna generalisera sina resultat till en bredare population. I viss mån styrs alltså urvalet av försöksdeltagare av den tidigare forskning som vi med vårt experiment vill bygga vidare på och kontribuera till. Som en tumregel kan man dock säga att en experimentell studie brukar bygga på 20-100 deltagare, där åldersspannet inte är för stort, och könsfördelningen inte är för skev. Längre fram i detta kapitel kommer vi även att diskutera hur experimentdesign påverkar antalet deltagare som är lämpligt i en studie.
 
-### 7.2.3 Etiska hänsynstaganden
+### 7.2.3 Etiska hänsynstaganden {#sub7.2.3}
 
 En internationell trend inom samhällsvetenskaplig forskning som gjort sig gällande under senare år är att stor vikt läggs vid forskarens etiska hänsyn gentemot dess försöksdeltagare. Exempelvis kan en journal kräva att ett experiment genomgått en etisk prövning innan det genomförs, i annat fall vill tidskriften inte publicera resultaten. Detta är naturligtvis i grunden en positiv utveckling, men det adderar ofta ett administrativt moment som behöver klaras av innan en studie kan sättas i verket. När en etisk kommitté utvärderar ett experiment är det framför allt två aspekter man tar hänsyn till: 1) att deltagaren inte ska lida några men i samband med genomförandet av undersökningen, och 2) att forskaren har en genomtänkt plan för hantering av forskningsdata som samlas in. Ett exempel på den första aspekten är analysera vilka villkor och manipulationer som förekommer, samt om mätutrustningen är invasiv eller inte. Exempel på det andra hänsynstagandet är att försöksdeltagares personliga integritet inte ska bli lidande (t.ex. känsliga personuppgifter), samt att forskningsdata ska hanteras på ett säkert sätt som även tillåter deltagaren att begära ut sina uppgifter i efterhand. Som regel är dessa hänsyn viktigare för anställda forskare; för studentprojekt brukar inte etisk prövning av studier vara nödvändigt.
 
-### 7.2.4 Planering av deltagare
+### 7.2.4 Planering av deltagare {#sub7.2.4}
 
 Här kommer några praktiska råd i samband med att man rekryterar försöksdeltagare till en experimentell studie. För det första, underskatta inte betydelsen av att få tillgång till motiverade personer som dels är omedvetna om syftet med experimentet, och dels är någorlunda representativa för den grupp av människor resultaten ska kunna generaliseras till. För det andra, underskatta inte den tid och möda som krävs för att lösa de logistiska aspekterna av att låta ett hundratal(?) individer genomgå de behandlingar som ett experiment består av under kontrollerade och likartade förutsättningar. Både bland forskare och studenter finns en föreställning om att planering av försöksdeltagare löser sig självt; så är dock inte fallet.
 
@@ -40,7 +42,7 @@ Deltagaren har rätt att: få sina data utlämnade (raderade om ingen anonymiser
 
 Deltagaren är skyldig att: Signera att ersättning tagits emot
 
-### 7.2.5 Rapportering av deltagare
+### 7.2.5 Rapportering av deltagare {#sub7.2.5}
 
 När man väl genomfört studien och är i färd med att rapportera vilka personer som deltagit så krävs det vanligtvis betydligt mindre arbete än i planerings- och genomförandefasen. I artikeltexten läggs information om experimentets försöksdeltagare ofta som den första underrubriken till metodstycket, och det är också därför vi tar upp försöksdeltagare på just detta ställe i läroboken. Anledningen till att vi använder denna så kallade IMRD-disposition är det skapar en kronologisk struktur för både planering och rapportering av vetenskapliga studier, och för de som vill genomföra ett experiment kan det vara värdefullt att bekanta sig med denna konvention.
 

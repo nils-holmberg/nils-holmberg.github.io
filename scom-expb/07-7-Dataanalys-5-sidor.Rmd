@@ -1,3 +1,5 @@
-## 7.7 Dataanalys \[5 sidor\]
+## 7.7 Dataanalys  {#sec7.7}
+
+\[5 sidor\]
 
 Beräkning av beroende och oberoende variabler - aggregering, summativt index
