@@ -1,6 +1,0 @@
-## 7.1 Pilottest  {#sec7.1}
-
-\[5 sidor\]
-
-Innan man genomför ett skarpt experiment, vilket ofta kräver mycket resurser I form av tid och arbete, är det klokt att genomföra experimentet i liten skala. På så vis kan man I tidigt stadium fånga upp problem med experimentdesignen. Testa validitet och reliabilitet. Intervjua deltagare efter. Iterativ process. Det är ofta en fördel att kunna rapportera ett pilottest eller en förstudie i samband med att sakkunniga forskare granskar och bedömer om det är lämpligt att publicera resultaten i en tidskrift.
-
