@@ -14,7 +14,7 @@ description: "The output format for this example is bookdown::gitbook."
 
 # (PART) Del 1 {-}
 
-# Kapitel 1 {#chap1}
+# Kapitel 1 {#chap01}
 
 some line
 
@@ -22,13 +22,13 @@ some line
 
 other line
 
-# Kapitel 2 {#chap2}
+# Kapitel 2 {#chap02}
 
-# Kapitel 3 {#chap3}
+# Kapitel 3 {#chap03}
 
-# Kapitel 4 {#chap4}
+# Kapitel 4 {#chap04}
 
-# Kapitel 5 {#chap5}
+# Kapitel 5 {#chap05}
 
 some line
 
