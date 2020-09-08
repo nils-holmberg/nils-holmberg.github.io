@@ -11,7 +11,6 @@ sec6.2
 sub6.2.1
 sec6.3
 sub6.3.1
-chap7
 sec7.1
 sec7.2
 sub7.2.1
@@ -44,11 +43,9 @@ sub7.5.8
 sub7.5.9
 sec7.6
 sec7.7
-chap8
 sec8.1
 sec8.2
 sec8.3
-chap9
 sec9.1
 sec9.2
 sec9.3
