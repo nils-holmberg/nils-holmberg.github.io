@@ -1,21 +1,3 @@
-# 9 Diskussion (D) {#chap09}
-
-
-
-\[5 sidor\]
-
-Här skulle man kunna använda sig av en domstolsmetafor. Den experimentella studien är genomförd och nu står insamlat material och experimentdesign åtalad för att visa något. Bevis, evidens, circumstantial evidence, alias. Forskaren antar både rollen som åklagare och försvarsadvokat (noll-hypotes). Kan läggas i 8.1 också.
-
-Vi skulle kunna tänka oss ett experiment som inte involverar mänskliga försöksdeltagare. T.ex. en webbplats genomgår (\"behandlas\") med två olika typer av sökoptimeringsstrategier. Därefter undersöker vi hur båda sidor indexeras och listas bland googles sökresultat. Den beroende responsvariabeln är rankning (page rank), lägre värden innebär mer positivt utfall. Testet kan upprepas i flera trials.
-
-## 9.1 Hypoteser och empiriska resultat {#sec9.1}
-
-Relatera faktiska observationer till ursprungliga förväntade hypoteser. Här kommer lite Brödtext igen. Här ko
-
-## 9.2 Alternativa förklaringar till resultat {#sec9.2}
-
-Lägg noga märke till var skiljetecken satts ut, var det ska vara kursiv stil etc. Vid engelska titlar ändras *and* till *och* eller *&, in* til
-
-## 9.3 Framtida forskning {#sec9.3}
-
-Hkommer lite Brödtext igen. Här kommer lite Brödtext igen. Här kommer lite Brödtext igen.
+`r if (knitr:::is_html_output()) '
+# References {-}
+'`

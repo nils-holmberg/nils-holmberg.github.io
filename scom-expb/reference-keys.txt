@@ -45,10 +45,9 @@ sub7.5.9
 sec7.6
 sec7.7
 chap08
-sec8.1
-sec8.2
-sec8.3
-chap09
-sec9.1
-sec9.2
-sec9.3
+sub8.1.1
+sub8.1.2
+sub8.1.3
+sub8.2.1
+sub8.2.2
+sub8.2.3

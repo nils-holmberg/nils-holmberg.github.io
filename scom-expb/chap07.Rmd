@@ -1,6 +1,4 @@
-# 7 Metod (M) {#chap07}
-
-
+# 7 Genomförande {#chap07}
 
 \[60 sidor\]
 
