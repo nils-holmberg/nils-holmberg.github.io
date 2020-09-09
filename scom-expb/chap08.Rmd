@@ -2,7 +2,9 @@
 
 \[10 sidor\]
 
-I:et i a
+Denna text kommer är tänkt att ersätta sektion 08 resultat och 09 diskussion. Därmed frångår boken den tidigare indelningen enligt IMRD.
+
+
 ## 8.1 Resultat (R) {#sec8.1}
 
 \[5 sidor\]
@@ -28,6 +30,10 @@ Här kommer nåt om causal inference. In statistical hypothesis testing a type I
 ### 8.1.3 Presentation av statistik {#sub8.1.3}
 
 Här kommer något om diagram och visualiseringar.
+
+
+
+
 ## 8.2 Diskussion (D) {#sec8.2}
 
 \[5 sidor\]
@@ -47,3 +53,6 @@ Lägg noga märke till var skiljetecken satts ut, var det ska vara kursiv stil e
 ### 8.2.3 Framtida forskning {#sub8.2.3}
 
 Hkommer lite Brödtext igen. Här kommer lite Brödtext igen. Här kommer lite Brödtext igen.
+
+
+
