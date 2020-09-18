@@ -15,30 +15,31 @@ description: "The output format for this example is bookdown::gitbook."
 # (PART) Del 1 {-}
 
 # Kapitel 1 {#chap01}
-
-some line
-
-[//]: # (This may be the most platform independent comment)
-
-other line
+some figure
+```{r some-fig, fig.cap='Here is some figure!', out.width='80%', fig.asp=.75, fig.align='center'}
+par(mar = c(4, 4, .1, .1))
+plot(pressure, type = 'b', pch = 19)
+```
 
 # Kapitel 2 {#chap02}
+some table 
+```{r nice-tab, tidy=FALSE}
+knitr::kable(
+  head(iris, 20), caption = 'Here is a nice table!',
+  booktabs = TRUE
+)
+```
 
 # Kapitel 3 {#chap03}
 
 # Kapitel 4 {#chap04}
 
 # Kapitel 5 {#chap05}
-
 some line
 
-[//]: # (This may be the most platform independent comment)
-
-other line
-
-\[Del 2, 80 sidor\]
-
 # (PART) Del 2 {-}
+
+[00-0-comment]: <> (Del 2, 80 sidor)
 
 I denna del av boken följer vi, i illustrativt syfte, utvecklingen och genomförandet av ett experiment som undersöker hur olika delar av en Facebook-post (bild, text, källa, likes, kommentarer) påverkar läsares bedömning av postens trovärdighet. Vi tänker oss att vi före experimentets genomförande har gjort en ordentlig genomgång av tidigare forskning på detta område, vilken gett vid handen att bildinnehållets effekt på upplevd trovärdighet hos Facebook-poster inte verkar ha studerats i någon högre utsträckning. Detta kommer därför att utgöra det så kallade \"kunskapsgap\" vårt experiment vill bidra till att fylla, och det kommer att utgöra en viktig avgränsning av vår centrala forskningsfråga. Vår forskningsgenomgång har också visat oss att det förekommer en del studier av hur bildinnehåll generellt påverkar människors blickbeteende och visuella uppmärksamhet, så detta kommer utgöra en sekundär forskningsfråga.
 
