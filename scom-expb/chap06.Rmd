@@ -1,6 +1,6 @@
 # 6 Förarbete {#chap06}
 
-\[10 sidor\]
+[06-0-comment]: <> (10 sidor)
 
 I:et i akronymen IMRD står för \"introduktion\", vilket utgör en naturlig startpunkt i rapporteringen av ett vetenskapligt experiment. När man introducerar en experimentell studie brukar man inleda med en kort bakgrund av det aktuella forskningsläget och en motivering till den genomförda undersökningen. Det är viktigt att det i ett tidigt skede står klart för läsaren vilket forskningsproblem (eller \"kunskapsgap\") studien vill bidra till att undersöka och råda bot på. Genomgången av tidigare forskning ska leda fram till och motivera den aktuella studiens forskningsfrågor och hypoteser.
 
