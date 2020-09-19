@@ -1,4 +1,4 @@
-# 8 Efterarbete {#chap08}
+# Efterarbete {#chap08}
 [08-0-comment]: <> (10 sidor)
 
 Denna text kommer är tänkt att ersätta sektion 08 resultat och 09 diskussion. Därmed frångår boken den tidigare indelningen enligt IMRD.
