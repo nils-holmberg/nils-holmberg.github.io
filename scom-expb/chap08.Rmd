@@ -1,4 +1,5 @@
 # Efterarbete {#chap08}
+[08-0-wc-file]: <> 7  34 253 rmd-08-0-Efterarbete.md7  32 230 rmd-08-0-Efterarbete.md
 [08-0-comment]: <> (10 sidor)
 
 Denna text kommer är tänkt att ersätta sektion 08 resultat och 09 diskussion. Därmed frångår boken den tidigare indelningen enligt IMRD.

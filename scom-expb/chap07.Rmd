@@ -1,4 +1,5 @@
 # Genomförande {#chap07}
+[07-0-wc-file]: <> 16  432 3156 rmd-07-0-Genomförande.md16  430 3128 rmd-07-0-Genomförande.md
 [07-0-comment]: <> (60 sidor)
 
 En av de viktigaste aspekterna av experimentell forskning handlar om att resultaten av ett specifikt experiment måste kunna reproduceras eller replikeras av en eller flera oberoende forskare. Om resultaten av ett experiment inte kan reproduceras, tyder detta på en godtycklighet i genomförandet, och man kan då med rätta ifrågasätta det forskningsmässiga värdet av ett sådan experiment. Om resultaten av ett experiment inte kan upprepas så kan de heller inte jämföras med tidigare eller efterföljande studier inom samma forskningsområde. Det blir alltså omöjligt att bygga vidare på icke-reproducerbara resultat, och de resurser i form av tid och pengar man spenderat på att genomföra studien kan till största delen betraktas som bortkastade.
@@ -14,11 +15,13 @@ I denna lärobok har vi försökt täcka in dessa två olika men näraliggande b
 \- kontrastera med metodologi, i del 1 ? Pedagogiskt att presentera efterföljande text som tre centrala beståndsdelar: 1) deltagare, 2) mätinstrument, och 3) experimentella villkor/manipulationer.
 
 ## Pilottest  {#sec07.1}
+[07-1-wc-file]: <> 6  93 629 rmd-07-1-Pilottest.md6  91 607 rmd-07-1-Pilottest.md
 [07-1-comment]: <> (5 sidor)
 
 Innan man genomför ett skarpt experiment, vilket ofta kräver mycket resurser I form av tid och arbete, är det klokt att genomföra experimentet i liten skala. På så vis kan man I tidigt stadium fånga upp problem med experimentdesignen. Testa validitet och reliabilitet. Intervjua deltagare efter. Iterativ process. Det är ofta en fördel att kunna rapportera ett pilottest eller en förstudie i samband med att sakkunniga forskare granskar och bedömer om det är lämpligt att publicera resultaten i en tidskrift.
 
 ## Försöksdeltagare {#sec07.2}
+[07-2-wc-file]: <> 56  1515 11155 rmd-07-2-Försöksdeltagare.md56  1513 11120 rmd-07-2-Försöksdeltagare.md
 [07-2-comment]: <> (10 sidor)
 
 De individer som deltar i en studie kallades tidigare kort och gott \"subjekt\" (på engelska \"subjects\"). På senare tid har man vänt sig emot detta något avhumaniserande språkbruk och istället antagit den generella termen \"deltagare\". Här använder vi ibland beteckningen "försökspersoner" eller \"försöksdeltagare\" för att ytterligare betona den experimentella forskningens användning av kontrasterande behandlingar, villkor eller \"försök\" för att studera dess effekter på deltagarna (på engelska kallas sådana upprepade försök oftast för \"trials\", vilket är ett viktigt begrepp inom området experimentdesign som diskuteras längre fram i detta kapitel).
@@ -74,6 +77,7 @@ När man väl genomfört studien och är i färd med att rapportera vilka person
 \- bortfall, missing cases
 
 ## Mätinstrument {#sec07.3}
+[07-3-wc-file]: <> 30  664 5345 rmd-07-3-Mätinstrument.md30  662 5316 rmd-07-3-Mätinstrument.md
 [07-3-comment]: <> (10 sidor)
 
 I en experimentell studie är det avgörande att införliva mätinstrument som på ett giltigt och tillförlitligt sätt kan uppmäta effekten av en behandling på en eller flera responsvariabler. En viktig anledning till att experiment och mätinstrument är nära förknippade, är att denna typ av positivistisk forskning syftar till att försöka säkerställa en faktisk skillnad mellan olika grupper av deltagare och olika typer av behandlingar, vilket till syvende och sist kräver analys med hjälp av statistiska metoder. Det räcker alltså inte med att forskaren rapporterar en subjektivt upplevd skillnad mellan försöksgrupper; denna skillnad måste bevisas!
@@ -103,6 +107,7 @@ Tillvägagångssätt, planering. Diskutera utifrån exempel-experiment med bildi
 Rapportering. På engelska kallas detta avsnitt ofta för \"apparatus\". Exempel på hur detta skulle kunna formuleras i ett artikelmanuskript. Utgår från exempel-experimentet.
 
 ## Experimentella villkor {#sec07.4}
+[07-4-wc-file]: <> 62  1610 12442 rmd-07-4-Experimentella-villkor.md62  1608 12403 rmd-07-4-Experimentella-villkor.md
 [07-4-comment]: <> (10 sidor)
 
 Ett typiskt experiment består ofta av ett kontrollvillkor och ett eller flera experimentella villkor. Ett kontrollvillkor refererar till ett slags naturligt normaltillstånd, som kännetecknas av att deltagaren **inte** genomgår någon form av behandling, eller exponeras för någon form av manipulation. Experimentella villkor å andra sidan betyder att försöksdeltagaren genomgår just en sådan behandling (t.ex. genom att inta en verksam medicinsk substans) eller utsätts för en manipulation (t.ex. genom exponering för en viss nivå av belysning). I ett enkelt experiment förekommer endast dessa två tillstånd, vilket kan beskrivas med en s.k. oberoende variabel, där frånvaron av behandling (kontrollvillkor) exempelvis representeras av symbolen \"0\", medan förekomsten av en behandling (behandlingsvillkor) representeras av symbolen \"1\". I mer invecklade experiment kan det förekomma kombinationer av flera behandlingar (t.ex. intag av medicin **och** exponering för belysning) som dessutom utdelas i flera olika nivåer (t.ex. \"ingen dos\", \"låg dos\", och \"hög dos\"). Mer om detta längre fram.
@@ -164,6 +169,7 @@ Tillvägagångssätt, planering. Sammanfattning av avsnitt 7.4. Diskutera utifr�
 Rapportering - exempel på hur detta skulle kunna formuleras i ett manuskript
 
 ## Experimentell design {#sec07.5}
+[07-5-wc-file]: <> 124  3108 23543 rmd-07-5-Experimentell-design.md124  3106 23505 rmd-07-5-Experimentell-design.md
 [07-5-comment]: <> (10 sidor)
 
 Design är ett ganska svårdefinierat begrepp, vars innebörd handlar om att på ett överskådligt sätt sammanfatta strukturen och planen hos en vetenskaplig undersökning (på svenska används ibland \"upplägg\" eller \"planering\" som synonymer till design). Man kan säga att begreppet experimentell design har två centrala aspekter: den första är kopplad till att beskriva och specificera de beroende och oberoende variablerna som ingår en undersökning, medan den andra centrala aspekten är kopplad till att beskriva hur deltagarna i en undersökning exponeras för de experimentella villkor som omfattas av de oberoende variablerna (dvs hur behandlingar eller \"trials\" är distribuerade inom en experimentell studie). I det följande ska vi börja med att diskutera experimentell design i relation till oberoende variabler, vilka vi även refererar till som behandlingsvariabler i denna bok.
@@ -287,6 +293,7 @@ bild kommer ovan
 Håll designen så enkel som möjligt för att underlätta tolkningen av resultat. Helst inte mer än 2x2 design.
 
 ## Procedur {#sec07.6}
+[07-6-wc-file]: <> 8  69 520 rmd-07-6-Procedur.md8  67 500 rmd-07-6-Procedur.md
 [07-6-comment]: <> (10 sidor)
 
 some line
@@ -294,6 +301,7 @@ some line
 - reliabilitet, standardisering, alla deltagare genomgår samma procedur, externa faktorer hålls så konstanta som möjligt - **Instruktion**, **uppgift**, dvs läs Facebook-artiklarna och bedöm sedan trovärdighet på en ordinal skala. Alternativt kan den skarpa uppgiften döljas, och istället ger man en skenuppgift till deltagarna för att hålla dem naiva om experimentets syfte och undvika bias
 
 ## Dataanalys {#sec07.7}
+[07-7-wc-file]: <> 5  23 185 rmd-07-7-Dataanalys.md5  21 162 rmd-07-7-Dataanalys.md
 [07-7-comment]: <> (5 sidor)
 
 Beräkning av beroende och oberoende variabler - aggregering, summativt index
