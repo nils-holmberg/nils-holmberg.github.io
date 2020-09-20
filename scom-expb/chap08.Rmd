@@ -1,13 +1,13 @@
 # Efterarbete {#chap08}
-[08-0-wc-file]: <> (7  37 286 rmd-08-0-Efterarbete.md)
-[08-0-comment]: <> (10 sidor)
+[08-0-wc-file]: <> (5.71 %)
+[08-0-comment]: <> (2 sidor)
 
 Denna text kommer är tänkt att ersätta sektion 08 resultat och 09 diskussion. Därmed frångår boken den tidigare indelningen enligt IMRD.
 
 
-## Resultat (R) {#sec08.1}
-
-\[5 sidor\]
+## Resultat {#sec08.1}
+[08-1-wc-file]: <> (15.98 %)
+[08-1-comment]: <> (4 sidor)
 
 Här hänvisar vi främst läsaren till befintlig litteratur inom statistiska metoder
 
@@ -34,9 +34,9 @@ Här kommer något om diagram och visualiseringar.
 
 
 
-## Diskussion (D) {#sec08.2}
-
-\[5 sidor\]
+## Diskussion {#sec08.2}
+[08-2-wc-file]: <> (16.07 %)
+[08-2-comment]: <> (4 sidor)
 
 Här skulle man kunna använda sig av en domstolsmetafor. Den experimentella studien är genomförd och nu står insamlat material och experimentdesign åtalad för att visa något. Bevis, evidens, circumstantial evidence, alias. Forskaren antar både rollen som åklagare och försvarsadvokat (noll-hypotes). Kan läggas i 8.1 också.
 
