@@ -1,5 +1,6 @@
 fig:some-fig
 tab:nice-tab
+tab:test-tab
 chap01
 chap02
 chap03
