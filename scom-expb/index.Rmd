@@ -34,5 +34,8 @@ knitr::kable(
 some [@xie2015] reference
 
 # Kapitel 4 {#chap04}
+[04-0-wc-file]: <> (41.42 %)
+[04-0-comment]: <> (1 sidor)
+
 some line
 
