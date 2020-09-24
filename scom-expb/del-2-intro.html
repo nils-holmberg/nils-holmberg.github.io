@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Kapitel 2 Kapitel 2 | Experiment</title>
+  <title>Del 2 intro | Experiment</title>
   <meta name="description" content="The output format for this example is bookdown::gitbook." />
   <meta name="generator" content="bookdown 0.20.3 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Kapitel 2 Kapitel 2 | Experiment" />
+  <meta property="og:title" content="Del 2 intro | Experiment" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="nils-holmberg/nils-holmberg.github.io/scom-expb" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Kapitel 2 Kapitel 2 | Experiment" />
+  <meta name="twitter:title" content="Del 2 intro | Experiment" />
   
   <meta name="twitter:description" content="The output format for this example is bookdown::gitbook." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html"/>
-<link rel="next" href="chap03.html"/>
+<link rel="prev" href="chap04.html"/>
+<link rel="next" href="chap06.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -222,175 +222,22 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="chap02" class="section level1">
-<h1><span class="header-section-number">Kapitel 2</span> Kapitel 2</h1>
-<p>some <strong>table</strong></p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1">knitr<span class="op">::</span><span class="kw">kable</span>(</a>
-<a class="sourceLine" id="cb2-2" title="2">  <span class="kw">head</span>(iris, <span class="dv">20</span>), <span class="dt">caption =</span> <span class="st">&#39;Here is a nice table!&#39;</span>,</a>
-<a class="sourceLine" id="cb2-3" title="3">  <span class="dt">booktabs =</span> <span class="ot">TRUE</span></a>
-<a class="sourceLine" id="cb2-4" title="4">)</a></code></pre></div>
-<table>
-<caption><span id="tab:nice-tab">Table 2.1: </span>Here is a nice table!</caption>
-<thead>
-<tr class="header">
-<th align="right">Sepal.Length</th>
-<th align="right">Sepal.Width</th>
-<th align="right">Petal.Length</th>
-<th align="right">Petal.Width</th>
-<th align="left">Species</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="right">5.1</td>
-<td align="right">3.5</td>
-<td align="right">1.4</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.9</td>
-<td align="right">3.0</td>
-<td align="right">1.4</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">4.7</td>
-<td align="right">3.2</td>
-<td align="right">1.3</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.6</td>
-<td align="right">3.1</td>
-<td align="right">1.5</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">5.0</td>
-<td align="right">3.6</td>
-<td align="right">1.4</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">5.4</td>
-<td align="right">3.9</td>
-<td align="right">1.7</td>
-<td align="right">0.4</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">4.6</td>
-<td align="right">3.4</td>
-<td align="right">1.4</td>
-<td align="right">0.3</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">5.0</td>
-<td align="right">3.4</td>
-<td align="right">1.5</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">4.4</td>
-<td align="right">2.9</td>
-<td align="right">1.4</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.9</td>
-<td align="right">3.1</td>
-<td align="right">1.5</td>
-<td align="right">0.1</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">5.4</td>
-<td align="right">3.7</td>
-<td align="right">1.5</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.8</td>
-<td align="right">3.4</td>
-<td align="right">1.6</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">4.8</td>
-<td align="right">3.0</td>
-<td align="right">1.4</td>
-<td align="right">0.1</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.3</td>
-<td align="right">3.0</td>
-<td align="right">1.1</td>
-<td align="right">0.1</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">5.8</td>
-<td align="right">4.0</td>
-<td align="right">1.2</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">5.7</td>
-<td align="right">4.4</td>
-<td align="right">1.5</td>
-<td align="right">0.4</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">5.4</td>
-<td align="right">3.9</td>
-<td align="right">1.3</td>
-<td align="right">0.4</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">5.1</td>
-<td align="right">3.5</td>
-<td align="right">1.4</td>
-<td align="right">0.3</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">5.7</td>
-<td align="right">3.8</td>
-<td align="right">1.7</td>
-<td align="right">0.3</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">5.1</td>
-<td align="right">3.8</td>
-<td align="right">1.5</td>
-<td align="right">0.3</td>
-<td align="left">setosa</td>
-</tr>
-</tbody>
-</table>
+<div id="del-2-intro" class="section level1 unnumbered">
+<h1>Del 2 intro</h1>
+<p>I denna del av boken följer vi, i illustrativt syfte, utvecklingen och genomförandet av ett experiment som undersöker hur olika delar av en Facebook-post (bild, text, källa, likes, kommentarer) påverkar läsares bedömning av postens trovärdighet. Vi tänker oss att vi före experimentets genomförande har gjort en ordentlig genomgång av tidigare forskning på detta område, vilken gett vid handen att bildinnehållets effekt på upplevd trovärdighet hos Facebook-poster inte verkar ha studerats i någon högre utsträckning. Detta kommer därför att utgöra det så kallade "kunskapsgap" vårt experiment vill bidra till att fylla, och det kommer att utgöra en viktig avgränsning av vår centrala forskningsfråga. Vår forskningsgenomgång har också visat oss att det förekommer en del studier av hur bildinnehåll generellt påverkar människors blickbeteende och visuella uppmärksamhet, så detta kommer utgöra en sekundär forskningsfråga.</p>
+<p>Förarbete. Introduktion. I detta kapitel behandlas tidigare forskning och hur hypoteserna för vår egen studie har härletts från tidigare resultat inom samma ämne…För att undersöka dessa forskningsfrågor närmare behöver vi låta flera Facebook-användare läsa ett antal Facebook-poster medan vi observerar dem och samlar in empiriska data om hur de läste varje post, och därefter rapporterade hur pass trovärdiga de tyckte att dessa poster var. I detta tänkta experiment kommer vi därför att använda oss av en metod för ögonrörelsemätning för att exakt studera hur användarna bearbetar Facebook-posterna visuellt, och därefter får läsarna fylla i en webbenkät och besvara hur de upplevde trovärdigheten hos varje Facebook-post. Därmed försöker studien både mäta människors objektiva beteende (ögonrörelsemätning) och deras subjektiva attityder (survey-frågor om trovärdighet). Genom att ha detta hypotetiska experiment som underlag hoppas vi att det blir lättare för läsaren att följa en röd tråd genom planering, genomförande och rapportering av en experimentell studie.</p>
+<p>Genomförande. Metod. Detta kapitel behandlar experimentets utformning. Denna del måste vara tillräckligt detaljerad för att andra forskare inom samma ämne ska kunna upprepa (replikera) vår egen studie…Eftersom detta tänkta experimentet innehåller olika metoder för datainsamling, och genom att texten ofta skiftar fokus mellan dessa metoder, hoppas vi att denna lärobok kan bli relevant för olika samhällsvetenskapliga discipliner, från psykologi till strategisk kommunikation. I praktiken hade kanske vårt hypotetiska experiment kunnat genomföras inom vilken samhällsvetenskaplig disciplin som helst som har tvärvetenskapliga ambitioner. Där sammanhanget kräver, kommer vi också att exemplifiera med andra typer av experimentella paradigm, bland annat så kallade "AB split test" inom digital marknadsföring webboptimering, och medicinska studier med kontrollgrupp och behandlingsgrupp. Exemplen kommer att hämtas från ett brett urval av vetenskapliga discipliner för att läsaren ska få en känsla för hur experimentella studier skulle kunna implementeras inom det egna ämnet.</p>
+<p>Efterarbete. Resultat. I detta kapitel rapporterar vi kortfattat de faktiska resultaten av vårt experiment, och relaterar dessa till de förväntade resultat som uttrycktes i studiens hypoteser…Diskussion. Denna del diskuterar relevansen av experimentets resultat i ett större samhälleligt perspektiv, samt eventuella alternativa förklaringar till studiens resultat. Undersökningens begränsningar…Publicering IMRD…En experimentell studie består vanligtvis av två integrerade delar: 1) genomförande av ett experiment, och 2) rapportering av resultat. I denna bok fokuserar vi främst på genomförandet, men dispositionen kommer att följa den struktur som används när man rapporterar resultatet av ett experiment i form av en sakkunniggranskad journalpublikation (s.k. peer-review). Av både konvention och praktiska skäl består denna rapportering oftast av fyra delar, som inleds med <strong>Introduktion</strong>, och sedan följs av <strong>Metod</strong>, <strong>Resultat</strong>, och <strong>Diskussion</strong>. På grund av delarnas initialer kallas denna disposition ibland <strong>IMRD</strong> (på ett ungefär uttalat "imrad").</p>
+<p>Genomgående försöker denna lärobok täcka in två olika men näraliggande betydelser av begreppet experimentell metod: dels som en uppsättning praktiska tillvägagångssätt som bör användas för att i <strong>planera</strong> och genomföra en experimentell studie; och dels som ett systematiskt och standardiserat sätt att i efterhand <strong>rapportera</strong> genomförandet av en studie på ett sätt som är begripligt för andra forskare. Således är detta kapitel av läroboken disponerat på ett sätt som ger oss möjlighet att i typisk turordning behandla de olika aspekter av experimentell metod som man som forskare förväntas kunna redovisa när man rapporterar sina resultat till en vetenskaplig tidskrift. Men inom varje metodaspekt kommer vi också att utförligt diskutera de olika experimentella tillvägagångssätt som är relevanta i samband med planering och genomförande av en forskningsstudie.</p>
+
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="chap03.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="chap04.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="chap06.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -421,7 +268,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/nils-holmberg/nils-holmberg.github.io/tree/master/scom-expb/index.Rmd",
+"link": "https://github.com/nils-holmberg/nils-holmberg.github.io/tree/master/scom-expb/chap05.Rmd",
 "text": "Edit"
 },
 "history": {

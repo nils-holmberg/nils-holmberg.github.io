@@ -1,10 +1,18 @@
 # Förarbete {#chap06}
-[06-0-wc-file]: <> (182.14 %)
+[06-0-wc-file]: <> (189.28 %)
 [06-0-comment]: <> (1 sidor)
 
 I:et i akronymen IMRD står för \"introduktion\", vilket utgör en naturlig startpunkt i rapporteringen av ett vetenskapligt experiment. När man introducerar en experimentell studie brukar man inleda med en kort bakgrund av det aktuella forskningsläget och en motivering till den genomförda undersökningen. Det är viktigt att det i ett tidigt skede står klart för läsaren vilket forskningsproblem (eller \"kunskapsgap\") studien vill bidra till att undersöka och råda bot på. Genomgången av tidigare forskning ska leda fram till och motivera den aktuella studiens forskningsfrågor och hypoteser [@holmberg-2016-effects].
 
 Inom samhällsvetenskapliga ämnen kan det vara intressant att undersöka hur mediepublikers attityder, kunskaper och beteenden påverkas av olika typer av interventioner, t.ex. en marknadsföringskampanj eller ett politiskt budskap. På samma sätt är det inom medicinska vetenskaper ofta av intresse att utröna om ett nytt läkemedel har någon positiv effekt på patienter jämfört med en kur bestående av verkningslösa sockerpiller. Ju mer mån man är att undersöka ett tillförlitligt kausalt samband mellan en behandling och tillståndet hos målgrupp, desto viktigare blir det att kunna genomföra ett kontrollerat experiment, där effekterna av en behandling systematiskt jämförs med effekterna av en annan behandling (eller ingen behandling alls).
+
+```{r test-tab, tidy=F, echo = FALSE}
+knitr::kable(
+  data.frame(col_a=c("a","b","c"), col_b=c(1,2,3), col_c=c(45:47)),
+  caption = 'This is a test table.',
+  booktabs=TRUE
+)
+```
 
 Innan man genomför ett experiment är det dock viktigt att noga undersöka om liknande experiment redan genomförts i form av tidigare forskning. En sådan litteraturgenomgång visar ofta vilka mått och mätmetoder som använts inom samma område tidigare, samt vad man kan förvänta sig om man genomför ett nytt experiment inom ett liknande experimentellt paradigm (dvs. en ofta förekommande kombination av forskningsfrågor, experimentutföranden och mätmetoder). Alla dessa aspekter av hur en ny, planerad studie förhåller sig till tidigare forskning är viktiga genom hela forskningsprocessen. Tidigare använda mått och mätmetoder kan nämligen ge en god uppfattning om hur vi ska operationalisera våra forskningsfrågor till mätbara variabler (mer om detta strax). Tidigare uppnådda resultat, å andra sidan, genererar vissa förväntningar om vilka resultat vårt eget experiment kommer att leda till, vilket i sin tur hjälper oss att formulera motiverade hypoteser som är härledda från tidigare forskning inom området.
 
