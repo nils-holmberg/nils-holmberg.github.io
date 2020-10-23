@@ -1,16 +1,13 @@
 fig:some-fig
 tab:nice-tab
-tab:test-tab
 chap01
 chap02
 chap03
 chap04
 chap05
 chap06
-sec06.1
 sub06.1.1
 sub06.1.2
-sec06.2
 sub06.2.1
 sec06.3
 sub06.3.1
