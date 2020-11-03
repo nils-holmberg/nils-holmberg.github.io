@@ -10,6 +10,7 @@ chap06
 sec06.1
 sub06.1.1
 sub06.1.2
+sec06.2
 sub06.2.1
 sec06.3
 sub06.3.1

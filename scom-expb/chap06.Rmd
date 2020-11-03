@@ -55,6 +55,8 @@ När man arbetar med ett manuskript för en artikel eller uppsats så formuleras
 - RQ1: Hur påverkar bildinnehållet i sociala medier-poster användarnas beteenden och attityder?
 
 Som underfrågor till denna forskningsfråga skulle man kunna tänka sig \"RQ1a: Hur påverkar bildinnehållet i Facebook-poster läsarnas blickbeteende\", och \"RQ1b: Hur påverkar bildinnehållet i Facebook-poster läsarnas attityder gällande postens trovärdighet\".
+
+
 ## Operationalisering {#sec06.2}
 [06-2-wc-file]: <> (131.07 %)
 [06-2-comment]: <> (3 sidor)
