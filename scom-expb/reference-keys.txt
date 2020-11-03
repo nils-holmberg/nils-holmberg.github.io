@@ -7,6 +7,7 @@ chap03
 chap04
 chap05
 chap06
+sec06.1
 sub06.1.1
 sub06.1.2
 sub06.2.1
