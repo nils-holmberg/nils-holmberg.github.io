@@ -5,7 +5,7 @@ library(haven)
 #~ ##################################################################### 200915
 #
 
-get_sav_dfs <- function(fp) {
+sav_dfs_get <- function(fp) {
 #read sav
 dfs = read_sav(paste0(fp, ".sav"))
 #get head
@@ -13,15 +13,12 @@ dfh = data.frame(label=sapply(dfs, function(x) attributes(x)$label))
 dfh$vars = rownames(dfh)
 #export csv
 write.table(dfs, paste0(fp, ".csv"), sep="\t", row.names=F)
+write.table(dfh, paste0(fp, "-head.csv"), sep="\t", row.names=F)
 #read csv
 dfc = read.table(paste0(fp, ".csv"), sep='\t', header=T, strip.white=TRUE, stringsAsFactors=FALSE)
 #
 return(list(dfc, dfh, dfs))
 }
-
-
-
-
 
 
 #~ ##################################################################### 200915
