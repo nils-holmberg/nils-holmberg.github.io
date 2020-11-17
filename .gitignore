@@ -5,7 +5,13 @@
 # folders
 log/*
 tmp/*
+scom-tour/tmp/*
+scom-tour/log/*
 
 # keep empty dir
 !log/.gitkeep
 !tmp/.gitkeep
+!scom-tour/tmp/.gitkeep
+!scom-tour/log/.gitkeep
+
+
