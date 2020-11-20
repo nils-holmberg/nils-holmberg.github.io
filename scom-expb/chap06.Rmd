@@ -80,22 +80,18 @@ När vi väl etablerat vilka variabler som är våra beroende variabler, kan vi 
 I vårt tänkta experiment kretsar forskningsfrågorna kring effekterna av bildegenskaper hos Facebook-poster på internetanvändares visuella uppmärksamhet i samband med att de interagerar med dessa poster, samt effekter av bildinnehåll på användarnas självrapporterade nivå av upplevd trovärdighet hos samma poster. Tidigare forskning ger vid handen att självskattad (eller upplevd) trovärdighet i nyhetsartiklar oftast har uppmätts med hjälp av enkätfrågor där försöksdeltagaren får besvara frågor av typen \"Hur trovärdig var den nyhetsartikel du nyss läste?\", genom att välja ett svarsalternativ på en 7-gradig skala, där värdet 1 innebär \"Inte alls trovärdig\", värdet 4 innebär \"Varken trovärdig eller inte\", samt värdet 7 betyder \"Mycket trovärdig\". Tidigare ögonrörelseforskning visar att pupillens position på en datorskärm är en bra indikator på vilka objekt på en webbsida som användaren riktar sin visuella uppmärksamhet mot. Därför är uppmätning av pupillposition på datorskärmen en lämplig operationalisering av visuell uppmärksamhet. Detta samband är mycket användbart i föreliggande experiment. Operationaliseringen av forskningsfrågorna rapporteras vanligen i introduktionen till en forskningsartikel.
 
 ## Hypotestestning {#sec06.3}
-[06-3-wc-file]: <> (106.78 %)
+[06-3-wc-file]: <> (107.61 %)
 [06-3-comment]: <> (3 sidor)
 
 Introduktionen av en forskningsartikel börjar alltså med att behandla studiens forskningsfrågor, dess centrala begrepp samt hur man gått tillväga för att operationalisera dessa begrepp i form av mätbara variabler. Efter att dessa aspekter har diskuterats är det lämpligt att introduktionen mynnar ut i studiens hypoteser. Den exakta formuleringen av dessa hypoteser är ofta ett av de mer krävande momenten i att genomföra en experimentell studie, eftersom hypoteserna löper som en röd tråd genom hela studien. Även om idealet är att hypoteserna ska formuleras tidigt i forskningsprocessen (studiens förarbete) och sedan inte förändras, så sker i praktiken ofta mindre justeringar av hypoteserna för att bättre anpassa dem till det faktiska genomförandet av studien.
 
 Relationen mellan forskningsfrågor och hypoteser består i att om de förstnämnda uttrycks som generella frågor, så uttrycks hypoteser snarare som specifika och konkreta påståenden eller antaganden. Återgår vi till den forskningsfråga vi formulerade som exempel i denna lärobok, så löd den som följer: \"RQ1: Hur påverkar bildinnehållet i Facebook-poster människors beteenden och attityder i relation till dessa poster?\" Efter att vi formulerat denna forskningsfråga gick vi vidare till det moment vi kallar operationalisering, i vilket vi omsätter forskningsfrågan till mätbara variabler. I vårt fall utgick vi från tidigare forskning som visade att ögonrörelsemätning ofta använts för att objektivt observera och mäta människors visuella beteende i samband med att man läser texter på nätet. Vidare upptäckte vår forskningsgenomgång att människors attityder ofta undersökts genom självrapportering med hjälp av så kallade likert-skalor. I det sista steget använder vi de variabler som framkom i operationaliseringen till att formulera hypoteser. Närmare bestämt formuleras hypoteserna som förväntade relationer mellan förklaringsvariabeln \"bildinnehåll\" (dvs. auktoritetsperson eller neutral person) och mätvariablerna \"visuell uppmärksamhet\" och \"upplevd trovärdighet\". Sammanfattningsvis måste alltså hypoteserna vara underbyggda av tidigare forskning, och förväntade resultat måste motiveras utifrån tidigare erhållna forskningsresultat.
 
-Det är inte ovanligt att en experimentell studie antar att det finns flera mätvariabler som påverkar en beroende variabl. I vårt exempel-experiment skulle vi till exempel kunna samla in mätdata om försöksdeltagarnas internetvanor och deras demografiska egenskaper, och undersöka hur dessa egenskaper bidrar till att förklara skillnader i exempelvis mängden visuell uppmärksamhet deltagarna spenderar på att titta på Facebook-posterna. I så fall skulle detta kunna visualiseras grafiskt med en modell.
+Det är inte ovanligt att en experimentell studie antar att det finns flera mätvariabler som påverkar en beroende variabl. I vårt exempel-experiment skulle vi till exempel kunna samla in mätdata om försöksdeltagarnas internetvanor och deras demografiska egenskaper, och undersöka hur dessa egenskaper bidrar till att förklara skillnader i exempelvis mängden visuell uppmärksamhet deltagarna spenderar på att titta på Facebook-posterna. I så fall antas hypoteserna gälla under en modell som inkluderar alla variabler. Detta kan visualiseras grafiskt med en modell.
 
-```{r fig-06.3-model, echo=FALSE, fig.cap="någon modell"}
+```{r img-model, echo=F, fig.cap="någon modell", out.width='80%', fig.asp=.75, fig.align='center'}
 knitr::include_graphics("../fig/model.png")
 ```
-
-lite text mellan
-
-![Some model.](../fig/model.png)
 
 ### Planering av hypoteser {#sub06.3.1}
 
