@@ -330,3 +330,16 @@ some line
 [07-7-comment]: <> (5 sidor)
 
 Beräkning av beroende och oberoende variabler - aggregering, summativt index
+
+
+
+
+
+
+
+
+
+
+
+
+

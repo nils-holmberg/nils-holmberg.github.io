@@ -1,7 +1,10 @@
+
+\newpage
+
 # (PART) Del 2 {-}
 
 # Del 2 {-}
-[00-2-wc-file]: <> (111.54 %)
+[00-2-wc-file]: <> (111.66 %)
 [00-2-comment]: <> (3 sidor)
 
 I denna del av boken följer vi utvecklingen och genomförandet av ett samhällsvetenskapligt experiment. Närmare bestämt kommer vi resonera kring ett tänkt experiment som tar avstamp inom kommunkationsforskningen, där man bland annat undersöker hur sociala medier såsom Facebook och Twitter används för att på olika sätt påverka mediepubliker. Till skillnad från den första delen av boken, där vi introducerade experiment som vetenskaplig metod, kommer del 2 att vara mer konkret och fokusera på de praktiska moment som ofta behöver beaktas i samband med planering, genomförande, och rapportering av ett experiment. Denna del av boken följer också ett kronologiskt upplägg, där vi börjar med att diskutera frågor som kommer tidigt i experiment-processen, och sedan övergår till att gå igenom praktiska frågor kring experimentets design. Vi kommer också använda oss av ett flertal andra konkreta experiment-exempel där detta krävs. Tanken med del 2 är att ge studenter ett "matlagningsrecept" för experimentella studier, där "ingredienserna" kan bytas ut och kombineras på nya sätt för att besvara nya frågeställningar. Vi är dock övertygade om att de flesta framgångsrika experiment följer vissa nödvändiga steg som successivt bygger på varandra. I denna bok kallat vi dessa steg för Förarbete (Kapitel 6), Genomförande (Kapitel 7), och Efterarbete (Kapitel 8).
@@ -13,4 +16,11 @@ I denna del av boken följer vi utvecklingen och genomförandet av ett samhälls
 **Efterarbete.** I detta kapitel tar vi upp: hur man kan redovisa resultatet av ett genomfört experiment, hur vi kan diskutera den samhälleliga och forskningsmässiga relevansen av undersökningen, samt hur resultaten kan rapporteras i form av en publicerad artikel. Naturligtvis förutsätter detta sista steg att vi klarat av de tidigare stegen. När vi är klara med själva genomförandet av ett experiment, brukar det första steget i efterarbetet vara att redovisa de _resultat_ undersökningen har lett fram till. Resultaten redovisas ofta i två steg, först med deskriptiva och sedan med inferentiella statistiska metoder. Den inferentiella statistiken används för att testa de hypoteser som inledningsvis uppställdes i förarbetet till experimentet, t.ex. att vi förväntade oss att hitta signifikanta skillnader mellan deltagarnas uppmätta responser i experimentets olika villkor. Efter att vi på detta sätt redovisat förhållandet mellan våra inledningsvis förväntade resultat och våra faktiska uppmätta resultat brukar man skriva en _diskussion_ om alternativa förklaringar till undersökningens observerade resultat, samt hur experimentet kan utvecklas och förbättras genom ytterligare forskning i framtiden. Avslutningsvis kommer detta kapitel diskutera vad forskare bör tänka på vid eventuell _publicering_ av forskningsresultat.
 
 Genomgående försöker denna lärobok täcka in två olika men näraliggande betydelser av begreppet experimentell metod: dels som en uppsättning praktiska tillvägagångssätt som bör användas för att _planera_ och genomföra en experimentell studie; och dels som ett systematiskt och standardiserat sätt att i efterhand _rapportera_ genomförandet av en studie på ett sätt som är begripligt för andra forskare. Således är denna andra del av läroboken disponerat på ett sätt som ger oss möjlighet att i typisk turordning behandla de olika aspekter av experimentell metod som man som forskare förväntas kunna redovisa när man rapporterar sina resultat till en vetenskaplig tidskrift. Men inom varje metodaspekt kommer vi också att utförligt diskutera de olika experimentella tillvägagångssätt som är relevanta i samband med planering och genomförande av en forskningsstudie.
+
+
+
+
+
+
+
 

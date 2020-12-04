@@ -12,10 +12,16 @@ github-repo: nils-holmberg/nils-holmberg.github.io/scom-expb
 description: "The output format for this example is bookdown::gitbook."
 ---
 
+\newpage
 # (PART) Del 1 {-}
 
 # Del 1 {-}
-[00-1-wc-file]: <> (24.28 %)
+[00-1-wc-file]: <> (24.64 %)
 [00-1-comment]: <> (1 sidor)
 
 I denna del av boken följer vi utvecklingen och genomförandet av ett samhällsvetenskapligt experiment. 
+
+
+
+
+
