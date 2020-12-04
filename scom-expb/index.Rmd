@@ -14,28 +14,8 @@ description: "The output format for this example is bookdown::gitbook."
 
 # (PART) Del 1 {-}
 
-# Kapitel 1 {#chap01}
-some **figure**
-```{r some-fig, fig.cap='Here is some figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
+# Del 1 {-}
+[00-1-wc-file]: <> (24.28 %)
+[00-1-comment]: <> (1 sidor)
 
-# Kapitel 2 {#chap02}
-some **table** 
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
-
-# Kapitel 3 {#chap03}
-some [@xie2015] reference
-
-# Kapitel 4 {#chap04}
-[04-0-wc-file]: <> (41.42 %)
-[04-0-comment]: <> (1 sidor)
-
-some line
-
+I denna del av boken följer vi utvecklingen och genomförandet av ett samhällsvetenskapligt experiment. 

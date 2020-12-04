@@ -1,6 +1,5 @@
-`r if (knitr:::is_html_output()) '
-# References {-}
-[09-0-wc-file]: <> (5.71 %)
+# Kapitel {#chap09}
+[09-0-wc-file]: <> (4.64 %)
 [09-0-comment]: <> (1 sidor)
 
-'`
+some line

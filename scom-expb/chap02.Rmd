@@ -1,0 +1,14 @@
+# Kapitel {#chap02}
+[02-0-wc-file]: <> (16.07 %)
+[02-0-comment]: <> (1 sidor)
+
+I denna del av boken följer vi utvecklingen och genomförandet av ett samhällsvetenskapligt experiment. 
+
+some **table** 
+```{r nice-tab, tidy=FALSE}
+knitr::kable(
+  head(iris, 20), caption = 'Here is a nice table!',
+  booktabs = TRUE
+)
+```
+
