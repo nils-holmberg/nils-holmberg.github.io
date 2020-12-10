@@ -190,7 +190,7 @@ Tillvägagångssätt, planering. Sammanfattning av avsnitt 7.4. Diskutera utifr�
 Rapportering - exempel på hur detta skulle kunna formuleras i ett manuskript
 
 ## Experimentell design {#sec07.5}
-[07-5-wc-file]: <> (113.67 %)
+[07-5-wc-file]: <> (113.96 %)
 [07-5-comment]: <> (10 sidor)
 
 Design är ett ganska svårdefinierat begrepp, vars innebörd handlar om att på ett överskådligt sätt sammanfatta strukturen och planen hos en vetenskaplig undersökning (på svenska används ibland \"upplägg\" eller \"planering\" som synonymer till design). Man kan säga att begreppet experimentell design har två centrala aspekter: den första är kopplad till att beskriva och specificera de beroende och oberoende variablerna som ingår en undersökning, medan den andra centrala aspekten är kopplad till att beskriva hur deltagarna i en undersökning exponeras för de experimentella villkor som omfattas av de oberoende variablerna (dvs hur behandlingar eller \"trials\" är distribuerade inom en experimentell studie). I det följande ska vi börja med att diskutera experimentell design i relation till oberoende variabler, vilka vi även refererar till som behandlingsvariabler i denna bok.
@@ -301,11 +301,11 @@ Tabell 7.5.5 Faktoriell experimentdesign
 
 ### Naturliga experiment {#sub07.5.7}
 
-T.ex. undersökning av effekterna av medborgarlön? Kontrastera med naturliga experiment? Ett sätt att tänka kring oberoende variabler är att de representerar experimentets utfallsvariabler. En annan faktor som har stor betydelse i samband med urvalet av.. lacks random assignment, naturliga exp del 1. Kan komma att bli en vanligare design pga etiska utmaningar med att framkalla långsiktig påverkan på försöksdeltagare.
+T.ex. undersökning av effekterna av medborgarlön? Kontrastera med naturliga experiment? Ett sätt att tänka kring oberoende variabler är att de representerar experimentets utfallsvariabler. En annan faktor som har stor betydelse i samband med urvalet av.. lacks random assignment, naturliga exp del 1. Kan komma att bli en vanligare design pga etiska utmaningar med att framkalla långsiktig påverkan på försöksdeltagare. Non-repeated single trial between-subjects without control.
 
 ### Kvasi-experiment {#sub07.5.8}
 
-T.ex. undersökning av effekterna av medborgarlön? Kontrastera med naturliga experiment? Ett sätt att tänka kring oberoende variabler är att de representerar experimentets utfallsvariabler. En annan faktor som har stor betydelse i samband med urvalet av.. lacks random assignment, naturliga exp del 1. Kan komma att bli en vanligare design pga etiska utmaningar med att framkalla långsiktig påverkan på försöksdeltagare.
+T.ex. undersökning av effekterna av medborgarlön? Kontrastera med naturliga experiment? Ett sätt att tänka kring oberoende variabler är att de representerar experimentets utfallsvariabler. En annan faktor som har stor betydelse i samband med urvalet av.. lacks random assignment, naturliga exp del 1. Kan komma att bli en vanligare design pga etiska utmaningar med att framkalla långsiktig påverkan på försöksdeltagare. Panel research.
 
 ### Planering av experimentdesign {#sub07.5.9}
 
