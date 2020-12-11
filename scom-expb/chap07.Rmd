@@ -16,11 +16,19 @@ I det följande kommer vi redogöra för den typiska turordningen för att både
 
 - kontrastera med metodologi, i del 1 ? Pedagogiskt att presentera efterföljande text som tre centrala beståndsdelar: 1) deltagare, 2) mätinstrument, och 3) experimentella villkor/manipulationer.
 
-## Pilottest  {#sec07.1}
-[07-1-wc-file]: <> (50.71 %)
+## Förstudier {#sec07.1}
+[07-1-wc-file]: <> (52.78 %)
 [07-1-comment]: <> (5 sidor)
 
-Innan man genomför ett skarpt experiment, vilket ofta kräver mycket resurser i form av tid och arbete, är det klokt att genomföra experimentet i liten skala. På så vis kan forskarna i ett tidigt stadium fånga upp problem med experimentdesignen. Detta kallas för att vi genomför en förstudie eller ett pilottest. Det är ofta användbart att förstå utvecklingen av en experimentell studie som en iterativ process, där genomförandet successivt kan förbättras baserat på erfarnheter från tidigare genomföranden. Slutligen är det ofta en fördel att kunna rapportera ett pilottest eller en förstudie i samband med att sakkunniga forskare granskar och bedömer om det är lämpligt att publicera resultaten i en tidskrift.
+Innan man genomför ett skarpt experiment, vilket ofta kräver mycket resurser i form av tid och arbete, är det klokt att genomföra experimentet i liten skala. På så vis kan forskarna i ett tidigt stadium fånga upp problem med experimentdesignen. Detta kallas för att vi genomför en förstudie eller ett pilottest. I sambad med planering och förberedelse av experimentet kommer vi börja med att diskutera begreppet power-analys (från engelskans power analysis).
+
+### Power-analys {#sub07.1.1}
+
+Innan man genomför ett skarpt experiment, gör en power-analys. Power is the probability that we will correctly reject the null hypothesis.
+
+### Pilottest {#sub07.1.2}
+
+Det är ofta användbart att förstå utvecklingen av en experimentell studie som en iterativ process, där genomförandet successivt kan förbättras baserat på erfarnheter från tidigare genomföranden. Slutligen är det ofta en fördel att kunna rapportera ett pilottest eller en förstudie i samband med att sakkunniga forskare granskar och bedömer om det är lämpligt att publicera resultaten i en tidskrift.
 
 I pilottestet har vi möjlighet att testa att alla delar i experimentet fungerar, både som isolerade moduler oberoende av varandra, och som sammanhängande steg i en övergripande experimentell procedur. Vi kan alltså testa att vi kan rekrytera rätt _försöksdeltagare_, dvs. deltagare som uppfyller de demografiska egenskaper som vi eventuellt specificerat i forskningsfrågor och hypoteser. Vi kan även testa att deltagarna förstår hur de lämnar informetat samtycke till att vi bearbetar den data vi samlar in från dem, samt andra etiska aspekter av vår forskning. 
 
@@ -32,7 +40,7 @@ Nästa steg i förstudien handlar om att testa de behandlingar eller _experiment
 
 När vi har mätinstrument och experimentdesign på plats, kan det vara läge att pilottesta _proceduren_ vi kommer att använda oss av i samband med att varje deltagare genomgår vårt experiment. Denna procedur kan handla om allt från hur vi hälsar och tar emot deltagaren, till hur vi applicerar eventuell mätutrustning, till vi kort intervjuar deltagaren efter att den deltagit. Det främsta syftet med detta förfarande är att vi vill försäkra oss om att proceduren blir så standardiserad som möjligt, dvs. att vi inte eliciterar missvisande data från några deltagare pga. att dessa behandlats annorlunda i något avseende. I förlängningen har detta att göra med experimentets reliabilitet.
 
-Slutligen är det väl värt att samla in lite faktisk testdata, när vi väl har alla experimentets delar på plats. Genom att göra detta kan vi pilottesta den _dataanalys_ som kommer ligga till grund för experimentets resultat. I denna fas testa vi helt enkelt att vi kan omvandla våra mätningar och villkor till variabler. I sambad med planering och förberedelse av experimentet kommer vi också diskutera begreppet poweranalys (från engelskans power analysis). 
+Slutligen är det väl värt att samla in lite faktisk testdata, när vi väl har alla experimentets delar på plats. Genom att göra detta kan vi pilottesta den _dataanalys_ som kommer ligga till grund för experimentets resultat. I denna fas testa vi helt enkelt att vi kan omvandla våra mätningar och villkor till variabler.  
 
 
 
@@ -98,7 +106,7 @@ När man väl genomfört studien och är i färd med att rapportera vilka person
 \- bortfall, missing cases
 
 ## Mätinstrument {#sec07.3}
-[07-3-wc-file]: <> (23.71 %)
+[07-3-wc-file]: <> (39.71 %)
 [07-3-comment]: <> (10 sidor)
 
 I en experimentell studie är det avgörande att införliva mätinstrument som på ett giltigt och tillförlitligt sätt kan uppmäta effekten av en behandling på en eller flera responsvariabler. En viktig anledning till att experiment och mätinstrument är nära förknippade, är att denna typ av positivistisk forskning syftar till att försöka säkerställa en faktisk skillnad mellan olika grupper av deltagare och olika typer av behandlingar, vilket till syvende och sist kräver analys med hjälp av statistiska metoder. Det räcker alltså inte med att forskaren rapporterar en subjektivt upplevd skillnad mellan försöksgrupper; denna skillnad måste bevisas!
@@ -109,9 +117,17 @@ I det hypotetiska experiment som vi resonerar om i denna bok används två olika
 
 ### Mätning av subjektiva responser {#sub07.3.1}
 
-Survey-frågor + svarsalternativ, likertskalor, attityder, beroende variabler. Självrapportering. Intervjusvar. Potentiellt problem med validitet, reliabilitet. Hänvisa till litteratur om enkätundersökningar, t.ex. Trost. Dessutom använder vi surveyfrågor med likertskalor för att mäta hur läsarna skattar artiklarnas trovärdighet. Implementeras som t.ex. Google forms. Diskutera validitet. Objektiva eller självrapporterade mätningar
+En subjektiv respons innebär att det är helt upp till försöksdeltagaren att avgöra vilka mätdata man vill och kan lämna. Denna situation uppstår med nödvändighet i alla former av enkätfrågor, där själva frågekonstruktionen är öppen för deltagarens tolkning, och där deltagaren själv får bestämma vilket svarsalternativ den väljer att lämna som respons. Det är lätt att inse att ett sådant mätinstrument gör sig beroende av varje deltagares individuella förmåga och motivation att lämna giltiga svar, och att den mätdata som samlas in kommer att innehålla olika former av bruskällor.
+
+Även om enkätfrågor därmed kanske inte kan betraktas som en perfekt lösning, används de ändå flitigt inom den samhällsvetenskapliga forskningen, av det enkla skälet att detta mätinstrument ofta är det enda realistiska alternativet som står till buds om vi exempelvis avser att mäta deltagarnas attityder till ett fenomen, eller andra typer av mentala tillstånd. Man brukar säga att enkäter är lämpliga för att mäta deltagarnas _beteenden_ (t.ex. hur ofta de använder sociala medier på ett dygn), _kunskaper_ (t.ex. hur mycket de känner till om de algoritmer sociala medier använder för att presentera personligt innehåll till användaren), och _attityder_ (t.ex. om de har förtoende för hur sociala medier hanterar användarens personliga data). 
+
+För att hantera några av enkätens inneboende problem som mätinstrument har forskningen både förfinat själva frågedelen i enkäten, men också svarsalternativen. Detta kan åskådliggöras genom ett resonemang där vi antar att vi som forskare är intresserade av att mäta upplevd lycka bland en grupp människor. I detta exempel säger vi att det mentala tillståndet lycka är en latent variabel som vi inte kan mäta direkt, men som vi försöker komma åt genom att använda ett antal enkätfrågor som antas fånga olika aspekter av konceptet lycka. En fråga kan lyda "hur lycklig är du i hemmet?", en annan "hur lycklig är du på jobbet?", en tredje "hur lycklig är du med dina vänner?" osv. Förhoppningen är att flera likartade frågor sammantaget ska öka giltigheten (validiteten) i mätinstrumentet.
+
+När det gäller svarsalternativ till dessa tänkta enkätfrågor om lycka, är det vanligt att använda så kallade likert-skalor, där deltagaren kan indikera ett värde mellan exempelvis 1 och 7, där lägre och högre värden betyder mindre respektive mer upplevd lycka, och mittenalternativet är neutralt. Genom att använda likartade skalor på flera enkätfrågor skapas ett någorlunda standardiserat format för svarsalternativen som deltagaren förhoppningsvis har lättare att ta ställning till. De numeriska värden som erhålls på varje individuell fråga kan sedan sammaställas till ett så kallat index genom att ta medelvärdet av deltagarens alla responser kring lycka. Detta antas öka tillförlitligheten eller reliabiliteten i mätinstrumentet. Men kom ihåg att alla dessa data är självrapporterade!
 
 ### Mätning av objektiva responser {#sub07.3.2}
+
+subjektiv objektiv är en skala snarare än en absolut distinktion
 
 I det tänkta experiment som ligger till grund för denna bok, använder vi oss huvudsakligen av två mätinstrument. Vi använder en så kallad ögonrörelsemätare (på engelska \"eye-tracker\") för att göra objektiva och kontinuerliga mätningar av hur läsarnas visuella uppmärksamhet fördelar sig över ytan på de Facebook-artiklar vi använder som stimuli i studien (se 2.2.5 nedan). Fysiologiska och beteendevetenskapliga, (mer) objektiva responser. Potentiellt bättre validitet, reliabilitet. Tillvägagångssätt, planering. Reaktionstider. Viljestyrda eller autonoma, reflexiva. Pupilldilatation eller visuell uppmärksamhet. Top-down och bottom-up
 
@@ -125,7 +141,8 @@ Tillvägagångssätt, planering. Diskutera utifrån exempel-experiment med bildi
 
 ### Rapportering av mätinstrument {#sub07.3.5}
 
-Rapportering. På engelska kallas detta avsnitt ofta för \"apparatus\". Exempel på hur detta skulle kunna formuleras i ett artikelmanuskript. Utgår från exempel-experimentet.
+Rapportering. På engelska kallas detta avsnitt ofta för \"apparatus\". Exempel på hur detta skulle kunna formuleras i ett artikelmanuskript. Utgår från exempel-experimentet. Survey-frågor + svarsalternativ, likertskalor, attityder, beroende variabler. Självrapportering. Intervjusvar. Potentiellt problem med validitet, reliabilitet. Hänvisa till litteratur om enkätundersökningar, t.ex. Trost. Dessutom använder vi surveyfrågor med likertskalor för att mäta hur läsarna skattar artiklarnas trovärdighet. Implementeras som t.ex. Google forms. Diskutera validitet. Objektiva eller självrapporterade mätningar
+
 
 ## Experimentella villkor {#sec07.4}
 [07-4-wc-file]: <> (57.42 %)

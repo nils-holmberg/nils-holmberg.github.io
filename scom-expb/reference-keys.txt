@@ -19,6 +19,8 @@ sub06.3.1
 sub06.3.2
 chap07
 sec07.1
+sub07.1.1
+sub07.1.2
 sec07.2
 sub07.2.1
 sub07.2.2
