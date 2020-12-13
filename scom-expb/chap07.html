@@ -24,7 +24,7 @@
 <meta name="author" content="Nils Gustafsson &amp; Nils Holmberg" />
 
 
-<meta name="date" content="2020-12-11" />
+<meta name="date" content="2020-12-13" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -50,6 +50,12 @@
 
 
 
+<link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="libs/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet" />
+<script src="libs/bsTable-3.3.7/bootstrapTable.js"></script>
 
 
 <style type="text/css">
@@ -308,14 +314,71 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>I det hypotetiska experiment som vi resonerar om i denna bok används två olika mätinstrument för att registrera olika typer av responser hos deltagarna i samband med att de tittar på Facebook-poster med bilder föreställande auktoritetspersoner respektive neutrala eller okända personer. I första steget används en ögonrörelsemätare för att mäta hur försöksdeltagarna visuella uppmärksamhet fördelar sig över Facebook-posten, och sedan används en 7-gradig Likert-skala för att mäta hur bildinnehållet påverkat deras attityder angående postens trovärdighet. De hypoteser som antagits för detta experiment är att auktoritetspersoner kommer att orsaka en ökning av visuell uppmärksamhet (dvs. hur länge deltagarna tittar på bilden), samt en ökning av upplevd trovärdighet hos posten (dvs. hur höga värden som väljs på Likert-skalan). En viktig skillnad mellan dessa två mätinstrument är att ögonrörelsemätning fångar ett objektivt beteende hos deltagaren, medan Likert-skalor registrerar mer subjektiva responser som rapporteras av deltagaren själv. Denna skillnad utvecklas lite mer i det följande (avsnitt <a href="chap07.html#sub07.3.2">7.3.2</a>).</p>
 <div id="sub07.3.1" class="section level3">
 <h3><span class="header-section-number">7.3.1</span> Mätning av subjektiva responser</h3>
-<p>En subjektiv respons innebär att det är helt upp till försöksdeltagaren att avgöra vilka mätdata man vill och kan lämna. Denna situation uppstår med nödvändighet i alla former av enkätfrågor, där själva frågekonstruktionen är öppen för deltagarens tolkning, och där deltagaren själv får bestämma vilket svarsalternativ den väljer att lämna som respons. Det är lätt att inse att ett sådant mätinstrument gör sig beroende av varje deltagares individuella förmåga och motivation att lämna giltiga svar, och att den mätdata som samlas in kommer att innehålla olika former av bruskällor.</p>
+<p>En subjektiv respons innebär att det är helt upp till försöksdeltagaren att avgöra vilka mätdata man vill och kan lämna. Denna situation uppstår med nödvändighet i alla former av enkätfrågor, där själva frågekonstruktionen är öppen för deltagarens tolkning, och där deltagaren själv får bestämma vilket svarsalternativ den väljer att lämna som respons. Dessutom kan det uppstå systematiska felkällor (s.k. bias) beroende på hur forskaren samlar in svaren (t.ex. genom intervju eller skriftligt). Det är lätt att inse att ett sådant mätinstrument gör sig beroende av varje deltagares individuella förmåga och motivation att lämna giltiga svar, och att den mätdata som samlas in kommer att innehålla olika former av bruskällor som kan förvränga de sanna mätvärdena.</p>
 <p>Även om enkätfrågor därmed kanske inte kan betraktas som en perfekt lösning, används de ändå flitigt inom den samhällsvetenskapliga forskningen, av det enkla skälet att detta mätinstrument ofta är det enda realistiska alternativet som står till buds om vi exempelvis avser att mäta deltagarnas attityder till ett fenomen, eller andra typer av mentala tillstånd. Man brukar säga att enkäter är lämpliga för att mäta deltagarnas <em>beteenden</em> (t.ex. hur ofta de använder sociala medier på ett dygn), <em>kunskaper</em> (t.ex. hur mycket de känner till om de algoritmer sociala medier använder för att presentera personligt innehåll till användaren), och <em>attityder</em> (t.ex. om de har förtoende för hur sociala medier hanterar användarens personliga data).</p>
 <p>För att hantera några av enkätens inneboende problem som mätinstrument har forskningen både förfinat själva frågedelen i enkäten, men också svarsalternativen. Detta kan åskådliggöras genom ett resonemang där vi antar att vi som forskare är intresserade av att mäta upplevd lycka bland en grupp människor. I detta exempel säger vi att det mentala tillståndet lycka är en latent variabel som vi inte kan mäta direkt, men som vi försöker komma åt genom att använda ett antal enkätfrågor som antas fånga olika aspekter av konceptet lycka. En fråga kan lyda “hur lycklig är du i hemmet?”, en annan “hur lycklig är du på jobbet?”, en tredje “hur lycklig är du med dina vänner?” osv. Förhoppningen är att flera likartade frågor sammantaget ska öka giltigheten (validiteten) i mätinstrumentet.</p>
-<p>När det gäller svarsalternativ till dessa tänkta enkätfrågor om lycka, är det vanligt att använda så kallade likert-skalor, där deltagaren kan indikera ett värde mellan exempelvis 1 och 7, där lägre och högre värden betyder mindre respektive mer upplevd lycka, och mittenalternativet är neutralt. Genom att använda likartade skalor på flera enkätfrågor skapas ett någorlunda standardiserat format för svarsalternativen som deltagaren förhoppningsvis har lättare att ta ställning till. De numeriska värden som erhålls på varje individuell fråga kan sedan sammaställas till ett så kallat index genom att ta medelvärdet av deltagarens alla responser kring lycka. Detta antas öka tillförlitligheten eller reliabiliteten i mätinstrumentet. Men kom ihåg att alla dessa data är självrapporterade!</p>
+<p>När det gäller svarsalternativ till dessa tänkta enkätfrågor om lycka, är det vanligt att använda så kallade likert-skalor, där deltagaren kan indikera ett värde mellan exempelvis 1 och 7, där lägre och högre värden betyder mindre respektive mer upplevd lycka, och mittenalternativet är neutralt. Genom att använda likartade skalor på flera enkätfrågor skapas ett någorlunda standardiserat format för svarsalternativen som deltagaren förhoppningsvis har lättare att ta ställning till. De numeriska värden som erhålls på varje individuell fråga kan sedan sammaställas till ett så kallat index genom att ta medelvärdet av deltagarens alla responser kring lycka. Detta antas öka tillförlitligheten eller reliabiliteten i mätinstrumentet. Men kom ihåg att denna typ av data är självrapporterad!</p>
 </div>
 <div id="sub07.3.2" class="section level3">
 <h3><span class="header-section-number">7.3.2</span> Mätning av objektiva responser</h3>
-<p>subjektiv objektiv är en skala snarare än en absolut distinktion</p>
+<p>Objektiva responser är inte väsenskilda från subjektiva, och det kan vara mer fruktbart att placera båda dessa responser på en skala av objektivitet, där enkätfrågor betraktas som mindre objektiva, och exempelvis fysiologiska responser anses mer objektiva. När det gäller enkätfrågor så betraktas ibland frågor som avser att undersöka respondentens beteenden som mer objektiva än frågor som frågor handlar om attityder. Om vi flyttar fokus till fysiologiska mätmetoder så kan vi på samma sätt skilja mellan mätdata som är mer viljestyrd hos deltagaren (t.ex. var blicken riktas på en datorskärm), respektive mätdata som är mindre viljestyrd (t.ex. hur utvidgade pupillerna är). Det förra fallet handlar om mindre objektiva responser, det senare om mer objektiva. Subjektiva och objektiva responser är alltså ingen absolut distinktion.</p>
+<table>
+<caption>
+<span id="tab:tab02-07-3">Table 7.1: </span>Mätinstrument och objektivitet i mätdata
+</caption>
+<thead>
+<tr>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="4">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+mätinstrument
+</div>
+</th>
+</tr>
+<tr>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="2">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+enkätdata
+</div>
+</th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="2">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+fysiologisk data
+</div>
+</th>
+</tr>
+<tr>
+<th style="text-align:left;">
+minst objektiv
+</th>
+<th style="text-align:left;">
+mindre objektiv
+</th>
+<th style="text-align:left;">
+mer objektiv
+</th>
+<th style="text-align:left;">
+mest objektiv
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+attitydfrågor
+</td>
+<td style="text-align:left;">
+beteendefrågor
+</td>
+<td style="text-align:left;">
+voluntär respons
+</td>
+<td style="text-align:left;">
+involuntär respons
+</td>
+</tr>
+</tbody>
+</table>
+<p>pupill position är hyfsad indikator på visuell uppmärksamhet, men inte perfekt. endogenous, exogenous attention.</p>
 <p>I det tänkta experiment som ligger till grund för denna bok, använder vi oss huvudsakligen av två mätinstrument. Vi använder en så kallad ögonrörelsemätare (på engelska "eye-tracker") för att göra objektiva och kontinuerliga mätningar av hur läsarnas visuella uppmärksamhet fördelar sig över ytan på de Facebook-artiklar vi använder som stimuli i studien (se 2.2.5 nedan). Fysiologiska och beteendevetenskapliga, (mer) objektiva responser. Potentiellt bättre validitet, reliabilitet. Tillvägagångssätt, planering. Reaktionstider. Viljestyrda eller autonoma, reflexiva. Pupilldilatation eller visuell uppmärksamhet. Top-down och bottom-up</p>
 </div>
 <div id="sub07.3.3" class="section level3">
@@ -324,7 +387,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="sub07.3.4" class="section level3">
 <h3><span class="header-section-number">7.3.4</span> Planering av mätinstrument</h3>
-<p>Tillvägagångssätt, planering. Diskutera utifrån exempel-experiment med bildinnehåll hos Facebook-poster. Ögonrörelsemätning för visuell uppmärksamhet, Likert-skalor för attitydmätning. Giltighet och tillförlitlighet hos alla mätvariabler, beroende variabler som används i studien. Återkoppla till pilottest.</p>
+<p>Tillvägagångssätt, planering. Diskutera utifrån exempel-experiment med bildinnehåll hos Facebook-poster. Ögonrörelsemätning för visuell uppmärksamhet, Likert-skalor för attitydmätning. Giltighet och tillförlitlighet hos alla mätvariabler, beroende variabler som används i studien. Återkoppla till pilottest. use multiple indicators of trust in leif gw facebook posts..</p>
 </div>
 <div id="sub07.3.5" class="section level3">
 <h3><span class="header-section-number">7.3.5</span> Rapportering av mätinstrument</h3>
@@ -350,35 +413,35 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <table>
 <thead>
 <tr class="header">
-<th align="left">Deltagare</th>
-<th align="left">Villkor</th>
-<th align="left">Utfall</th>
+<th>ltagare Vi</th>
+<th>llkor Ut</th>
+<th align="left">fall</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">1</td>
-<td align="left">Kontroll</td>
+<td>1</td>
+<td>Kontroll</td>
 <td align="left">Oförändrat</td>
 </tr>
 <tr class="even">
-<td align="left">2</td>
-<td align="left">Behandling</td>
+<td>2</td>
+<td>Behandling</td>
 <td align="left">Positivt</td>
 </tr>
 <tr class="odd">
-<td align="left">3</td>
-<td align="left">Kontroll</td>
+<td>3</td>
+<td>Kontroll</td>
 <td align="left">Oförändrat</td>
 </tr>
 <tr class="even">
-<td align="left">4</td>
-<td align="left">Behandling</td>
+<td>4</td>
+<td>Behandling</td>
 <td align="left">Oförändrat</td>
 </tr>
 <tr class="odd">
-<td align="left">...</td>
-<td align="left">...</td>
+<td>...</td>
+<td>...</td>
 <td align="left">...</td>
 </tr>
 </tbody>
@@ -429,39 +492,39 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <table>
 <thead>
 <tr class="header">
-<th align="left">Deltagare</th>
-<th align="left">Stimulus 1</th>
-<th align="left">Stimulus 2</th>
-<th align="left">Stimulus 3</th>
+<th>ltagare St</th>
+<th>imulus 1 St</th>
+<th>imulus 2 St</th>
+<th align="left">imulus 3</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Deltagare 1 &gt;</td>
-<td align="left">Kontroll</td>
-<td align="left">Behandling A</td>
+<td>Deltagare 1 &gt;</td>
+<td>Kontroll</td>
+<td>Behandling A</td>
 <td align="left">Behandling B</td>
 <td></td>
 </tr>
 <tr class="even">
-<td align="left">Deltagare 2 &gt;</td>
-<td align="left">Behandling A</td>
-<td align="left">Kontroll</td>
+<td>Deltagare 2 &gt;</td>
+<td>Behandling A</td>
+<td>Kontroll</td>
 <td align="left">Behandling B</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td align="left">Deltagare 3 &gt;</td>
-<td align="left">Behandling B</td>
-<td align="left">Behandling A</td>
+<td>Deltagare 3 &gt;</td>
+<td>Behandling B</td>
+<td>Behandling A</td>
 <td align="left">Kontroll</td>
 <td></td>
 </tr>
 <tr class="even">
-<td align="left">...</td>
-<td align="left"></td>
-<td align="left"></td>
+<td>...</td>
+<td></td>
+<td></td>
 <td align="left"></td>
 <td></td>
 </tr>
@@ -479,31 +542,31 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <table>
 <thead>
 <tr class="header">
-<th align="left">Tabellhuvud</th>
-<th align="left">Tabellhuvud</th>
-<th align="left">Tabellhuvud</th>
+<th>bellhuvud Ta</th>
+<th>bellhuvud Ta</th>
+<th align="left">bellhuvud</th>
 <th></th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Villkor &gt;</td>
-<td align="left">Kontroll</td>
+<td>Villkor &gt;</td>
+<td>Kontroll</td>
 <td align="left">Behandling A</td>
 <td>Behandling B</td>
 <td></td>
 </tr>
 <tr class="even">
-<td align="left">Deltagare &gt;</td>
-<td align="left">Deltagare 1</td>
+<td>Deltagare &gt;</td>
+<td>Deltagare 1</td>
 <td align="left">Deltagare 2</td>
 <td>Deltagare 3</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td align="left">...</td>
-<td align="left">Deltagare 4</td>
+<td>...</td>
+<td>Deltagare 4</td>
 <td align="left">Deltagare 5</td>
 <td>Deltagare 6</td>
 <td></td>
@@ -522,31 +585,31 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <table>
 <thead>
 <tr class="header">
-<th align="left">Tabellhuvud</th>
-<th align="left">Tabellhuvud</th>
-<th align="left">Tabellhuvud</th>
+<th>bellhuvud Ta</th>
+<th>bellhuvud Ta</th>
+<th align="left">bellhuvud</th>
 <th></th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Villkor &gt;</td>
-<td align="left">Kontroll</td>
+<td>Villkor &gt;</td>
+<td>Kontroll</td>
 <td align="left">Behandling A</td>
 <td>Behandling B</td>
 <td></td>
 </tr>
 <tr class="even">
-<td align="left">Deltagare &gt;</td>
-<td align="left">Deltagare 1</td>
+<td>Deltagare &gt;</td>
+<td>Deltagare 1</td>
 <td align="left">Deltagare 1</td>
 <td>Deltagare 1</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td align="left">...</td>
-<td align="left">Deltagare 2</td>
+<td>...</td>
+<td>Deltagare 2</td>
 <td align="left">Deltagare 2</td>
 <td>Deltagare 2</td>
 <td></td>
@@ -563,38 +626,38 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <table>
 <thead>
 <tr class="header">
-<th align="left">Tabellhuvud</th>
-<th align="left">Tabellhuvud</th>
-<th align="left">Tabellhuvud</th>
+<th>bellhuvud Ta</th>
+<th>bellhuvud Ta</th>
+<th align="left">bellhuvud</th>
 <th></th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Deltagare 1 &gt;</td>
-<td align="left">Kontroll</td>
+<td>Deltagare 1 &gt;</td>
+<td>Kontroll</td>
 <td align="left">Behandling A</td>
 <td>Behandling B</td>
 <td></td>
 </tr>
 <tr class="even">
-<td align="left">Deltagare 1 &gt;</td>
-<td align="left">Kontroll</td>
+<td>Deltagare 1 &gt;</td>
+<td>Kontroll</td>
 <td align="left">Behandling A</td>
 <td>Behandling B</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td align="left">Deltagare 2 &gt;</td>
-<td align="left">Kontroll</td>
+<td>Deltagare 2 &gt;</td>
+<td>Kontroll</td>
 <td align="left">Behandling A</td>
 <td>Behandling B</td>
 <td></td>
 </tr>
 <tr class="even">
-<td align="left">...</td>
-<td align="left"></td>
+<td>...</td>
+<td></td>
 <td align="left"></td>
 <td></td>
 <td></td>
@@ -610,31 +673,31 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <table>
 <thead>
 <tr class="header">
-<th align="left">Tabellhuvud</th>
-<th align="left">Tabellhuvud</th>
-<th align="left">Tabellhuvud</th>
+<th>bellhuvud Ta</th>
+<th>bellhuvud Ta</th>
+<th align="left">bellhuvud</th>
 <th></th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
-<td align="left">Faktor A (nivå 0)</td>
+<td></td>
+<td>Faktor A (nivå 0)</td>
 <td align="left">Faktor A (nivå 1)</td>
 <td>Faktor A (nivå 2)</td>
 <td></td>
 </tr>
 <tr class="even">
-<td align="left">Faktor B (nivå 0)</td>
-<td align="left">Kontroll A0/B0</td>
+<td>Faktor B (nivå 0)</td>
+<td>Kontroll A0/B0</td>
 <td align="left">Behandling A1/B0</td>
 <td>Behandling A2/B0</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td align="left">Faktor B (nivå 1)</td>
-<td align="left">Behandling A0/B1</td>
+<td>Faktor B (nivå 1)</td>
+<td>Behandling A0/B1</td>
 <td align="left">Behandling A1/B1</td>
 <td>Behandling A2/B1</td>
 <td></td>
