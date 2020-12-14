@@ -106,7 +106,7 @@ När man väl genomfört studien och är i färd med att rapportera vilka person
 \- bortfall, missing cases
 
 ## Mätinstrument {#sec07.3}
-[07-3-wc-file]: <> (46.78 %)
+[07-3-wc-file]: <> (66.46 %)
 [07-3-comment]: <> (10 sidor)
 
 I en experimentell studie är det avgörande att införliva mätinstrument som på ett giltigt och tillförlitligt sätt kan uppmäta effekten av en behandling på en eller flera responsvariabler. En viktig anledning till att experiment och mätinstrument är nära förknippade, är att denna typ av positivistisk forskning syftar till att försöka säkerställa en faktisk skillnad mellan olika grupper av deltagare och olika typer av behandlingar, vilket till syvende och sist kräver analys med hjälp av statistiska metoder. Det räcker alltså inte med att forskaren rapporterar en subjektivt upplevd skillnad mellan försöksgrupper; denna skillnad måste bevisas!
@@ -127,7 +127,7 @@ När det gäller svarsalternativ till dessa tänkta enkätfrågor om lycka, är 
 
 ### Mätning av objektiva responser {#sub07.3.2}
 
-Objektiva responser är inte väsenskilda från subjektiva, och det kan vara mer fruktbart att placera båda dessa responser på en skala av objektivitet, där enkätfrågor betraktas som mindre objektiva, och exempelvis fysiologiska responser anses mer objektiva. När det gäller enkätfrågor så betraktas ibland frågor som avser att undersöka respondentens beteenden som mer objektiva än frågor som frågor handlar om attityder. Om vi flyttar fokus till fysiologiska mätmetoder så kan vi på samma sätt skilja mellan mätdata som är mer viljestyrd hos deltagaren (t.ex. var blicken riktas på en datorskärm), respektive mätdata som är mindre viljestyrd (t.ex. hur utvidgade pupillerna är). Det förra fallet handlar om mindre objektiva responser, det senare om mer objektiva. Subjektiva och objektiva responser är alltså ingen absolut distinktion. 
+Objektiva responser är inte väsenskilda från subjektiva, och därför är det mer fruktbart att placera båda dessa responser på en skala av objektivitet, där enkätfrågor kan betraktas som mindre objektiva, och exempelvis fysiologiska responser anses mer objektiva. När det gäller enkätfrågor så betraktas ibland frågor som avser att undersöka respondentens beteenden som mer objektiva än frågor som frågor handlar om attityder (ref). Om vi flyttar fokus till fysiologiska mätmetoder så kan vi på samma sätt skilja mellan responser som är mer viljestyrda hos deltagaren (t.ex. var blicken riktas på en datorskärm), respektive mätdata som är mindre viljestyrd (t.ex. hur utvidgade pupillerna är). Det förra fallet handlar om mindre objektiva responser, det senare om mer objektiva. Subjektiva och objektiva responser är alltså ingen absolut distinktion. 
 
 ```{r tab02-07-3, tidy=F, echo=F, results=T, message=F}
 library(dplyr)
@@ -144,13 +144,21 @@ booktabs=TRUE
 #kableExtra::add_header_above(c("mätinstrument"=4))
 ```
 
-pupill position är hyfsad indikator på visuell uppmärksamhet, men inte perfekt. endogenous, exogenous attention.
+Låt oss utveckla resonemanget kring fysiologisk mätdata som potentiellt mer objektiva responser. Inom psykologisk, beteendevetenskaplig och medicinsk forskning skiljer man ofta på fysiska responser som är voluntära (viljestyrda) respektive involunära (icke-viljestyrda). Detta kan exemplifieras genom att betänka människans synsystem, där vi ibland viljemässigt styr vår visuella uppmärksamhet mot en specifik region i synfältet (endogenous attention), men ibland riktar blicken som en reflexmässig respons på att något oväntat plötsligt händer i vår omgivning (exogenous attention). Dessutom kan vi ibland rikta vår visuella uppmärksamhet mot något utan att direkt titta på det. 
 
-I det tänkta experiment som ligger till grund för denna bok, använder vi oss huvudsakligen av två mätinstrument. Vi använder en så kallad ögonrörelsemätare (på engelska \"eye-tracker\") för att göra objektiva och kontinuerliga mätningar av hur läsarnas visuella uppmärksamhet fördelar sig över ytan på de Facebook-artiklar vi använder som stimuli i studien (se 2.2.5 nedan). Fysiologiska och beteendevetenskapliga, (mer) objektiva responser. Potentiellt bättre validitet, reliabilitet. Tillvägagångssätt, planering. Reaktionstider. Viljestyrda eller autonoma, reflexiva. Pupilldilatation eller visuell uppmärksamhet. Top-down och bottom-up
+Detta resonemang säger oss att pupillens position _ofta_ utgör en relativt exakt indikator på var försöksdeltagaren riktar sin visuella uppmärksamhet, även om det finns undantag. Detta samband gör att vi kan använda ögonrörelsemätning som en mätmetod med hög grad av objektivitet och giltighet i situationer där vi vill förstå vilka yttre orsaker som påverkar visuell uppmärksamhet. I dessa situationer utgör visuell uppmärksamhet en latent variabel kopplad till människans kognition. Vi är ofta intresserade av att uttala om sådana kognitiva processer, men vi kan sällan direkt observera dem. Därför använder vi oss i detta fall av ögonrörelsemätning som en objektiv indikator på visuell uppmärksamhet.
+
+För att ögonrörelsmätning ska fungera som en objektiv indikator för visuell uppmärksamhet krävs också att vi kan samla in data utan systematiska avvikelser (s.k. bias). Systematiska avvikelser kan inträffa om vi ställer in mätinstrumentet på ett felaktigt sätt, vilket exempelvis skulle kunna resultera i att alla uppmätta pupillpositioner förskjuts i någon rikting, vilket i sin tur betyder att vi relaterar deltagarens visuella uppmärksamhet till fel objekt på datorskärmen. För att undvika detta krävs kunskap om hur mätinstrumentet bör handhas, samt om hur vi kan kaliberera systemet för att ge tillförlitlig data oberoende av deltagarnas individuella fysiska egenskaper.
+
+Andra exempel på fysiologiska och beteendevetenskapliga mätdata kan utgöras av observationer kopplade till deltagares användning av en webbläsare för att navigera en webbplats, t.ex. hur de använder en sökfunktion, hur länge de tittar på en video, eller vilka länkar de väljer att klicka på. Reaktionstidstest är också ganska vanligt. I dessa fall kan det vara underliggande kognitiva beslutprocesser som är av intresse för forskarna, eller så kan det vara klick-data i sig som är intressant. I många fall av fysiologisk datainsamling blir det viktigt att instruera deltagarna att genomföra någon form av uppgift i samband med att data spelas in. Detta för att minska variationen mellan individier (osystematiskt brus i data). Detta kan kräva mycket planering i studiens tillvägagångssätt. Instruktionen i vårt tänkta experiment skulle antagligen bli något i stil med "försök bedömma trovärdigheten i följande fb-poster". Detta för öka validitet och reliabilitet. 
+
+Här kan vi eventuellt använda en analogi från rättsväsendet, där man ibland skiljer mellan indicier (t.ex. vittnesuppgifter) och fysiskt bindande bevisning. Indicier handlar om bevismaterial som är mer subjektiva och därmed föremål för tolkning, vilket gör att det krävs mer sådan. Medicinska experiment där vi objektivt mäter 1) aktiv substans, 2) egenskaper hos deltagare, 3) antal viruspartiklar i blodet. Denna typ av direkta mätningar är inte alltid relevant inom samhällsvetenskaplig forskning.
 
 ### Beroende variabler {#sub07.3.3}
 
-Syftar generellt till att uppmäta och registrera en respons på ett stimuli eller en behandling, därför säger man ibland att syftet med mätinstrumenten är att på ett giltigt och tillförlitligt sätt mäta en responsvariabel. Ofta kontinuerlig eller binär (logistisk regression), men kan också vara multinomial eller kategorisk. Survey-frågor, svarsalternativ, likertskalor, attityder. \"Beror\" av en kronologiskt föregående orsak, dvs. behandling. På engelska kallas detta \"dependent variable\". Beroende variabler kallas ibland också mätvariabler eller utfallsvariabler. Jämför med oberoende variabler, förklaringsvariabler, experimentella villkor, behandlingar i nästa stycke av boken. På engelska \"independent variable\". 
+Syftar generellt till att uppmäta och registrera en respons på ett stimuli eller en behandling, därför säger man ibland att syftet med mätinstrumenten är att på ett giltigt och tillförlitligt sätt mäta en responsvariabel. Ofta kontinuerlig eller binär (logistisk regression), men kan också vara multinomial eller kategorisk. Survey-frågor, svarsalternativ, likertskalor, attityder. \"Beror\" av en kronologiskt föregående orsak, dvs. behandling. På engelska kallas detta \"dependent variable\". Beroende variabler kallas ibland också mätvariabler eller utfallsvariabler. Jämför med oberoende variabler, förklaringsvariabler, experimentella villkor, behandlingar i nästa stycke av boken. På engelska \"independent variable\". Varje modell har _en_ beroende, flera oberoende variabler.
+
+I det tänkta experiment som ligger till grund för denna bok, använder vi oss huvudsakligen av två mätinstrument. Vi använder en så kallad ögonrörelsemätare (på engelska "eye-tracker\") för att göra objektiva och kontinuerliga mätningar av hur läsarnas visuella uppmärksamhet fördelar sig över ytan på de Facebook-artiklar vi visar som stimuli på en datorskärm. Därefter använder vi en digital enkät som presenteras på samma datorskärmen _efter_ varje Facebook-post. Enkäten består av två-tre frågor om hur försöksdeltagaren upplever trovärdigheten i varje Facebook-post, och varje enkätfråga är kopplad till en likert-skala där och olika aspekter av upplevd trovärdighet mäts på en skala mellan 1 och 7, där högre värden används för att indikera högre upplevd trovärdighet. Här gäller det att hålla i minnet att hälften av de fb posterna har bild på auktoritetsperson
 
 ### Planering av mätinstrument {#sub07.3.4}
 
@@ -159,6 +167,9 @@ Tillvägagångssätt, planering. Diskutera utifrån exempel-experiment med bildi
 ### Rapportering av mätinstrument {#sub07.3.5}
 
 Rapportering. På engelska kallas detta avsnitt ofta för \"apparatus\". Exempel på hur detta skulle kunna formuleras i ett artikelmanuskript. Utgår från exempel-experimentet. Survey-frågor + svarsalternativ, likertskalor, attityder, beroende variabler. Självrapportering. Intervjusvar. Potentiellt problem med validitet, reliabilitet. Hänvisa till litteratur om enkätundersökningar, t.ex. Trost. Dessutom använder vi surveyfrågor med likertskalor för att mäta hur läsarna skattar artiklarnas trovärdighet. Implementeras som t.ex. Google forms. Diskutera validitet. Objektiva eller självrapporterade mätningar
+
+
+
 
 
 ## Experimentella villkor {#sec07.4}
