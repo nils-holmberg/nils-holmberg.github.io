@@ -136,12 +136,12 @@ dt = tibble::tribble(
 "attitydfrågor","beteendefrågor","voluntär respons","involuntär respons"
 )
 #
-knitr::kable(dt, 
+knitr::kable(dt,
 caption='Mätinstrument och objektivitet i mätdata',
 booktabs=TRUE
-) %>% 
-kableExtra::add_header_above(c("enkätdata"=2, "fysiologisk data"=2)) %>%
-kableExtra::add_header_above(c("mätinstrument"=4))
+)# %>% 
+#kableExtra::add_header_above(c("enkätdata"=2, "fysiologisk data"=2)) %>%
+#kableExtra::add_header_above(c("mätinstrument"=4))
 ```
 
 pupill position är hyfsad indikator på visuell uppmärksamhet, men inte perfekt. endogenous, exogenous attention.

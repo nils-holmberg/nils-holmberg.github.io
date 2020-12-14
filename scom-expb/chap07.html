@@ -24,7 +24,7 @@
 <meta name="author" content="Nils Gustafsson &amp; Nils Holmberg" />
 
 
-<meta name="date" content="2020-12-13" />
+<meta name="date" content="2020-12-14" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -52,10 +52,6 @@
 
 <link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
-<script src="libs/kePrint-0.0.1/kePrint.js"></script>
-<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
-<link href="libs/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet" />
-<script src="libs/bsTable-3.3.7/bootstrapTable.js"></script>
 
 
 <style type="text/css">
@@ -323,58 +319,21 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h3><span class="header-section-number">7.3.2</span> Mätning av objektiva responser</h3>
 <p>Objektiva responser är inte väsenskilda från subjektiva, och det kan vara mer fruktbart att placera båda dessa responser på en skala av objektivitet, där enkätfrågor betraktas som mindre objektiva, och exempelvis fysiologiska responser anses mer objektiva. När det gäller enkätfrågor så betraktas ibland frågor som avser att undersöka respondentens beteenden som mer objektiva än frågor som frågor handlar om attityder. Om vi flyttar fokus till fysiologiska mätmetoder så kan vi på samma sätt skilja mellan mätdata som är mer viljestyrd hos deltagaren (t.ex. var blicken riktas på en datorskärm), respektive mätdata som är mindre viljestyrd (t.ex. hur utvidgade pupillerna är). Det förra fallet handlar om mindre objektiva responser, det senare om mer objektiva. Subjektiva och objektiva responser är alltså ingen absolut distinktion.</p>
 <table>
-<caption>
-<span id="tab:tab02-07-3">Table 7.1: </span>Mätinstrument och objektivitet i mätdata
-</caption>
+<caption><span id="tab:tab02-07-3">Table 7.1: </span>Mätinstrument och objektivitet i mätdata</caption>
 <thead>
-<tr>
-<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="4">
-<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
-mätinstrument
-</div>
-</th>
-</tr>
-<tr>
-<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="2">
-<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
-enkätdata
-</div>
-</th>
-<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="2">
-<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
-fysiologisk data
-</div>
-</th>
-</tr>
-<tr>
-<th style="text-align:left;">
-minst objektiv
-</th>
-<th style="text-align:left;">
-mindre objektiv
-</th>
-<th style="text-align:left;">
-mer objektiv
-</th>
-<th style="text-align:left;">
-mest objektiv
-</th>
+<tr class="header">
+<th align="left">minst objektiv</th>
+<th align="left">mindre objektiv</th>
+<th align="left">mer objektiv</th>
+<th align="left">mest objektiv</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td style="text-align:left;">
-attitydfrågor
-</td>
-<td style="text-align:left;">
-beteendefrågor
-</td>
-<td style="text-align:left;">
-voluntär respons
-</td>
-<td style="text-align:left;">
-involuntär respons
-</td>
+<tr class="odd">
+<td align="left">attitydfrågor</td>
+<td align="left">beteendefrågor</td>
+<td align="left">voluntär respons</td>
+<td align="left">involuntär respons</td>
 </tr>
 </tbody>
 </table>
@@ -413,35 +372,35 @@ involuntär respons
 <table>
 <thead>
 <tr class="header">
-<th>ltagare Vi</th>
-<th>llkor Ut</th>
-<th align="left">fall</th>
+<th align="left">Deltagare</th>
+<th align="left">Villkor</th>
+<th align="left">Utfall</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
-<td>Kontroll</td>
+<td align="left">1</td>
+<td align="left">Kontroll</td>
 <td align="left">Oförändrat</td>
 </tr>
 <tr class="even">
-<td>2</td>
-<td>Behandling</td>
+<td align="left">2</td>
+<td align="left">Behandling</td>
 <td align="left">Positivt</td>
 </tr>
 <tr class="odd">
-<td>3</td>
-<td>Kontroll</td>
+<td align="left">3</td>
+<td align="left">Kontroll</td>
 <td align="left">Oförändrat</td>
 </tr>
 <tr class="even">
-<td>4</td>
-<td>Behandling</td>
+<td align="left">4</td>
+<td align="left">Behandling</td>
 <td align="left">Oförändrat</td>
 </tr>
 <tr class="odd">
-<td>...</td>
-<td>...</td>
+<td align="left">...</td>
+<td align="left">...</td>
 <td align="left">...</td>
 </tr>
 </tbody>
@@ -492,39 +451,39 @@ involuntär respons
 <table>
 <thead>
 <tr class="header">
-<th>ltagare St</th>
-<th>imulus 1 St</th>
-<th>imulus 2 St</th>
-<th align="left">imulus 3</th>
+<th align="left">Deltagare</th>
+<th align="left">Stimulus 1</th>
+<th align="left">Stimulus 2</th>
+<th align="left">Stimulus 3</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Deltagare 1 &gt;</td>
-<td>Kontroll</td>
-<td>Behandling A</td>
+<td align="left">Deltagare 1 &gt;</td>
+<td align="left">Kontroll</td>
+<td align="left">Behandling A</td>
 <td align="left">Behandling B</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Deltagare 2 &gt;</td>
-<td>Behandling A</td>
-<td>Kontroll</td>
+<td align="left">Deltagare 2 &gt;</td>
+<td align="left">Behandling A</td>
+<td align="left">Kontroll</td>
 <td align="left">Behandling B</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>Deltagare 3 &gt;</td>
-<td>Behandling B</td>
-<td>Behandling A</td>
+<td align="left">Deltagare 3 &gt;</td>
+<td align="left">Behandling B</td>
+<td align="left">Behandling A</td>
 <td align="left">Kontroll</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>...</td>
-<td></td>
-<td></td>
+<td align="left">...</td>
+<td align="left"></td>
+<td align="left"></td>
 <td align="left"></td>
 <td></td>
 </tr>
@@ -542,31 +501,31 @@ involuntär respons
 <table>
 <thead>
 <tr class="header">
-<th>bellhuvud Ta</th>
-<th>bellhuvud Ta</th>
-<th align="left">bellhuvud</th>
+<th align="left">Tabellhuvud</th>
+<th align="left">Tabellhuvud</th>
+<th align="left">Tabellhuvud</th>
 <th></th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Villkor &gt;</td>
-<td>Kontroll</td>
+<td align="left">Villkor &gt;</td>
+<td align="left">Kontroll</td>
 <td align="left">Behandling A</td>
 <td>Behandling B</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Deltagare &gt;</td>
-<td>Deltagare 1</td>
+<td align="left">Deltagare &gt;</td>
+<td align="left">Deltagare 1</td>
 <td align="left">Deltagare 2</td>
 <td>Deltagare 3</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>...</td>
-<td>Deltagare 4</td>
+<td align="left">...</td>
+<td align="left">Deltagare 4</td>
 <td align="left">Deltagare 5</td>
 <td>Deltagare 6</td>
 <td></td>
@@ -585,31 +544,31 @@ involuntär respons
 <table>
 <thead>
 <tr class="header">
-<th>bellhuvud Ta</th>
-<th>bellhuvud Ta</th>
-<th align="left">bellhuvud</th>
+<th align="left">Tabellhuvud</th>
+<th align="left">Tabellhuvud</th>
+<th align="left">Tabellhuvud</th>
 <th></th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Villkor &gt;</td>
-<td>Kontroll</td>
+<td align="left">Villkor &gt;</td>
+<td align="left">Kontroll</td>
 <td align="left">Behandling A</td>
 <td>Behandling B</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Deltagare &gt;</td>
-<td>Deltagare 1</td>
+<td align="left">Deltagare &gt;</td>
+<td align="left">Deltagare 1</td>
 <td align="left">Deltagare 1</td>
 <td>Deltagare 1</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>...</td>
-<td>Deltagare 2</td>
+<td align="left">...</td>
+<td align="left">Deltagare 2</td>
 <td align="left">Deltagare 2</td>
 <td>Deltagare 2</td>
 <td></td>
@@ -626,38 +585,38 @@ involuntär respons
 <table>
 <thead>
 <tr class="header">
-<th>bellhuvud Ta</th>
-<th>bellhuvud Ta</th>
-<th align="left">bellhuvud</th>
+<th align="left">Tabellhuvud</th>
+<th align="left">Tabellhuvud</th>
+<th align="left">Tabellhuvud</th>
 <th></th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Deltagare 1 &gt;</td>
-<td>Kontroll</td>
+<td align="left">Deltagare 1 &gt;</td>
+<td align="left">Kontroll</td>
 <td align="left">Behandling A</td>
 <td>Behandling B</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Deltagare 1 &gt;</td>
-<td>Kontroll</td>
+<td align="left">Deltagare 1 &gt;</td>
+<td align="left">Kontroll</td>
 <td align="left">Behandling A</td>
 <td>Behandling B</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>Deltagare 2 &gt;</td>
-<td>Kontroll</td>
+<td align="left">Deltagare 2 &gt;</td>
+<td align="left">Kontroll</td>
 <td align="left">Behandling A</td>
 <td>Behandling B</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>...</td>
-<td></td>
+<td align="left">...</td>
+<td align="left"></td>
 <td align="left"></td>
 <td></td>
 <td></td>
@@ -673,31 +632,31 @@ involuntär respons
 <table>
 <thead>
 <tr class="header">
-<th>bellhuvud Ta</th>
-<th>bellhuvud Ta</th>
-<th align="left">bellhuvud</th>
+<th align="left">Tabellhuvud</th>
+<th align="left">Tabellhuvud</th>
+<th align="left">Tabellhuvud</th>
 <th></th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td>Faktor A (nivå 0)</td>
+<td align="left"></td>
+<td align="left">Faktor A (nivå 0)</td>
 <td align="left">Faktor A (nivå 1)</td>
 <td>Faktor A (nivå 2)</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Faktor B (nivå 0)</td>
-<td>Kontroll A0/B0</td>
+<td align="left">Faktor B (nivå 0)</td>
+<td align="left">Kontroll A0/B0</td>
 <td align="left">Behandling A1/B0</td>
 <td>Behandling A2/B0</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>Faktor B (nivå 1)</td>
-<td>Behandling A0/B1</td>
+<td align="left">Faktor B (nivå 1)</td>
+<td align="left">Behandling A0/B1</td>
 <td align="left">Behandling A1/B1</td>
 <td>Behandling A2/B1</td>
 <td></td>
