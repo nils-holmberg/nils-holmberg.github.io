@@ -1,10 +1,8 @@
 # Kapitel {#chap03}
-[03-0-wc-file]: <> (10.00 %)
+[03-0-wc-file]: <> (11.42 %)
 [03-0-comment]: <> (1 sidor)
 
-I denna del av boken följer vi utvecklingen och genomförandet av ett samhällsvetenskapligt experiment. 
-
-some [@xie2015] reference
+I denna del av boken följer vi utvecklingen och genomförandet av ett samhällsvetenskapligt experiment. Exempel på en [@xie2015] referens kommer här.
 
 
 

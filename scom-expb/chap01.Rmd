@@ -1,13 +1,12 @@
 # Kapitel {#chap01}
-[01-0-wc-file]: <> (17.85 %)
+[01-0-wc-file]: <> (19.64 %)
 [01-0-comment]: <> (1 sidor)
 
-I denna del av boken följer vi utvecklingen och genomförandet av ett samhällsvetenskapligt experiment. 
+I denna del av boken följer vi utvecklingen och genomförandet av ett samhällsvetenskapligt experiment. Exempel på en **figur** kommer här:
 
-some **figure**
-```{r some-fig, fig.cap='Here is some figure!', out.width='80%', fig.asp=.75, fig.align='center'}
+```{r fig01-01, fig.cap='En figur.', out.width='80%', fig.asp=.75, fig.align='center', echo=F, results=F, message=F}
 par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
+#plot(pressure, type = 'b', pch = 19)
 ```
 
 

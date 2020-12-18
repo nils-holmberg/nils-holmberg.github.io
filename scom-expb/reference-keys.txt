@@ -1,5 +1,3 @@
-fig:some-fig
-tab:nice-tab
 tab:test-tab
 fig:img-model
 tab:tab02-07-3

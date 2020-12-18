@@ -1,13 +1,12 @@
 # Kapitel {#chap02}
-[02-0-wc-file]: <> (16.07 %)
+[02-0-wc-file]: <> (17.50 %)
 [02-0-comment]: <> (1 sidor)
 
-I denna del av boken följer vi utvecklingen och genomförandet av ett samhällsvetenskapligt experiment. 
+I denna del av boken följer vi utvecklingen och genomförandet av ett samhällsvetenskapligt experiment. Exempel på en **tabell** kommer här:
 
-some **table** 
-```{r nice-tab, tidy=FALSE}
+```{r tab02-01, tidy=F, echo=F, results=F, message=F}
 knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
+  head(iris, 20), caption = 'En tabell.',
   booktabs = TRUE
 )
 ```
