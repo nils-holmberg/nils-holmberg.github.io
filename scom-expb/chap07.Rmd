@@ -106,7 +106,7 @@ När man väl genomfört studien och är i färd med att rapportera vilka person
 \- bortfall, missing cases
 
 ## Mätinstrument {#sec07.3}
-[07-3-wc-file]: <> (86.89 %)
+[07-3-wc-file]: <> (87.42 %)
 [07-3-comment]: <> (10 sidor)
 
 I en experimentell studie är det avgörande att införliva mätinstrument som på ett giltigt och tillförlitligt sätt kan uppmäta effekten av en behandling på en eller flera responsvariabler. En viktig anledning till att experiment och mätinstrument är nära förknippade, är att denna typ av positivistisk forskning syftar till att försöka säkerställa en faktisk skillnad mellan olika grupper av deltagare och olika typer av behandlingar, vilket till syvende och sist kräver analys med hjälp av statistiska metoder. Det räcker alltså inte med att forskaren rapporterar en subjektivt upplevd skillnad mellan försöksgrupper; denna skillnad måste bevisas!
@@ -115,9 +115,10 @@ I detta sammanhang bör mätinstrument uppfattas som ett relativt abstrakt begre
 
 I det hypotetiska experiment som vi resonerar om i denna bok används två olika mätinstrument för att registrera olika typer av responser hos deltagarna i samband med att de tittar på Facebook-poster med bilder föreställande auktoritetspersoner respektive neutrala eller okända personer. I första steget används en ögonrörelsemätare för att mäta hur försöksdeltagarna visuella uppmärksamhet fördelar sig över Facebook-posten, och sedan används en 7-gradig Likert-skala för att mäta hur bildinnehållet påverkat deras attityder angående postens trovärdighet. De hypoteser som antagits för detta experiment är att auktoritetspersoner kommer att orsaka en ökning av visuell uppmärksamhet (dvs. hur länge deltagarna tittar på bilden), samt en ökning av upplevd trovärdighet hos posten (dvs. hur höga värden som väljs på Likert-skalan). En viktig skillnad mellan dessa två mätinstrument är att ögonrörelsemätning fångar ett objektivt beteende hos deltagaren, medan Likert-skalor registrerar mer subjektiva responser som rapporteras av deltagaren själv. Denna skillnad utvecklas lite mer i det följande (avsnitt [7.3.2](#sub07.3.2)).
 
-Ta upp levels of measurement. Olika mätnivåer. Nominal, Kvot-skala. Intervall. 
+### Olika mätnivåer {#sub07.3.1}
+Ta upp levels of measurement. Olika mätnivåer. Nominal, Kvot-skala. Intervall. Nominal tillåter bara analyser som handlar om att räkna antal förekomster.
 
-### Mätning av subjektiva responser {#sub07.3.1}
+### Mätning av subjektiva responser {#sub07.3.2}
 
 En subjektiv respons innebär att det är helt upp till försöksdeltagaren att avgöra vilka mätdata man vill och kan lämna. Denna situation uppstår med nödvändighet i alla former av enkätfrågor, där själva frågekonstruktionen är öppen för deltagarens tolkning, och där deltagaren själv får bestämma vilket svarsalternativ den väljer att lämna som respons. Dessutom kan det uppstå systematiska felkällor (s.k. bias) beroende på hur forskaren samlar in svaren (t.ex. genom intervju eller skriftligt). Det är lätt att inse att ett sådant mätinstrument gör sig beroende av varje deltagares individuella förmåga och motivation att lämna giltiga svar, och att den mätdata som samlas in kommer att innehålla olika former av bruskällor som kan förvränga de sanna mätvärdena.
 
@@ -127,7 +128,7 @@ För att hantera några av enkätens inneboende problem som mätinstrument har f
 
 När det gäller svarsalternativ till dessa tänkta enkätfrågor om lycka, är det vanligt att använda så kallade likert-skalor, där deltagaren kan indikera ett värde mellan exempelvis 1 och 7, där lägre och högre värden betyder mindre respektive mer upplevd lycka, och mittenalternativet är neutralt. Genom att använda likartade skalor på flera enkätfrågor skapas ett någorlunda standardiserat format för svarsalternativen som deltagaren förhoppningsvis har lättare att ta ställning till. De numeriska värden som erhålls på varje individuell fråga kan sedan sammaställas till ett så kallat index genom att ta medelvärdet av deltagarens alla responser kring lycka. Detta antas öka tillförlitligheten eller reliabiliteten i mätinstrumentet. Men kom ihåg att denna typ av data är självrapporterad!
 
-### Mätning av objektiva responser {#sub07.3.2}
+### Mätning av objektiva responser {#sub07.3.3}
 
 Objektiva responser är inte väsenskilda från subjektiva, och därför är det mer fruktbart att placera båda dessa responser på en skala av objektivitet, där enkätfrågor kan betraktas som mindre objektiva, och exempelvis fysiologiska responser anses mer objektiva. När det gäller enkätfrågor så betraktas ibland frågor som avser att undersöka respondentens beteenden som mer objektiva än frågor som frågor handlar om attityder (ref). Om vi flyttar fokus till fysiologiska mätmetoder så kan vi på samma sätt skilja mellan responser som är mer viljestyrda hos deltagaren (t.ex. var blicken riktas på en datorskärm), respektive mätdata som är mindre viljestyrd (t.ex. hur utvidgade pupillerna är). Det förra fallet handlar om mindre objektiva responser, det senare om mer objektiva. Subjektiva och objektiva responser är alltså ingen absolut distinktion. 
 
@@ -156,7 +157,7 @@ Andra exempel på fysiologiska och beteendevetenskapliga mätdata kan utgöras a
 
 Här kan vi eventuellt använda en analogi från rättsväsendet, där man ibland skiljer mellan indicier (t.ex. vittnesuppgifter) och fysiskt bindande bevisning. Indicier handlar om bevismaterial som är mer subjektiva och därmed föremål för tolkning, vilket gör att det krävs mer sådan. Medicinska experiment där vi objektivt mäter 1) aktiv substans, 2) egenskaper hos deltagare, 3) antal viruspartiklar i blodet. Denna typ av direkta mätningar är inte alltid relevant inom samhällsvetenskaplig forskning.
 
-### Beroende variabler {#sub07.3.3}
+### Beroende variabler {#sub07.3.4}
 
 I det tänkta experiment som ligger till grund för denna bok, använder vi oss huvudsakligen av två mätinstrument. Vi använder en så kallad ögonrörelsemätare (på engelska "eye-tracker\") för att göra objektiva och kontinuerliga mätningar av hur läsarnas visuella uppmärksamhet fördelar sig över ytan på de Facebook-artiklar vi visar som stimuli på en datorskärm. Därefter använder vi en digital enkät som presenteras på samma datorskärmen _efter_ varje Facebook-post. Enkäten består av två-tre frågor om hur försöksdeltagaren upplever trovärdigheten i varje Facebook-post, och varje enkätfråga är kopplad till en likert-skala, där och olika aspekter av upplevd trovärdighet mäts på en skala mellan 1 och 7, och där högre värden används för att indikera högre trovärdighet. 
 
@@ -164,7 +165,7 @@ Här gäller det att hålla i minnet att hälften av Facebook-posterna vi använ
 
 Syftar generellt till att uppmäta och registrera en respons på ett stimuli eller en behandling, därför säger man ibland att syftet med mätinstrumenten är att på ett giltigt och tillförlitligt sätt mäta en responsvariabel. Ofta kontinuerlig eller binär (logistisk regression), men kan också vara multinomial eller kategorisk. Survey-frågor, svarsalternativ, likertskalor, attityder. \"Beror\" av en kronologiskt föregående orsak, dvs. behandling. På engelska kallas detta \"dependent variable\". Beroende variabler kallas ibland också mätvariabler eller utfallsvariabler. Jämför med oberoende variabler, förklaringsvariabler, experimentella villkor, behandlingar i nästa stycke av boken. På engelska \"independent variable\". Varje modell har _en_ beroende, flera oberoende variabler. Kausala samband har potentiellt större förklaringsvärde än associativa samband (korrelationer).
 
-### Planering av mätinstrument {#sub07.3.4}
+### Planering av mätinstrument {#sub07.3.5}
 
 När vi genomför ett experiment kräver detta nogrann planering av de mätinstrument vi avser att använda för att uppmäta deltagarnas responser i relation till kontrollvillkor respektive behandling. Ett typiskt experiment omfattar oftast mätning av _en_ responsvariabel, men i det tänkta experiment vi diskuterar i denna bok, mäter vi _två_ typer av responser med olika mätinstrument. Förutom att vi behöver planera hur vi ska använda varje enskilt mätinstrument, behöver vi alltså också planera för hur vi ska kombinera dessa mätningar. Den viktigaste principen här är att designa experimentet så att den ena mätningen inte alltför mycket påverkar den andra mätningen (systematiskt bias). Som exempel kan vi tänka oss en situation där vi först använder en survey för att mäta deltagarnas generella tilltro till innehåll på sociala medier, och sedan mäter deltagarnas visuella uppmärksamhet på en Facebook-post. I denna situation får vi anta den första mätningen (survey) till viss del influerar eller "spiller över" på den andra mätningen (blickbeteende). Beroende på vilken frågeställning experimentet är tänkt att svara på, kan detta vara mer eller mindre problematiskt. Generellt kan man säga att denna typ av priming-effekter bör minimeras, men ibland är de oundvikliga, och ibland är de till och med önskvärda (t.ex. i priming-experiment).
 
@@ -172,7 +173,7 @@ I denna bok använder vi ögonrörelsemätning som ett slags representant för f
 
 Jämfört med fysiologiska mätmetoder är det relativt enkelt att administrera en enkät som mätinstrument. Dock kräver även detta mätinstrument att forskaren nogrant sätter sig in i metodlitteratur kring hur enkätfrågor och svarsalternativ bör utformas för ett generera så giltig och tillförlitlig mätdata som möjligt. När vi exempelvis försöker mäta en latent variabel som "upplevd trovärdighet" kan det vara viktigt att planera för flera olika enkätfrågor som var och en mäter olika aspekter av denna kognitiva process. Dessutom är det viktigt att planera utformningen av svarsalternativ i form av likert-skalor till respektive enkätfråga. Tillvägagångssätt, planering. Diskutera utifrån exempel-experiment med bildinnehåll hos Facebook-poster. Ögonrörelsemätning för visuell uppmärksamhet, Likert-skalor för attitydmätning. Giltighet och tillförlitlighet hos alla mätvariabler, beroende variabler som används i studien. Återkoppla till pilottest. use multiple indicators of trust in leif gw facebook posts..
 
-### Rapportering av mätinstrument {#sub07.3.5}
+### Rapportering av mätinstrument {#sub07.3.6}
 
 Rapportering. På engelska kallas detta avsnitt ofta för \"apparatus\". Exempel på hur detta skulle kunna formuleras i ett artikelmanuskript. Utgår från exempel-experimentet. Survey-frågor + svarsalternativ, likertskalor, attityder, beroende variabler. Självrapportering. Intervjusvar. Potentiellt problem med validitet, reliabilitet. Hänvisa till litteratur om enkätundersökningar, t.ex. Trost. Dessutom använder vi surveyfrågor med likertskalor för att mäta hur läsarna skattar artiklarnas trovärdighet. Implementeras som t.ex. Google forms. Diskutera validitet. Objektiva eller självrapporterade mätningar
 
