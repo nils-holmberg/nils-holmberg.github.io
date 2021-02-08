@@ -4,16 +4,16 @@
 
 some text..
 
-  term                         estimate   std.error   statistic   p.value
-  -------------------------- ---------- ----------- ----------- ---------
-  (Intercept)                      1.06        0.14        7.39      0.00
-  gen\_trav\_int                  -0.01        0.04       -0.29      0.77
-  dest\_info\_mean                 0.43        0.02       17.91      0.00
-  demo\_age                        0.00        0.00        1.22      0.22
-  as.factor(demo\_gender)2         0.13        0.06        2.34      0.02
-  demo\_nationalityswe            -0.01        0.06       -0.12      0.91
+Table: gen_insec_mean  
+|term                    | estimate| std.error| statistic| p.value| 
+|:-----------------------|--------:|---------:|---------:|-------:| 
+|(Intercept)             |    1.065|     0.144|     7.393|   0.000| 
+|gen_trav_int            |   -0.011|     0.039|    -0.287|   0.774| 
+|dest_info_mean          |    0.434|     0.024|    17.915|   0.000| 
+|demo_age                |    0.002|     0.002|     1.222|   0.222| 
+|as.factor(demo_gender)2 |    0.134|     0.057|     2.337|   0.020| 
+|demo_nationalityswe     |   -0.007|     0.059|    -0.117|   0.907|
 
-  : some captio
 
 some text
 
