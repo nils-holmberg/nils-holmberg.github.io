@@ -65,9 +65,11 @@ some text..
 # Results
 
 general perceived insecurity by gender
+
 ![alt text](https://github.com/nils-holmberg/nils-holmberg.github.io/blob/main/scom-tour/fig/gen-insec-nat-gender-03.png?raw=true)
 
 perceived security by destination
+
 ![alt text](https://github.com/nils-holmberg/nils-holmberg.github.io/blob/main/scom-tour/fig/dest-sec-nat-03.png?raw=true)
 
 Table: regression model 1
