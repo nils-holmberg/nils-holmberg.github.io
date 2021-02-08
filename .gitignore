@@ -2,10 +2,11 @@
 .RData
 .Rhistory
 
-# folders
+# folders and files
 log/*
 tmp/*
 scom-tour/src/*
+!scom-tour/src/sjht-ms.md
 scom-tour/log/*
 scom-tour/tmp/*
 
