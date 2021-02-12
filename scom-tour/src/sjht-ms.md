@@ -72,17 +72,27 @@ perceived security by destination
 
 ![alt text](https://github.com/nils-holmberg/nils-holmberg.github.io/blob/main/scom-tour/fig/dest-sec-nat-03.png?raw=true)
 
-Table: regression model 1
-|term                    | estimate| std.error| statistic| p.value|
-|:-----------------------|--------:|---------:|---------:|-------:|
-|(Intercept)             |    1.065|     0.144|     7.393|   0.000|
-|gen_trav_int            |   -0.011|     0.039|    -0.287|   0.774|
-|dest_info_mean          |    0.434|     0.024|    17.915|   0.000|
-|demo_age                |    0.002|     0.002|     1.222|   0.222|
-|as.factor(demo_gender)2 |    0.134|     0.057|     2.337|   0.020|
-|demo_nationalityswe     |   -0.007|     0.059|    -0.117|   0.907|
+Table: regression model 1, mean general insecurity
+|term                           | estimate| std.error| statistic| p.value|
+|:------------------------------|--------:|---------:|---------:|-------:|
+|(Intercept)                    |    1.191|     0.128|     9.313|   0.000|
+|gen_trav_int                   |   -0.011|     0.039|    -0.287|   0.774|
+|dest_info_mean                 |    0.434|     0.024|    17.915|   0.000|
+|demo_age                       |    0.002|     0.002|     1.222|   0.222|
+|as.factor(demo_gender)male     |   -0.134|     0.057|    -2.337|   0.020|
+|as.factor(demo_nationality)swe |    0.007|     0.059|     0.117|   0.907|
 
-Table: regression model 2
+Table: regression model 2, perceived destination security
+|term                           | estimate| std.error| statistic|
+|:------------------------------|--------:|---------:|---------:|
+|(Intercept)                    |    4.812|     0.202|    23.846|
+|gen_insec_mean                 |   -0.101|     0.034|    -2.938|
+|gen_trav_int                   |   -0.088|     0.042|    -2.086|
+|dest_trav_int                  |   -0.118|     0.025|    -4.833|
+|dest_info_mean                 |    0.047|     0.033|     1.421|
+|demo_age                       |    0.000|     0.002|     0.124|
+|as.factor(demo_gender)male     |    0.024|     0.061|     0.390|
+|as.factor(demo_nationality)swe |    0.169|     0.085|     1.990|
 
 ## Perceived security in tourists
 
