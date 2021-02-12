@@ -82,17 +82,17 @@ Table: regression model 1, mean general insecurity
 |as.factor(demo_gender)male     |   -0.134|     0.057|    -2.337|   0.020|
 |as.factor(demo_nationality)swe |    0.007|     0.059|     0.117|   0.907|
 
-Table: regression model 2, perceived destination security
-|term                           | estimate| std.error| statistic|
-|:------------------------------|--------:|---------:|---------:|
-|(Intercept)                    |    4.812|     0.202|    23.846|
-|gen_insec_mean                 |   -0.101|     0.034|    -2.938|
-|gen_trav_int                   |   -0.088|     0.042|    -2.086|
-|dest_trav_int                  |   -0.118|     0.025|    -4.833|
-|dest_info_mean                 |    0.047|     0.033|     1.421|
-|demo_age                       |    0.000|     0.002|     0.124|
-|as.factor(demo_gender)male     |    0.024|     0.061|     0.390|
-|as.factor(demo_nationality)swe |    0.169|     0.085|     1.990|
+Table: regression model 2 (mixed effects), perceived destination security
+|term                           | Estimate| Std..Error| t.value|   p.z|
+|:------------------------------|--------:|----------:|-------:|-----:|
+|(Intercept)                    |    4.812|      0.202|  23.846| 0.000|
+|gen_insec_mean                 |   -0.101|      0.034|  -2.938| 0.003|
+|gen_trav_int                   |   -0.088|      0.042|  -2.086| 0.037|
+|dest_trav_int                  |   -0.118|      0.025|  -4.833| 0.000|
+|dest_info_mean                 |    0.047|      0.033|   1.421| 0.155|
+|demo_age                       |    0.000|      0.002|   0.124| 0.901|
+|as.factor(demo_gender)male     |    0.024|      0.061|   0.390| 0.696|
+|as.factor(demo_nationality)swe |    0.169|      0.085|   1.990| 0.047|
 
 ## Perceived security in tourists
 
