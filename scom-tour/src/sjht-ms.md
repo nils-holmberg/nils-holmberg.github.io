@@ -82,7 +82,7 @@ Table: regression model 1, mean general insecurity
 |as.factor(demo_gender)male     |   -0.134|     0.057|    -2.337|   0.020|
 |as.factor(demo_nationality)swe |    0.007|     0.059|     0.117|   0.907|
 
-Table: regression model 2 (mixed effects), perceived destination security
+Table: regression model 2 (mixed effects), destination security
 |term                           | Estimate| Std..Error| t.value|   p.z|
 |:------------------------------|--------:|----------:|-------:|-----:|
 |(Intercept)                    |    4.812|      0.202|  23.846| 0.000|
