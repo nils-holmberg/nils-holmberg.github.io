@@ -41,7 +41,7 @@ some text..
 
 - H4b: Destination security will be higher in males and Swedish tourists
 
-## Models
+## Theoretical models
 ![theoretical models](https://github.com/nils-holmberg/nils-holmberg.github.io/blob/main/scom-tour/fig/analysis-results-200922.png?raw=true)
 
 # Methods
