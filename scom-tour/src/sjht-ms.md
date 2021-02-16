@@ -1,10 +1,14 @@
 ---
-title: An R Markdown document converted from "src/sjht-ms.ipynb"
-output: html_document
+title: Explaining differences in perceived security in tourists visiting Swedish destinations
+updated: 210216
 ---
 
 # Abstract
-some text..
+The results of the survey will be presented in two steps. First, some general descriptive statistics will be presented, and secondly, we use inferential statistics to test the hypotheses H1-H4 provided by the theoretical model that was generated through the literature review of previous research. Descriptive statistics show roughly a 40 / 60 percent split between international and swedish visitors respectively. About 57% of the respondents identified as women. Focusing on the first dependent variable in the study, general insecurity in tourists, descriptives show small differences in perceived insecurity depending on nationality and gender, with an overall mean insecurity score of about 2.5 on a 5 point likert scale (cf. figure 1). The second dependent measure, percieved destination security (cf. figure 2), show overall high ratings among international tourists across 11 different destinations (4.5 on a 5 point likert scale). Swedish tourists generally reported lower scores on destionation security (4.0 on the same scale).
+
+To test the hypothesized associations between measures as predicted by the theoretical model, two multiple regression analyses were performed using the statistical software R. First, a number of measures were investigated for their explanatory contribution in relation to respondents' perceptions of general insecurity while travelling to tourist destinations. The measures included in this model were as follows: 1) swedish or international tourists, 2) .. Results from the multiple linear regression model shows tha t
+
+Based on the theoretical model, we hypothesized that this dependent measure would be negatively associated with 
 
 
 # Introduction
