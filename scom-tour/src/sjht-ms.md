@@ -1,14 +1,17 @@
 ---
 title: Explaining differences in perceived security in tourists visiting Swedish destinations
-updated: 210216
+updated: 210217
 ---
 
 # Abstract
-The results of the survey will be presented in two steps. First, some general descriptive statistics will be presented, and secondly, we use inferential statistics to test the hypotheses H1-H4 provided by the theoretical model that was generated through the literature review of previous research. Descriptive statistics show roughly a 40 / 60 percent split between international and swedish visitors respectively. About 57% of the respondents identified as women. Focusing on the first dependent variable in the study, general insecurity in tourists, descriptives show small differences in perceived insecurity depending on nationality and gender, with an overall mean insecurity score of about 2.5 on a 5 point likert scale (cf. figure 1). The second dependent measure, percieved destination security (cf. figure 2), show overall high ratings among international tourists across 11 different destinations (4.5 on a 5 point likert scale). Swedish tourists generally reported lower scores on destionation security (4.0 on the same scale).
+The results of the survey will be presented in two steps. First, some general descriptive statistics will be presented, and secondly, we use inferential statistics to test the hypotheses H1-H4 provided by the theoretical models generated through literature review of previous research. Descriptive statistics show roughly a 40 / 60 percent split between international and swedish visitors respectively. About 57% of the respondents identified as women. Focusing on the first dependent variable in the study, general insecurity in tourists, descriptive analyses show small differences in perceived insecurity depending on nationality and gender, with an overall mean insecurity score of about 2.5 on a 5-point likert scale (cf. Figure 1). The second dependent measure, percieved destination security (cf. Figure 2), show overall high ratings among domestic and international tourists across 11 different destinations (on average 4.5 on a 5-point likert scale). On average, Swedish tourists generally reported lower scores on destionation security (4.0 on the same scale).
 
-First, a number of measures were investigated for their explanatory contribution in relation to respondents' perceptions of general insecurity while travelling to tourist destinations. Based on a theoretical model informed by previous research within tourism and travelling, we hypothesized that tourists' general insecurity would be negatiely associated with their general travelling frequency (H2a). We also hypothesized that this dependent measure would be positively associated with information search (H3a), such that the more tourists search for info the more general insecurity they feel. Finally, we hypothesized that female gender and international country of origin would be associated with higher levels of perceived general insecurity (H4a).
+A number of measures were investigated for their explanatory contribution in relation to respondents' perceptions of general insecurity while travelling to Swedish tourist destinations. Based on the theoretical model informed by previous research within tourism and travelling, we hypothesized that tourists' general insecurity would be negatiely associated with their general travelling frequency (H2a). We also hypothesized that this dependent measure would be positively associated with destingation information search (H3a), such that the more general insecurity tourists feel, the more they search for travelling information. Finally, we hypothesized that female gender and international country of origin would be associated with higher levels of perceived general insecurity (H4a).
 
-To test these hypothesized associations a multiple regression analysis was performed using the statistical software R. The results of the regression model indicated that general travelling frequency in tourists was indeed associated with sligtly lower levels of general insecurity. However, as this effect did not reach significance, our observed data do not provide evedince for this hypothesis. By contast, results of the regression model indicate a strong positive association between information search about the destination and perceived insecurity (p<0.05, t=17.915) which can be interpreted such that individuals that are high in general insecurity tend to engage more in information search related to their travelling destinations. Thus, our data provide strong support for hypothesis H3a. Finally, our regression analysis revealed no effect of tourist nationality on general insecurity. However, the model indicated a strong association between male gender in tourists and lower levels of perceived insecurity. Consequently, our evidence provides mixed support for hypothesis H4a.
+To test these hypothesized associations, a multiple regression analysis was performed using the statistical software R. The results of the regression model indicated that general travelling frequency in tourists was indeed associated with sligtly lower levels of general insecurity. However, as this effect did not reach significance, our observed data do not provide support for this hypothesis. By contast, results of the regression model indicate a strong positive association between information search about the destination and perceived insecurity (p<0.05, t=17.915) which can be interpreted such that individuals that are high in general insecurity tend to engage more in information search related to their travelling destinations. Thus, our data provide strong support for hypothesis H3a. Finally, our regression analysis revealed no effect of tourist nationality on general insecurity. However, the model indicated a strong association between male gender in tourists and lower levels of perceived insecurity (p<0.05, t=-2.337). Consequently, our evidence provides mixed support for hypothesis H4a. The R-squared measure reported by the regression model, indicated that this set of predictors explained about 23.84% if the variability in perceived general insecurity in tourists.
+
+Our survey study also included a dependent variable measuring tourists' percieved security at their travel destination, and investigated how a set of 
+
 
 # Introduction
 
@@ -66,16 +69,14 @@ To test these hypothesized associations a multiple regression analysis was perfo
 \[present here \...\]
 
 # Results
+Descriptive analysis of dependent measures general insecurity and destination security.
 
-general perceived insecurity by gender
+Figure 1: (A left, B right)
+![figure](https://github.com/nils-holmberg/nils-holmberg.github.io/blob/main/scom-tour/fig/per-sec-combined-01.png?raw=true)
 
-![alt text](https://github.com/nils-holmberg/nils-holmberg.github.io/blob/main/scom-tour/fig/gen-insec-nat-gender-04.png?raw=true)
+Inferential analysis of dependent measures general insecurity and destination security.
 
-perceived security by destination
-
-![alt text](https://github.com/nils-holmberg/nils-holmberg.github.io/blob/main/scom-tour/fig/dest-sec-nat-04.png?raw=true)
-
-Table: regression model 1, mean general insecurity
+Table 1: regression model, mean general insecurity
 |term                           | estimate| std.error| statistic| p.value|
 |:------------------------------|--------:|---------:|---------:|-------:|
 |(Intercept)                    |    1.198|     0.138|     8.653|   0.000|
@@ -85,7 +86,7 @@ Table: regression model 1, mean general insecurity
 |as.factor(demo_gender)male     |   -0.134|     0.057|    -2.337|   0.020|
 |as.factor(demo_nationality)swe |   -0.007|     0.059|    -0.117|   0.907|
 
-Table: regression model 2 (mixed effects), destination security
+Table 2: regression model (mixed effects), destination security
 |term                           | Estimate| Std..Error| t.value|   p.z|
 |:------------------------------|--------:|----------:|-------:|-----:|
 |(Intercept)                    |    4.981|      0.194|  25.675| 0.000|
