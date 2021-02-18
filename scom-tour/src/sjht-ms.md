@@ -7,7 +7,7 @@ updated: 210218
 # Abstract
 - Introduction
 - Methods
-- Results of the survey are presented in three steps. First, a descriptive analysis revealed that .. Second, tourists' perceived general insecurity was analyzed as a dependent variable in a multiple linear regression model. .. Third, tourists' perceived destination security was analyzed using a linear mixed effects model 
+- Results of the survey are presented in three steps. First, a descriptive analysis revealed fairly low levels of general insecurity in tourists, while their perceived seurity at various travelling destinations revealed that Swedish tourists generally felt less secure than international visitors. Second, tourists' perceived general insecurity was analyzed as a dependent variable in a multiple linear regression model. The analysis indicated that the most important predictor of insecurity in tourists was the amount of informations search they engaged in prior to travel. Third, tourists' perceived destination security was analyzed using a linear mixed effects model. The most noteworthy results of this analysis were that tourists' frequency of travel, both in general and to specific Swedish destinations, was clearly associated with lower levels of percieved security. Also, this analysis revealed that Swedish residents report significantly lower overall levels of destination security compared to international tourists. 
 - Discussion
 
 # Introduction
