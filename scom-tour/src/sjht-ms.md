@@ -70,10 +70,10 @@ Independent variables:
 - gen_trav_int: sum index, then ordinal 1-3
 - dest_trav_int: likert 1-5 (0-11+)
 - dest_info_mean: mean index 31-35, likert 1-5 
-- demo_age: 
+- demo_age: continuous, 18-80
 - demo_gender: female, male
 - demo_nationality: int, swe
-- destination: 11
+- destination: categories, 11
 
 # Results
 The results of the survey will be presented in two steps. First, some general descriptive statistics will be presented, and secondly, we use inferential statistics to test the hypotheses H1-H4 provided by the theoretical models generated through literature review of previous research. Descriptive statistics show roughly a 40 / 60 percent split between international and swedish visitors respectively. About 57% of the respondents identified as women. Focusing on the first dependent variable in the study, general insecurity in tourists, descriptive analyses show small differences in perceived insecurity depending on nationality and gender, with an overall mean insecurity score of about 2.5 on a 5-point likert scale (cf. Figure 1A). The second dependent measure, percieved destination security (cf. Figure 1B), show overall high ratings among domestic and international tourists across 11 different destinations (on average 4.5 on a 5-point likert scale). On average, Swedish tourists generally reported lower scores on destionation security (4.0 on the same scale).
