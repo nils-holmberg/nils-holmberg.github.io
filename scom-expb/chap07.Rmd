@@ -182,7 +182,7 @@ Rapportering. På engelska kallas detta avsnitt ofta för \"apparatus\". Exempel
 
 
 ## Experimentella villkor {#sec07.4}
-[07-4-wc-file]: <> (64.17 %)
+[07-4-wc-file]: <> (64.32 %)
 [07-4-comment]: <> (10 sidor)
 
 Ett typiskt experiment består ofta av ett kontrollvillkor och ett eller flera experimentella villkor. Ett kontrollvillkor refererar till ett slags naturligt normaltillstånd, som kännetecknas av att deltagaren _inte_ genomgår någon form av behandling, eller exponeras för någon form av manipulation. Experimentella villkor å andra sidan betyder att försöksdeltagaren genomgår just en sådan behandling (t.ex. genom att inta en verksam medicinsk substans) eller utsätts för en manipulation (t.ex. genom exponering för en viss nivå av belysning). I ett enkelt experiment förekommer endast dessa två tillstånd, vilket kan beskrivas med en s.k. oberoende variabel, där frånvaron av behandling (kontrollvillkor) exempelvis representeras av den numeriska symbolen "0", medan förekomsten av en behandling (behandlingsvillkor) representeras av symbolen "1". I termer av mätnivåer, skulle en sådan variabel kallas binär. I mer invecklade experiment kan det förekomma kombinationer av flera olika behandlingar (t.ex. intag av medicin _och_ exponering för belysning) som dessutom utdelas i flera olika _nivåer_ (t.ex. "ingen dos", "låg dos", och "hög dos"). Mer om detta längre fram.
@@ -221,7 +221,7 @@ Experimentella villkor är starkt kopplade till oberoende variabler. Inom den ex
 
 ### Instruktionsvillkor {#sub07.4.3}
 
-En viss uppgift eller instruktion kan också fungera som ett experimentellt villkor. I sådana fall kontrasteras ofta denna uppgift mot ett kontrollvillkor där ingen uppgift eller instruktion ges (t.ex. fri interaktion). Vi kan alltså använda instruktioner för att ge olika uppgifter till två grupper av deltagare, medan resten av experimentet är identiskt för båda grupperna, och i så fall utgör själva uppgiften experimentets manipulation. Låt oss ta ett konkret exempel i form av en undersökning där varje deltagare får titta på ett antal bilder som visas en i taget på en datorskärm samtidigt som vi spelar in deltagarens blickbeteende. Hälften av deltagarna får instruktionen att titta fritt på bilderna (på engelska kallas detta ofta för \"free-viewing\"), medan den andra hälften får instruktionen att leta efter ett specifikt objekt i varje bild (på engelska \"visual search\"). Genom denna variation i instruktioner har vi skapat ett experiment med mellangruppsdesign, innehållande ett kontrollvillkor (titta fritt), samt ett behandlingsvillkor (hitta objekt). Vi kan därefter undersöka om blickbeteende mellan dessa grupper systematiskt skiljer sig åt på det sätt vi antagit i våra hypoteser. (Se även kapitel om experimentdesign, samt kapitel om procedur.)
+En viss uppgift eller instruktion kan också fungera som ett experimentellt villkor. I sådana fall kontrasteras ofta denna uppgift mot ett kontrollvillkor där ingen uppgift eller instruktion ges (t.ex. fri interaktion). Vi kan alltså använda instruktioner för att ge olika uppgifter till två grupper av deltagare, medan resten av experimentet är identiskt för båda grupperna, och i så fall utgör själva uppgiften experimentets manipulation. Låt oss ta ett konkret exempel i form av en undersökning där varje deltagare får titta på ett antal bilder som visas en i taget på en datorskärm samtidigt som vi spelar in deltagarens blickbeteende. Hälften av deltagarna får instruktionen att titta fritt på bilderna (på engelska kallas detta ofta för \"free-viewing\"), medan den andra hälften får instruktionen att leta efter ett specifikt objekt i varje bild (på engelska kallas detta experimentella paradigm \"visual search\"). Genom denna variation i instruktioner har vi skapat ett experiment med mellangruppsdesign, innehållande ett kontrollvillkor (titta fritt), samt ett behandlingsvillkor (hitta objekt). Vi kan därefter undersöka om blickbeteende mellan dessa grupper systematiskt skiljer sig åt på det sätt vi antagit i våra hypoteser. (Se även kapitel om experimentdesign, samt kapitel om procedur.)
 
 ### Kontrollvariabler {#sub07.4.4}
 
@@ -372,12 +372,51 @@ bild kommer ovan
 Håll designen så enkel som möjligt för att underlätta tolkningen av resultat. Helst inte mer än 2x2 design.
 
 ## Procedur {#sec07.6}
-[07-6-wc-file]: <> (2.39 %)
+[07-6-wc-file]: <> (9.67 %)
 [07-6-comment]: <> (10 sidor)
 
-some line
+Handlar i grunden om reliabilitet, standardisering, alla deltagare genomgår samma procedur, externa faktorer hålls så konstanta som möjligt - **Instruktion**, **uppgift**, dvs läs Facebook-artiklarna och bedöm sedan trovärdighet på en ordinal skala. Alternativt kan den skarpa uppgiften döljas, och istället ger man en skenuppgift till deltagarna för att hålla dem naiva om experimentets syfte och undvika bias. Problematiskt med webbaserade survey experiment? Laboratoriemiljö ger mer standardisering. Fokus på experimentledare, vikten av pilottestning. Använd exempel-experimentet.
 
-- reliabilitet, standardisering, alla deltagare genomgår samma procedur, externa faktorer hålls så konstanta som möjligt - **Instruktion**, **uppgift**, dvs läs Facebook-artiklarna och bedöm sedan trovärdighet på en ordinal skala. Alternativt kan den skarpa uppgiften döljas, och istället ger man en skenuppgift till deltagarna för att hålla dem naiva om experimentets syfte och undvika bias
+### Välkomsthälsning {#sub07.6.1}
+
+Genomgång av experimentets samtliga delar som möter försöksdeltagaren. Dvs hälsning, informerat samtycke, förtest, instruktioner, applicering av mätutrustning, kalibrering, 
+
+### Informerat samtycke {#sub07.6.2}
+
+Avbryta när som helst. Genomgång av experimentets samtliga delar som möter försöksdeltagaren. Dvs hälsning, informerat samtycke, förtest, instruktioner, applicering av mätutrustning, kalibrering, 
+
+### Förtest {#sub07.6.3}
+
+Genomgång av experimentets samtliga delar som möter försöksdeltagaren. Dvs hälsning, informerat samtycke, förtest, instruktioner, applicering av mätutrustning, kalibrering, 
+
+### Applicera mätutrustning {#sub07.6.4}
+
+Genomgång av experimentets samtliga delar som möter försöksdeltagaren. Dvs hälsning, informerat samtycke, förtest, instruktioner, applicering av mätutrustning, kalibrering, 
+
+### Försöksinstruktioner {#sub07.6.5}
+
+Genomgång av experimentets samtliga delar som möter försöksdeltagaren. Dvs hälsning, informerat samtycke, förtest, instruktioner, applicering av mätutrustning, kalibrering, 
+
+### Eftertest {#sub07.6.6}
+
+Genomgång av experimentets samtliga delar som möter försöksdeltagaren. Dvs hälsning, informerat samtycke, förtest, instruktioner, applicering av mätutrustning, kalibrering, 
+
+### Debriefing och ersättning {#sub07.6.7}
+
+Genomgång av experimentets samtliga delar som möter försöksdeltagaren. Dvs hälsning, informerat samtycke, förtest, instruktioner, applicering av mätutrustning, kalibrering, 
+
+### Planering av procedur {#sub07.6.8}
+
+Hur lång tid kan man låta ett experiment ta.
+
+### Rapportering av procedur {#sub07.6.9}
+
+Rapportering - exempel på hur detta skulle kunna formuleras i ett manuskript
+
+
+
+
+
 
 ## Dataanalys {#sec07.7}
 [07-7-wc-file]: <> (1.50 %)

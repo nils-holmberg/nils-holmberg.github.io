@@ -54,6 +54,15 @@ sub07.5.8
 sub07.5.9
 sub07.5.10
 sec07.6
+sub07.6.1
+sub07.6.2
+sub07.6.3
+sub07.6.4
+sub07.6.5
+sub07.6.6
+sub07.6.7
+sub07.6.8
+sub07.6.9
 sec07.7
 chap08
 sec08.1
