@@ -182,7 +182,7 @@ Rapportering. På engelska kallas detta avsnitt ofta för \"apparatus\". Exempel
 
 
 ## Experimentella villkor {#sec07.4}
-[07-4-wc-file]: <> (81.14 %)
+[07-4-wc-file]: <> (81.28 %)
 [07-4-comment]: <> (10 sidor)
 
 Ett typiskt experiment består ofta av ett kontrollvillkor och ett eller flera experimentella villkor. Ett kontrollvillkor refererar till ett slags naturligt normaltillstånd, som kännetecknas av att deltagaren _inte_ genomgår någon form av behandling, eller exponeras för någon form av manipulation. Experimentella villkor å andra sidan betyder att försöksdeltagaren genomgår just en sådan behandling (t.ex. genom att inta en verksam medicinsk substans) eller utsätts för en manipulation (t.ex. genom exponering för en viss nivå av belysning). I ett enkelt experiment förekommer endast dessa två tillstånd, vilket kan beskrivas med en s.k. oberoende variabel, där frånvaron av behandling (kontrollvillkor) exempelvis representeras av den numeriska symbolen "0", medan förekomsten av en behandling (behandlingsvillkor) representeras av symbolen "1". I termer av mätnivåer, skulle en sådan variabel kallas binär. I mer invecklade experiment kan det förekomma kombinationer av flera olika behandlingar (t.ex. intag av medicin _och_ exponering för belysning) som dessutom utdelas i flera olika _nivåer_ (t.ex. "ingen dos", "låg dos", och "hög dos"). Mer om detta längre fram.
@@ -205,15 +205,15 @@ använder behandlingsvillkor i rubriken till detta stycke mest för att skapa en
 
 Oberoende variabler hänger konceptuellt samman med experimentella villkor, eller behandlingsvillkor, på så sätt att oberoende variabler används för att operationalisera experimentella villkor. Här påminner vi oss som hastigast om att operationalisering hittills definierats som att göra ett koncept mätbart. Vi kan nu utveckla och konkretisera denna definition genom att säga att en oberoende variabel registrerar varje gång en försöksdeltagare genomgår kontrollvillkoret eller behandlingsvillkoret inom en undersökning. Denna registrering görs i praktiken ofta med hjälp av ett datorprogram för hantering av tabelldata (registerdata) såsom Microsoft Excel, där första kolumnen kan tänkas innehålla alla deltagare i undersökningen (t.ex. deltagarnummer \"1\", \"2\", \"3\", osv), medan den andra kolumnen registrerar om respektive deltagare exponerats för kontrollvillkoret (\"Kontroll\") eller behandlingsvillkoret (\"Behandling\"). Med hjälp av denna uppställning kan alltså en enda oberoende variabel (kolumnen \"Villkor\" i figuren nedan) användas för att representera både kontrollvillkor och behandlingsvillkor. Slutligen används en kolumn för att registrera eller uppmäta den beroende variabeln i undersökningen (kolumnen \"Utfall\"), vilket behandlades i föregående kapitel.
 
-Tabell 1.1 Det här är tabellrubriken
+Table: Mätinstument och objektivitet i mätdata
 
-  Deltagare   Villkor      Utfall
-  ----------- ------------ ------------
-  1           Kontroll     Oförändrat
-  2           Behandling   Positivt
-  3           Kontroll     Oförändrat
-  4           Behandling   Oförändrat
-  \...        \...         \...
+|Deltagare |Villkor    |Utfall     |
+|:---------|:----------|:----------|
+|1         |Kontroll   |Oförändrat |
+|2         |Behandling |Positivt   |
+|3         |Kontroll   |Oförändrat |
+|4         |Behandling |Oförändrat |
+|...       |...        |...        |
 
 I exempel-experimentet som beskrivs i denna bok, skulle kolumnen \"Villkor\" i figuren ovan kanske innehålla värdena \"Neutral person\" (för kontrollvillkoret) eller \"Auktoritetsperson\" (för behandlingsvillkoret), beroende på vilken typ av Facebook-post respektive deltagare exponerats för i undersökningen. I detta fall blir både kategoriska variabler. Skulle finnas två utfallsvariabler, nämligen visuell uppmärksamhet mätt i sekunder, samt upplevd trovärdighet mätt på en skala från 1-7.
 
