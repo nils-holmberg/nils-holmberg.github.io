@@ -24,7 +24,7 @@
 <meta name="author" content="Nils Gustafsson &amp; Nils Holmberg" />
 
 
-<meta name="date" content="2021-02-28" />
+<meta name="date" content="2021-03-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -275,7 +275,7 @@
 <p>I det hypotetiska experiment som vi resonerar om i denna bok används två olika mätinstrument för att registrera olika typer av responser hos deltagarna i samband med att de tittar på Facebook-poster med bilder föreställande auktoritetspersoner respektive neutrala eller okända personer. I första steget används en ögonrörelsemätare för att mäta hur försöksdeltagarna visuella uppmärksamhet fördelar sig över Facebook-posten, och sedan används en 7-gradig Likert-skala för att mäta hur bildinnehållet påverkat deras attityder angående postens trovärdighet. De hypoteser som antagits för detta experiment är att auktoritetspersoner kommer att orsaka en ökning av visuell uppmärksamhet (dvs. hur länge deltagarna tittar på bilden), samt en ökning av upplevd trovärdighet hos posten (dvs. hur höga värden som väljs på Likert-skalan). En viktig skillnad mellan dessa två mätinstrument är att ögonrörelsemätning fångar ett objektivt beteende hos deltagaren, medan Likert-skalor registrerar mer subjektiva responser som rapporteras av deltagaren själv. Denna skillnad utvecklas lite mer i det följande (avsnitt <a href="chap07.html#sub07.3.2">7.3.2</a>).</p>
 <div id="sub07.3.1" class="section level3" number="7.3.1">
 <h3><span class="header-section-number">7.3.1</span> Olika mätnivåer</h3>
-<p>Ta upp levels of measurement. Olika mätnivåer. Nominal, Kvot-skala. Intervall. Nominal tillåter bara analyser som handlar om att räkna antal förekomster.</p>
+<p>Ta upp levels of measurement. Olika mätnivåer. Nominal, Kvot-skala. Intervall. Nominal tillåter bara analyser som handlar om att räkna antal förekomster. Ta upp psychopy3 2020 som exempel.</p>
 </div>
 <div id="sub07.3.2" class="section level3" number="7.3.2">
 <h3><span class="header-section-number">7.3.2</span> Mätning av subjektiva responser</h3>
@@ -393,11 +393,11 @@
 <p>Vid det här laget har förhoppningsvis läsaren fått en någorlunda klar uppfattning om innebörden i begreppen <em>kontrollvillkor</em> resp. <em>behandlingsvillkor</em>, samt begreppen <em>beroende variabel</em> resp. <em>oberoende variabel</em>. Därför kommer vi här att introducera det nya begreppet <em>kontrollvariabel</em> som kan komplicera bilden något, och som därför bäst förstås i kontrast till tidigare nämnda begrepp. Enkelt uttryckt beskriver kontrollvariabler sådana variabler som vi försöker mäta upp inom ett experiment för att dessa variabler inte ska konfundera de statistiska modeller som användes för att utvärdera och sammanställa experimentets resultat (jfr. engelskans “confounds”). Vad betyder detta? Jo om vi inte håller koll på vissa variabler under experimentets genomförande så riskerar de att på mer eller mindre oförutsägbara sätt snedvrida resultaten, och detta vill vi naturligtvis undvika.</p>
 <p>Låt oss ta ett konkret exempel på kontrollvariabler. Vi genomför ett experiment med syfte att undersöka hur två olika nivåer av rumsbelysning (normalt och svagt ljus) påverkar deltagarnas förmåga att läsa text på en datorskärm (exempelvis läshastighet och/eller läsförståelse). Vi rekryterar ett representativt urval av befolkningen som deltagare i studien och låter därefter två slumpmässigt utvalda grupper läsa på datorskärm under var sitt belysningsvillkor. Enligt tidigare forskning förväntar vi oss att gruppen som läste under svag rumsbelysning ska prestera något sämre vad gäller läshastighet jämfört med gruppen som läste under normal belysning. Men när vi sammanställer resultaten visar det sig till vår förvåning att båda grupperna har lika bra läsninghastighet.</p>
 <p>Vad är det som har hänt här? När vi går tillbaka och undersöker våra experimentgrupper upptäcker vi kanske att det slumpmässiga urvalet resulterade i fler äldre personer i gruppen som läste under normal belysning, och fler yngre i gruppen som läste under svag belysning. Eftersom yngre personer generellt sett har bättre syn än äldre, resulterade den skeva ålderfördelningen mellan grupperna att läsprestationen var lika god under båda belysningsvillkor. Hade vi studerat tidigare forskning tillräckligt noga hade vi vetat att synsystemet har inte en konstant funktion över alla åldrar, utan försämras ganska kontinuerligt från medelåldern och framåt. För att isolera effekten av synförmåga från effekten av rumsbelysning hade vi i detta fall alltså behövt mäta varje deltagares <em>ålder</em> som en kontrollvariabel, och ta med denna i den statistiska sammanställningen av studiens resultat.</p>
-<p>Vad vi stött på här ett typ 2 fel, falskt negativt resultat (“type 2 error”). Det är värt att notera att om åldersfördelningen varit skev åt andra hållet, dvs att fler äldre personer råkade befinna sig i villkoret med svag rumsbelysning, så hade resultaten indikerat en överdrivet stor skillnad i läsförmåga mellan grupperna. I detta fall hade vi pratat om ett typ 1 fel, vilket kan vara svårare att upptäcka eftersom resultaten går i den riktning vi förväntar oss. Vi tycker oss i någon mening få bättre och tydligare resutat, trots att vi i sjäva verket fått ett missvisande resultat. Sammanfattningsvis handlar kontrollvariabler egentligen om att vi under ideala förhållanden kanske skulle vilja mäta allt, men vi måste begränsa oss av praktiska skäl, och mäta de viktigaste felkällorna i en undersökning.</p>
+<p>Vad vi stött på här ett typ 2 fel, falskt negativt resultat (“type 2 error”). Det är värt att notera att om åldersfördelningen varit skev åt andra hållet, dvs att fler äldre personer råkade befinna sig i villkoret med svag rumsbelysning, så hade resultaten indikerat en överdrivet stor skillnad i läsförmåga mellan grupperna. I detta fall hade vi pratat om ett typ 1 fel, vilket kan vara svårare att upptäcka eftersom resultaten går i den riktning vi förväntar oss. Vi tycker oss i någon mening få bättre och tydligare resutat, trots att vi i sjäva verket fått ett missvisande resultat. Sammanfattningsvis handlar kontrollvariabler egentligen om att vi under ideala förhållanden kanske skulle vilja mäta allt, men vi måste begränsa oss av praktiska skäl, och mäta (och därigenom kontrollera) de viktigaste felkällorna i en undersökning.</p>
 </div>
 <div id="sub07.4.5" class="section level3" number="7.4.5">
 <h3><span class="header-section-number">7.4.5</span> Utrustning och materiel</h3>
-<p>Implementation (operationalisering) av abstrakt villkor till konkret behandling. Kan vara intag av en medicinsk substans eller exponering för ett visuellt stimuli (material). Utrustning som används för att distribuera materiel. Efter att man avhandlat försöksdeltagare och eventuella pilottest, är det vanligt att man i en journalartikel övergår till att diskutera den tekniska utrustning och apparatur som använts i samband med genomförandet av ett experiment.</p>
+<p>Den mest fysiska nivån, stimulimateriel. Implementation (operationalisering) av abstrakt villkor till konkret behandling. Kan vara intag av en medicinsk substans eller exponering för ett visuellt stimuli (material). Utrustning som används för att distribuera materiel. Efter att man avhandlat försöksdeltagare och eventuella pilottest, är det vanligt att man i en journalartikel övergår till att diskutera den tekniska utrustning och apparatur som använts i samband med genomförandet av ett experiment.</p>
 <p>Generellt: Utrustning som används för att på ett kontrollerat sätt generera eller presentera ett stimuli eller en behandling. Teknisk utrustning som används för att genomföra ett experiment, datorer som används för att spela in data, datorskärm som används för att presentera stimuli (Facebook-artiklar). Presenteras som HTML-sidor I webbläsaren. Synonymt med materiel (engelska materials)?</p>
 <p>Material, Stimulikonstruktion. Här förklarar vi exakt vad det är vi manipulerar eller varierar I experimentet, samt I vilka nivåer en egenskap manipuleras. I exemplet med Facebook-artiklar varierar vi bildinnehållet i två nivåer, "neutral person" och "auktoritetsperson". Vi beskriver också hur vi säkerställt att denna skillnad bildinnehåll är objektiv och uppfattas på samma sätt av olika delagare (intercoder reliability). Vi varierar inte antalet "likes" som respektive Facebook-artikel har fått, eller vilken källa som visas. Vad varieras, vad hålls konstant? Full factorial design may also be called a fully crossed design. Se följande stycke om experimentdesign.</p>
 </div>
@@ -428,15 +428,14 @@
 <p>Randomisering (på engelska "random assignment") innebär i grund och botten att experimentledaren låter slumpen avgöra vilket experimentellt villkor (eller behandling) varje deltagare genomgår. I det enklaste fallet, där experimentet endast består av ett kontrollvillkor samt ett behandlingsvillkor, kan vi tänka oss att experimentledare låter varje deltagare singla slant, och beroende på utfallet (krona eller klave) tilldelar deltagaren ett av de två villkoren. Med tillräckligt många deltagare förutsäger slumpens lagar att fördelningen mellan två experimentella villkor kommer bli ungefär 50%, dvs. att hälften av deltagarna exponeras för kontrollvillkoret, och den andra hälften genomgår behandlingsvillkoret. Det viktigaste syftet med randomisering är dock att försäkra oss om att experimentledaren inte kan påverka experimentets genomförande, och att varje deltagare tilldelas ett villkor på ett sätt som är oberoende av vilket villkor alla andra deltagare tilldelas.</p>
 <p>Dessutom kan randomiseringen användas för att hålla försöksdeltagaren i ovisshet om vilket behandlingsvillkor den exponerats för. Denna experimentdesign är vanlig i medicinska studier, och kallas då för en blind-studie (på engelska "blinded experiment"), dvs. varje försöksdeltagare hålls omedveten om den får ett sockerpiller (kontrollvillkor) eller en verksam substans (behandlingsvillkor). Tanken med denna design är att reducera effekten av deltagarens förväntningar, den så kallade placebo-effekten, för att därigenom erhålla mer tillförlitliga resultat. Inom den medicinska forskningen är det också vanligt att gå ett steg längre, och därigenom även hålla försöksledaren omedveten om vilken behandling en viss deltagare tilldelas. I sådana fall talar man om en dubbel blind-studie (på engelska "double-blind study"). Tanken med att hålla försöksdeltagaren omedveten om vilket experimentellt villkor den exponeras för, är besläktad med tanken att hålla deltagaren omedveten eller "naiv" om syftet med experimentet, dvs. vilka mätvariabler och behandlingsvariabler som används inom experimentet (jfr. 7.2.4). Gemensamt för dessa designprinciper är syftet att reducera bias och öka tillförlitligheten hos studien.</p>
 <p>Återgår vi till att diskutera randomisering mer specifikt, så kan vi konstatera att denna designprincip är ganska enkel och intuitiv så länge en studie bara kontrasterar två villkor, och där varje deltagare endast exponeras för ett av dessa villkor en gång. Denna så kallade mellangruppsdesign (vilken vi diskuterar mer utförligt i nästa avsnitt) fungerar ofta bra för enkla studier, men inom samhällsvetenskap och humanvetenskap kan det ibland krävas något mer avancerade experimentdesigner, vilket i sin tur kräver andra former av randomisering. Detta kan exempelvis inträffa om experimentet innefattar ett kontrollvillkor och två eller flera behandlingsvillkor, eller om varje deltagare genomgår flera villkor, eller om experimentet innehåller någon kombination av dessa situationer. Betänk experimentdesignen som visas i tabellen nedan, där varje deltager genomgår kontrollvillkoret samt två olika behandlingsvillkor.</p>
-<p>Tabell 1.1 Det här är tabellrubriken</p>
 <table>
+<caption>(#tab:tab07.5.2-01)Tabell tab07.5.2-01</caption>
 <thead>
 <tr class="header">
 <th align="left">Deltagare</th>
 <th align="left">Stimulus 1</th>
 <th align="left">Stimulus 2</th>
 <th align="left">Stimulus 3</th>
-<th></th>
 </tr>
 </thead>
 <tbody>
@@ -445,28 +444,24 @@
 <td align="left">Kontroll</td>
 <td align="left">Behandling A</td>
 <td align="left">Behandling B</td>
-<td></td>
 </tr>
 <tr class="even">
-<td align="left">Deltagare 2 &gt;</td>
-<td align="left">Behandling A</td>
+<td align="left">Deltagare-2-&gt;</td>
+<td align="left">Behandling-A</td>
 <td align="left">Kontroll</td>
-<td align="left">Behandling B</td>
-<td></td>
+<td align="left">Behandling-B</td>
 </tr>
 <tr class="odd">
-<td align="left">Deltagare 3 &gt;</td>
-<td align="left">Behandling B</td>
-<td align="left">Behandling A</td>
+<td align="left">Deltagare-3-&gt;</td>
+<td align="left">Behandling-B</td>
+<td align="left">Behandling-A</td>
 <td align="left">Kontroll</td>
-<td></td>
 </tr>
 <tr class="even">
-<td align="left">...</td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
-<td></td>
+<td align="left">…</td>
+<td align="left">…</td>
+<td align="left">…</td>
+<td align="left">…</td>
 </tr>
 </tbody>
 </table>
