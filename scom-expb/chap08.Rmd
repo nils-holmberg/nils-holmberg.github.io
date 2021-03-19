@@ -6,7 +6,7 @@ Denna text kommer är tänkt att ersätta sektion 08 resultat och 09 diskussion.
 
 
 ## Resultat {#sec08.1}
-[08-1-wc-file]: <> (15.98 %)
+[08-1-wc-file]: <> (17.58 %)
 [08-1-comment]: <> (4 sidor)
 
 Här hänvisar vi främst läsaren till befintlig litteratur inom statistiska metoder
@@ -24,6 +24,8 @@ Lägg noga märke till var skiljetecken satts ut, var det ska vara kursiv stil e
 ### Inferentiell statistik {#sub08.1.2}
 
 Här kommer nåt om causal inference. In statistical hypothesis testing a type I error is the rejection of a true null hypothesis (also known as a \"false positive\" finding or conclusion), while a type II error is the non-rejection of a false null hypothesis (also known as a \"false negative\" finding or conclusion
+
+Eventuellt ta upp moderator (counteracts, motverkar en effekt), mediator (förstärker en effekt), visa plot på interaktion, interaction plot
 
 \[1\]). Much of statistical theory revolves around the minimization of one or both of these errors, though the complete elimination of either is a statistical impossibility for non-deterministic algorithms.
 

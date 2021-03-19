@@ -106,7 +106,7 @@ När man väl genomfört studien och är i färd med att rapportera vilka person
 \- bortfall, missing cases
 
 ## Mätinstrument {#sec07.3}
-[07-3-wc-file]: <> (87.64 %)
+[07-3-wc-file]: <> (87.67 %)
 [07-3-comment]: <> (10 sidor)
 
 I en experimentell studie är det avgörande att införliva mätinstrument som på ett giltigt och tillförlitligt sätt kan uppmäta effekten av en behandling på en eller flera responsvariabler. En viktig anledning till att experiment och mätinstrument är nära förknippade, är att denna typ av positivistisk forskning syftar till att försöka säkerställa en faktisk skillnad mellan olika grupper av deltagare och olika typer av behandlingar, vilket till syvende och sist kräver analys med hjälp av statistiska metoder. Det räcker alltså inte med att forskaren rapporterar en subjektivt upplevd skillnad mellan försöksgrupper; denna skillnad måste bevisas!
@@ -116,7 +116,8 @@ I detta sammanhang bör mätinstrument uppfattas som ett relativt abstrakt begre
 I det hypotetiska experiment som vi resonerar om i denna bok används två olika mätinstrument för att registrera olika typer av responser hos deltagarna i samband med att de tittar på Facebook-poster med bilder föreställande auktoritetspersoner respektive neutrala eller okända personer. I första steget används en ögonrörelsemätare för att mäta hur försöksdeltagarna visuella uppmärksamhet fördelar sig över Facebook-posten, och sedan används en 7-gradig Likert-skala för att mäta hur bildinnehållet påverkat deras attityder angående postens trovärdighet. De hypoteser som antagits för detta experiment är att auktoritetspersoner kommer att orsaka en ökning av visuell uppmärksamhet (dvs. hur länge deltagarna tittar på bilden), samt en ökning av upplevd trovärdighet hos posten (dvs. hur höga värden som väljs på Likert-skalan). En viktig skillnad mellan dessa två mätinstrument är att ögonrörelsemätning fångar ett objektivt beteende hos deltagaren, medan Likert-skalor registrerar mer subjektiva responser som rapporteras av deltagaren själv. Denna skillnad utvecklas lite mer i det följande (avsnitt [7.3.2](#sub07.3.2)).
 
 ### Olika mätnivåer {#sub07.3.1}
-Ta upp levels of measurement. Olika mätnivåer. Nominal, Kvot-skala. Intervall. Nominal tillåter bara analyser som handlar om att räkna antal förekomster. Ta upp psychopy3 2020 som exempel.
+
+TODO: Ta upp levels of measurement. Olika mätnivåer. Nominal, Kvot-skala. Intervall. Nominal tillåter bara analyser som handlar om att räkna antal förekomster. Ta upp psychopy3 2020 som exempel.
 
 ### Mätning av subjektiva responser {#sub07.3.2}
 
@@ -182,7 +183,7 @@ Rapportering. På engelska kallas detta avsnitt ofta för \"apparatus\". Exempel
 
 
 ## Experimentella villkor {#sec07.4}
-[07-4-wc-file]: <> (81.57 %)
+[07-4-wc-file]: <> (87.25 %)
 [07-4-comment]: <> (10 sidor)
 
 Ett typiskt experiment består ofta av ett kontrollvillkor och ett eller flera experimentella villkor. Ett kontrollvillkor refererar till ett slags naturligt normaltillstånd, som kännetecknas av att deltagaren _inte_ genomgår någon form av behandling, eller exponeras för någon form av manipulation. Experimentella villkor å andra sidan betyder att försöksdeltagaren genomgår just en sådan behandling (t.ex. genom att inta en verksam medicinsk substans) eller utsätts för en manipulation (t.ex. genom exponering för en viss nivå av belysning). I ett enkelt experiment förekommer endast dessa två tillstånd, vilket kan beskrivas med en s.k. oberoende variabel, där frånvaron av behandling (kontrollvillkor) exempelvis representeras av den numeriska symbolen "0", medan förekomsten av en behandling (behandlingsvillkor) representeras av symbolen "1". I termer av mätnivåer, skulle en sådan variabel kallas binär. I mer invecklade experiment kan det förekomma kombinationer av flera olika behandlingar (t.ex. intag av medicin _och_ exponering för belysning) som dessutom utdelas i flera olika _nivåer_ (t.ex. "ingen dos", "låg dos", och "hög dos"). Mer om detta längre fram.
@@ -205,7 +206,7 @@ använder behandlingsvillkor i rubriken till detta stycke mest för att skapa en
 
 Oberoende variabler hänger konceptuellt samman med experimentella villkor, eller behandlingsvillkor, på så sätt att oberoende variabler används för att operationalisera experimentella villkor. Här påminner vi oss som hastigast om att operationalisering hittills definierats som att göra ett koncept mätbart. Vi kan nu utveckla och konkretisera denna definition genom att säga att en oberoende variabel registrerar varje gång en försöksdeltagare genomgår kontrollvillkoret eller behandlingsvillkoret inom en undersökning. Denna registrering görs i praktiken ofta med hjälp av ett datorprogram för hantering av tabelldata (registerdata) såsom Microsoft Excel, där första kolumnen kan tänkas innehålla alla deltagare i undersökningen (t.ex. deltagarnummer \"1\", \"2\", \"3\", osv), medan den andra kolumnen registrerar om respektive deltagare exponerats för kontrollvillkoret (\"Kontroll\") eller behandlingsvillkoret (\"Behandling\"). Med hjälp av denna uppställning kan alltså en enda oberoende variabel (kolumnen \"Villkor\" i figuren nedan) användas för att representera både kontrollvillkor och behandlingsvillkor. Slutligen används en kolumn för att registrera eller uppmäta den beroende variabeln i undersökningen (kolumnen \"Utfall\"), vilket behandlades i föregående kapitel.
 
-Table: Mätinstument och objektivitet i mätdata
+Table: Experimentella villkor och oberoende variabler
 
 |Deltagare |Villkor    |Utfall     |
 |:---------|:----------|:----------|
@@ -235,11 +236,13 @@ Vad vi stött på här ett typ 2 fel, falskt negativt resultat ("type 2 error").
 
 ### Utrustning och materiel {#sub07.4.5}
 
-Den mest fysiska nivån, stimulimateriel. Implementation (operationalisering) av abstrakt villkor till konkret behandling. Kan vara intag av en medicinsk substans eller exponering för ett visuellt stimuli (material). Utrustning som används för att distribuera materiel. Efter att man avhandlat försöksdeltagare och eventuella pilottest, är det vanligt att man i en journalartikel övergår till att diskutera den tekniska utrustning och apparatur som använts i samband med genomförandet av ett experiment.
+När vi genomför ett experiment så brukar det förr eller senare bli aktuellt att fundera på den kanske mest fysiska nivån i undersökningen. Denna fysiska nivå har att göra med den tekniska utrustning vi använder för att presentera stimuli för deltagarna samt för att uppmäta och registrera deras responser. Det kan tyckas sekundärt att beskriva denna nivå i detalj, men i själva verket är just detta viktigt ur metodologisk synvinkel, eftersom det har att göra med andra forskares möjlighet att upprepa resultaten av experimentet. Om vi inte utförligt beskriver vilken utrustning och materiel vi använt i studien minskar möjligheterna att replikera studiens resultat, vilket i sin tur minskar studiens vetenskapliga värde.
 
-Generellt: Utrustning som används för att på ett kontrollerat sätt generera eller presentera ett stimuli eller en behandling. Teknisk utrustning som används för att genomföra ett experiment, datorer som används för att spela in data, datorskärm som används för att presentera stimuli (Facebook-artiklar). Presenteras som HTML-sidor I webbläsaren. Synonymt med materiel (engelska materials)?
+I detta avsnitt kommer vi fokusera på utrustning och materiel i samband med presentation av stimuli och experimentella villkor, men samma typ av diskussion är naturligtvis också relevant i relation till de mätinstument vi använder för att registrera responser, i detta senare fall används ofta den engelska termen "apparatus" (jfr. avsnitt [7.3](#sec07.3) ovan). 
 
-Material, Stimulikonstruktion. Här förklarar vi exakt vad det är vi manipulerar eller varierar I experimentet, samt I vilka nivåer en egenskap manipuleras. I exemplet med Facebook-artiklar varierar vi bildinnehållet i två nivåer, \"neutral person\" och \"auktoritetsperson\". Vi beskriver också hur vi säkerställt att denna skillnad bildinnehåll är objektiv och uppfattas på samma sätt av olika delagare (intercoder reliability). Vi varierar inte antalet \"likes\" som respektive Facebook-artikel har fått, eller vilken källa som visas. Vad varieras, vad hålls konstant? Full factorial design may also be called a fully crossed design. Se följande stycke om experimentdesign.
+Implementation (operationalisering) av abstrakt villkor till konkret behandling. Kan vara intag av en medicinsk substans eller exponering för ett visuellt stimuli (material). Generellt: Utrustning som används för att på ett kontrollerat sätt generera eller presentera ett sinnesstimuli eller en behandling. Teknisk utrustning som används för att genomföra ett experiment, datorer som används för att spela in data, datorskärm som används för att presentera stimuli (Facebook-artiklar). Presenteras som HTML-sidor I webbläsaren. Synonymt med materiel (engelska materials)?
+
+Material, Stimulikonstruktion. Här förklarar vi exakt vad det är vi manipulerar eller varierar i experimentet, samt i vilka nivåer en egenskap manipuleras. I exemplet med Facebook-artiklar varierar vi bildinnehållet i två nivåer, "neutral person" och "auktoritetsperson". Vi beskriver också hur vi säkerställt att denna skillnad bildinnehåll är objektiv och uppfattas på samma sätt av olika delagare (intercoder reliability). Vi varierar inte antalet "likes" som respektive Facebook-artikel har fått, eller vilken källa som visas. Vad varieras, vad hålls konstant? Full factorial design may also be called a fully crossed design. Se följande stycke om experimentdesign.
 
 ### Planering av experimentella villkor {#sub07.4.6}
 
@@ -247,7 +250,11 @@ Tillvägagångssätt, planering. Sammanfattning av avsnitt 7.4. Diskutera utifr�
 
 ### Rapportering av experimentella villkor {#sub07.4.7}
 
-Rapportering - exempel på hur detta skulle kunna formuleras i ett manuskript
+Rapportering - exempel på hur detta skulle kunna formuleras i ett manuskript. Utrustning som används för att distribuera materiel. Efter att man avhandlat försöksdeltagare och eventuella pilottest, är det vanligt att man i en journalartikel övergår till att diskutera den tekniska utrustning och apparatur som använts i samband med genomförandet av ett experiment.
+
+
+
+
 
 ## Experimentell design {#sec07.5}
 [07-5-wc-file]: <> (113.67 %)
