@@ -1,19 +1,19 @@
 # Kapitel {#chap01}
-[01-0-wc-file]: <> (35.35 %)
+[01-0-wc-file]: <> (36.78 %)
 [01-0-comment]: <> (1 sidor)
 
 I denna del av boken följer vi utvecklingen och genomförandet av ett samhällsvetenskapligt experiment. Exempel på en **figur** kommer här:
 
 ```{r fig01-01, fig.cap='En figur.', out.width='80%', fig.asp=.75, fig.align='center', echo=F, results=F, message=F}
 par(mar = c(4, 4, .1, .1))
-#plot(pressure, type = 'b', pch = 19)
+plot(pressure, type = 'b', pch = 19)
 ```
 
+En linjär modell.
 
-
-```{r fig01-02, fig.cap='Figur 1. Linjära modeller', out.width='80%', fig.asp=.75, fig.align='center', echo=F, results=T, message=F}
+```{r fig01-02, fig.cap='Figur 1. Linjära modeller', out.width='80%', fig.asp=.75, fig.align='center'}
 # Predictor vs Criterion {ggplot2} - separate regression lines
-ggplot2::ggplot(data=iris, 
+gp = ggplot2::ggplot(data=iris, 
 ggplot2::aes(x=Sepal.Length,
 y=Petal.Length,
 colour=Species)) + 
@@ -21,6 +21,8 @@ ggplot2::geom_smooth(method=lm) +
 ggplot2::geom_point(size = 2) +
 ggplot2::ggtitle("Sepal Length vs Petal Length") +
 ggplot2::xlab("Sepal Length") + ggplot2::ylab("Petal Length")
+#
+print(gp)
 ```
 
 

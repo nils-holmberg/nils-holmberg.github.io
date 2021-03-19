@@ -183,7 +183,7 @@ Rapportering. På engelska kallas detta avsnitt ofta för \"apparatus\". Exempel
 
 
 ## Experimentella villkor {#sec07.4}
-[07-4-wc-file]: <> (87.92 %)
+[07-4-wc-file]: <> (99.32 %)
 [07-4-comment]: <> (10 sidor)
 
 Ett typiskt experiment består ofta av ett kontrollvillkor och ett eller flera experimentella villkor. Ett kontrollvillkor refererar till ett slags naturligt normaltillstånd, som kännetecknas av att deltagaren _inte_ genomgår någon form av behandling, eller exponeras för någon form av manipulation. Experimentella villkor å andra sidan betyder att försöksdeltagaren genomgår just en sådan behandling (t.ex. genom att inta en verksam medicinsk substans) eller utsätts för en manipulation (t.ex. genom exponering för en viss nivå av belysning). I ett enkelt experiment förekommer endast dessa två tillstånd, vilket kan beskrivas med en s.k. oberoende variabel, där frånvaron av behandling (kontrollvillkor) exempelvis representeras av den numeriska symbolen "0", medan förekomsten av en behandling (behandlingsvillkor) representeras av symbolen "1". I termer av mätnivåer, skulle en sådan variabel kallas binär. I mer invecklade experiment kan det förekomma kombinationer av flera olika behandlingar (t.ex. intag av medicin _och_ exponering för belysning) som dessutom utdelas i flera olika _nivåer_ (t.ex. "ingen dos", "låg dos", och "hög dos"). Mer om detta längre fram.
@@ -238,15 +238,29 @@ Vad vi stött på här ett typ 2 fel, falskt negativt resultat ("type 2 error").
 
 När vi genomför ett experiment så brukar det förr eller senare bli aktuellt att fundera på den kanske mest fysiska nivån i undersökningen. Denna fysiska nivå har att göra med den tekniska utrustning vi använder för att presentera stimuli för deltagarna samt för att uppmäta och registrera deras responser. Det kan tyckas sekundärt att beskriva denna nivå i detalj, men i själva verket är just detta viktigt ur metodologisk synvinkel, eftersom det har att göra med andra forskares möjlighet att upprepa resultaten av experimentet. Om vi inte utförligt beskriver vilken utrustning och materiel vi använt i studien minskar möjligheterna att replikera studiens resultat, vilket i sin tur minskar studiens vetenskapliga värde.
 
-I detta avsnitt kommer vi fokusera på utrustning och materiel i samband med presentation av stimuli och experimentella villkor, men samma typ av diskussion är naturligtvis också relevant i relation till den mätutrustning vi använder för att registrera responser, i detta senare fall används på engelska ofta termen "apparatus" i kontrast till "materials" som mer typiskt används för att beskriva den materiel som används för att presentera stimuli (jfr. avsnitt [7.3](#sec07.3) ovan). 
+I detta avsnitt kommer vi fokusera på utrustning och materiel i samband med presentation av stimuli och experimentella villkor, men samma typ av diskussion är naturligtvis också relevant i relation till den mätutrustning vi använder för att registrera responser. I detta senare fall används på engelska ofta termen "apparatus", i kontrast till "materials", som mer typiskt används för att beskriva den materiel som används för att presentera stimuli (jfr. avsnitt [7.3](#sec07.3) ovan). Innan vi sätter igång med detta är det här läge att vi drar oss till minnes att ett experiment omvandlar abstrakta villkor till konkreta behandlingar genom en process som vi kallar för operationalisering. 
+
+I följande beskrivning kommer vi gå igenom några olika sätt vi som forskare kan använda oss av för att distribuera behandlingar till deltagarna i en undersökning. Låt oss därvid börja med vårt invanda exempel-experiment. I detta fall står vi inför utmaningen att presentera ett antal Facebook-poster på en datorskärm, där varje post kan ingå i ett av två villkor (post-bild med neutral person i kontrollvillkoret, respektive auktoritetsperson i behandlingsvillkoret). Den utrusting och materiel som krävs för att realisera detta är i grunden: 1) en metod för att skapa Facebook-poster som ser autentiska ut och som för varje post låter oss variera den tillhörande bilden i enlighet med våra två experimentella villkor; 2) en metod för att generera ett digitalt formulär med en 7-gradig likert-skala där deltagarna kan ange den nivå av förtroende varje Facebook-post ger upphov till; 3) en metod för att presentera dessa Facebook-poster på en datorskärm för deltagarna. 
 
 Implementation (operationalisering) av abstrakt villkor till konkret behandling. Kan vara intag av en medicinsk substans eller exponering för ett visuellt stimuli (material). Generellt: Utrustning som används för att på ett kontrollerat sätt generera eller presentera ett sinnesstimuli eller en behandling. Teknisk utrustning som används för att genomföra ett experiment, datorer som används för att spela in data, datorskärm som används för att presentera stimuli (Facebook-artiklar). Presenteras som HTML-sidor I webbläsaren. Synonymt med materiel (engelska materials)?
+
+survey-experiment, själv-administrerad behandling, experimentdesign?
 
 Material, Stimulikonstruktion. Här förklarar vi exakt vad det är vi manipulerar eller varierar i experimentet, samt i vilka nivåer en egenskap manipuleras. I exemplet med Facebook-artiklar varierar vi bildinnehållet i två nivåer, "neutral person" och "auktoritetsperson". Vi beskriver också hur vi säkerställt att denna skillnad bildinnehåll är objektiv och uppfattas på samma sätt av olika delagare (intercoder reliability). Vi varierar inte antalet "likes" som respektive Facebook-artikel har fått, eller vilken källa som visas. Vad varieras, vad hålls konstant? Full factorial design may also be called a fully crossed design. Se följande stycke om experimentdesign.
 
 ### Planering av experimentella villkor {#sub07.4.6}
 
 Tillvägagångssätt, planering. Sammanfattning av avsnitt 7.4. Diskutera utifrån exempel-experiment med bildinnehåll hos Facebook-poster. Giltighet och tillförlitlighet hos alla förklaringsvariabler, oberoende variabler som används i studien. Återkoppla till betydelsen av pilottest.
+
+- Kontroll- och behandlingsvillkor [7.4.1](#sub07.4.1). Detta är den kanske viktigaste aspekten av ett experiment. Försök att 
+
+- Oberoende variabler [7.4.2](#sub07.4.2). Dessa variabler uppmäts ofta för man tänker sig att de bidrar till att förklara variationer i den beroende variabeln. Oberoende variabler kan ha ungefär samma innebörd som experimentella villkor, men de manipluleras inte.
+
+- Instruktionsvillkor [7.4.3](#sub07.4.3). Instruktioner till deltagare är viktigt i ett experiment, eftersom vi vill att de förstår vad de ska göra på samma sätt. Instruktioner som manipuleras i ett enda avseende används ibland som ett experimentellt villkor. 
+
+- Kontrollvariabler [7.4.4](#sub07.4.4). Dessa variabler är inte av primärt intresse för en undersökning, men vi uppmäter dem för att kontrollera deras effekter, och för att de inte ska konfundera våra statisk och snedvrida resultaten.
+
+- Utrustning och materiel [7.4.5](#sub07.4.5). Denna del beskriver 
 
 ### Rapportering av experimentella villkor {#sub07.4.7}
 
@@ -257,7 +271,7 @@ Rapportering - exempel på hur detta skulle kunna formuleras i ett manuskript. U
 
 
 ## Experimentell design {#sec07.5}
-[07-5-wc-file]: <> (113.67 %)
+[07-5-wc-file]: <> (114.78 %)
 [07-5-comment]: <> (10 sidor)
 
 Design är ett ganska svårdefinierat begrepp, vars innebörd handlar om att på ett överskådligt sätt sammanfatta strukturen och planen hos en vetenskaplig undersökning (på svenska används ibland \"upplägg\" eller \"planering\" som synonymer till design). Man kan säga att begreppet experimentell design har två centrala aspekter: den första är kopplad till att beskriva och specificera de beroende och oberoende variablerna som ingår en undersökning, medan den andra centrala aspekten är kopplad till att beskriva hur deltagarna i en undersökning exponeras för de experimentella villkor som omfattas av de oberoende variablerna (dvs hur behandlingar eller \"trials\" är distribuerade inom en experimentell studie). I det följande ska vi börja med att diskutera experimentell design i relation till oberoende variabler, vilka vi även refererar till som behandlingsvariabler i denna bok.
@@ -380,9 +394,16 @@ T.ex. undersökning av effekterna av medborgarlön? Kontrastera med naturliga ex
 
 ### Planering av experimentdesign {#sub07.5.9}
 
-Håll designen så enkel som möjligt för att underlätta tolkningen av resultat. Helst inte mer än 2x2 design. - diskutera utifrån exempel-experiment med bildinnehåll hos Facebook-poster
+Håll designen så enkel som möjligt för att underlätta tolkningen av resultat. Helst inte mer än 2x2 design. - diskutera utifrån exempel-experiment med bildinnehåll hos Facebook-poster. Bild kommer ovan
 
-bild kommer ovan
+- Instruktioner och uppgifter [7.5.1](#sub07.5.1)
+- Randomisering och balansering [7.5.2](#sub07.5.2)
+- Mellangruppsdesign [7.5.3](#sub07.5.3)
+- Inomgruppsdesign [7.5.4](#sub07.5.4)
+- Upprepade villkor [7.5.5](#sub07.5.5)
+- Faktoriell design [7.5.6](#sub07.5.6)
+- Naturliga experiment [7.5.7](#sub07.5.7)
+- Kvasi-experiment [7.5.8](#sub07.5.8)
 
 ### Rapportering av experimentdesign {#sub07.5.10}
 
