@@ -17,14 +17,14 @@ I det följande kommer vi redogöra för den typiska turordningen för att både
 - kontrastera med metodologi, i del 1 ? Pedagogiskt att presentera efterföljande text som tre centrala beståndsdelar: 1) deltagare, 2) mätinstrument, och 3) experimentella villkor/manipulationer.
 
 ## Förstudier {#sec07.1}
-[07-1-wc-file]: <> (52.78 %)
+[07-1-wc-file]: <> (52.85 %)
 [07-1-comment]: <> (5 sidor)
 
 Innan man genomför ett skarpt experiment, vilket ofta kräver mycket resurser i form av tid och arbete, är det klokt att genomföra experimentet i liten skala. På så vis kan forskarna i ett tidigt stadium fånga upp problem med experimentdesignen. Detta kallas för att vi genomför en förstudie eller ett pilottest. I sambad med planering och förberedelse av experimentet kommer vi börja med att diskutera begreppet power-analys (från engelskans power analysis).
 
 ### Power-analys {#sub07.1.1}
 
-Innan man genomför ett skarpt experiment, gör en power-analys. Power is the probability that we will correctly reject the null hypothesis.
+TODO: Innan man genomför ett skarpt experiment, gör en power-analys. Power is the probability that we will correctly reject the null hypothesis.
 
 ### Pilottest {#sub07.1.2}
 
@@ -183,7 +183,7 @@ Rapportering. På engelska kallas detta avsnitt ofta för \"apparatus\". Exempel
 
 
 ## Experimentella villkor {#sec07.4}
-[07-4-wc-file]: <> (87.25 %)
+[07-4-wc-file]: <> (87.92 %)
 [07-4-comment]: <> (10 sidor)
 
 Ett typiskt experiment består ofta av ett kontrollvillkor och ett eller flera experimentella villkor. Ett kontrollvillkor refererar till ett slags naturligt normaltillstånd, som kännetecknas av att deltagaren _inte_ genomgår någon form av behandling, eller exponeras för någon form av manipulation. Experimentella villkor å andra sidan betyder att försöksdeltagaren genomgår just en sådan behandling (t.ex. genom att inta en verksam medicinsk substans) eller utsätts för en manipulation (t.ex. genom exponering för en viss nivå av belysning). I ett enkelt experiment förekommer endast dessa två tillstånd, vilket kan beskrivas med en s.k. oberoende variabel, där frånvaron av behandling (kontrollvillkor) exempelvis representeras av den numeriska symbolen "0", medan förekomsten av en behandling (behandlingsvillkor) representeras av symbolen "1". I termer av mätnivåer, skulle en sådan variabel kallas binär. I mer invecklade experiment kan det förekomma kombinationer av flera olika behandlingar (t.ex. intag av medicin _och_ exponering för belysning) som dessutom utdelas i flera olika _nivåer_ (t.ex. "ingen dos", "låg dos", och "hög dos"). Mer om detta längre fram.
@@ -238,7 +238,7 @@ Vad vi stött på här ett typ 2 fel, falskt negativt resultat ("type 2 error").
 
 När vi genomför ett experiment så brukar det förr eller senare bli aktuellt att fundera på den kanske mest fysiska nivån i undersökningen. Denna fysiska nivå har att göra med den tekniska utrustning vi använder för att presentera stimuli för deltagarna samt för att uppmäta och registrera deras responser. Det kan tyckas sekundärt att beskriva denna nivå i detalj, men i själva verket är just detta viktigt ur metodologisk synvinkel, eftersom det har att göra med andra forskares möjlighet att upprepa resultaten av experimentet. Om vi inte utförligt beskriver vilken utrustning och materiel vi använt i studien minskar möjligheterna att replikera studiens resultat, vilket i sin tur minskar studiens vetenskapliga värde.
 
-I detta avsnitt kommer vi fokusera på utrustning och materiel i samband med presentation av stimuli och experimentella villkor, men samma typ av diskussion är naturligtvis också relevant i relation till de mätinstument vi använder för att registrera responser, i detta senare fall används ofta den engelska termen "apparatus" (jfr. avsnitt [7.3](#sec07.3) ovan). 
+I detta avsnitt kommer vi fokusera på utrustning och materiel i samband med presentation av stimuli och experimentella villkor, men samma typ av diskussion är naturligtvis också relevant i relation till den mätutrustning vi använder för att registrera responser, i detta senare fall används på engelska ofta termen "apparatus" i kontrast till "materials" som mer typiskt används för att beskriva den materiel som används för att presentera stimuli (jfr. avsnitt [7.3](#sec07.3) ovan). 
 
 Implementation (operationalisering) av abstrakt villkor till konkret behandling. Kan vara intag av en medicinsk substans eller exponering för ett visuellt stimuli (material). Generellt: Utrustning som används för att på ett kontrollerat sätt generera eller presentera ett sinnesstimuli eller en behandling. Teknisk utrustning som används för att genomföra ett experiment, datorer som används för att spela in data, datorskärm som används för att presentera stimuli (Facebook-artiklar). Presenteras som HTML-sidor I webbläsaren. Synonymt med materiel (engelska materials)?
 
