@@ -104,12 +104,10 @@ The hypothetico-deductive model or method (step 1-4) this method can never absol
 
 
 ## Pre-registration {#sec06.4}
-[06-4-wc-file]: <> (15.71 %)
+[06-4-wc-file]: <> (17.14 %)
 [06-4-comment]: <> (1 sidor)
 
-TODO: Vad heter pre-registration på svenska? Kanske förregistrering. making research data and methods FAIR (findable, accessible, interoperable and reusable) and results reproducible. Här kommer en referens [@van2016pre] till denna relativt nya företeelse.
-
-asdioasjdoiasjd
+TODO: Vad heter pre-registration på svenska? Kanske förregistrering. Koppling till open science framework: making research data and methods FAIR (findable, accessible, interoperable and reusable) and results reproducible. Här kommer en referens [@van2016pre] till denna relativt nya företeelse.
 
 
 
