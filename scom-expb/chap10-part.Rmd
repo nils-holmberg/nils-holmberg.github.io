@@ -1,0 +1,12 @@
+`r if (knitr:::is_html_output()) '
+# References {-}
+[00-4-wc-file]: <> (5.71 %)
+[00-4-comment]: <> (1 sidor)
+
+'`
+
+
+
+
+
+

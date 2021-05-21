@@ -1,0 +1,91 @@
+# Efterarbete {#chap08}
+[08-0-wc-file]: <> (5.71 %)
+[08-0-comment]: <> (2 sidor)
+
+Denna text kommer är tänkt att ersätta sektion 08 resultat och 09 diskussion. Därmed frångår boken den tidigare indelningen enligt IMRD.
+
+
+## Resultat {#sec08.1}
+[08-1-wc-file]: <> (17.58 %)
+[08-1-comment]: <> (4 sidor)
+
+Här hänvisar vi främst läsaren till befintlig litteratur inom statistiska metoder
+
+Liksom i det föregående metodkapitlet, kommer vi detta kapitel
+
+\- prediction vs. fitting (meningsfulla modeller kan vara viktigare än prediktion, retro-fitting hypotheses).
+
+### Deskriptiv statistik {#sub08.1.1}
+
+Här kommer lite Brödtext igen. Här ko
+
+Lägg noga märke till var skiljetecken satts ut, var det ska vara kursiv stil etc. Vid engelska titlar ändras *and* till *och* eller *&, in* til
+
+### Inferentiell statistik {#sub08.1.2}
+
+Här kommer nåt om causal inference. In statistical hypothesis testing a type I error is the rejection of a true null hypothesis (also known as a \"false positive\" finding or conclusion), while a type II error is the non-rejection of a false null hypothesis (also known as a \"false negative\" finding or conclusion
+
+Eventuellt ta upp moderator (counteracts, motverkar en effekt), mediator (förstärker en effekt), visa plot på interaktion, interaction plot
+
+\[1\]). Much of statistical theory revolves around the minimization of one or both of these errors, though the complete elimination of either is a statistical impossibility for non-deterministic algorithms.
+
+### Presentation av statistik {#sub08.1.3}
+
+Här kommer något om diagram och visualiseringar.
+
+
+
+
+## Diskussion {#sec08.2}
+[08-2-wc-file]: <> (16.07 %)
+[08-2-comment]: <> (4 sidor)
+
+Här skulle man kunna använda sig av en domstolsmetafor. Den experimentella studien är genomförd och nu står insamlat material och experimentdesign åtalad för att visa något. Bevis, evidens, circumstantial evidence, alias. Forskaren antar både rollen som åklagare och försvarsadvokat (noll-hypotes). Kan läggas i 8.1 också.
+
+Vi skulle kunna tänka oss ett experiment som inte involverar mänskliga försöksdeltagare. T.ex. en webbplats genomgår (\"behandlas\") med två olika typer av sökoptimeringsstrategier. Därefter undersöker vi hur båda sidor indexeras och listas bland googles sökresultat. Den beroende responsvariabeln är rankning (page rank), lägre värden innebär mer positivt utfall. Testet kan upprepas i flera trials.
+
+### Hypoteser och empiriska resultat {#sub08.2.1}
+
+Relatera faktiska observationer till ursprungliga förväntade hypoteser. Här kommer lite Brödtext igen. Här ko
+
+### Alternativa förklaringar till resultat {#sub08.2.2}
+
+Lägg noga märke till var skiljetecken satts ut, var det ska vara kursiv stil etc. Vid engelska titlar ändras *and* till *och* eller *&, in* til
+
+### Framtida forskning {#sub08.2.3}
+
+Hkommer lite Brödtext igen. Här kommer lite Brödtext igen. Här kommer lite Brödtext igen.
+
+
+
+## Publicering {#sec08.3}
+[08-3-wc-file]: <> (131.42 %)
+[08-3-comment]: <> (2 sidor)
+
+I denna del av boken följer vi, i illustrativt syfte, utvecklingen och genomförandet av ett experiment som undersöker hur olika delar av en Facebook-post (bild, text, källa, likes, kommentarer) påverkar läsares bedömning av postens trovärdighet. Vi tänker oss att vi före experimentets genomförande har gjort en ordentlig genomgång av tidigare forskning på detta område, vilken gett vid handen att bildinnehållets effekt på upplevd trovärdighet hos Facebook-poster inte verkar ha studerats i någon högre utsträckning. Detta kommer därför att utgöra det så kallade \"kunskapsgap\" vårt experiment vill bidra till att fylla, och det kommer att utgöra en viktig avgränsning av vår centrala forskningsfråga. Vår forskningsgenomgång har också visat oss att det förekommer en del studier av hur bildinnehåll generellt påverkar människors blickbeteende och visuella uppmärksamhet, så detta kommer utgöra en sekundär forskningsfråga.
+
+För att undersöka dessa forskningsfrågor närmare behöver vi låta flera Facebook-användare läsa ett antal Facebook-poster medan vi observerar dem och samlar in empiriska data om hur de läste varje post, och därefter rapporterade hur pass trovärdiga de tyckte att dessa poster var. I detta tänkta experiment kommer vi därför att använda oss av en metod för ögonrörelsemätning för att exakt studera hur användarna bearbetar Facebook-posterna visuellt, och därefter får läsarna fylla i en webbenkät och besvara hur de upplevde trovärdigheten hos varje Facebook-post. Därmed försöker studien både mäta människors objektiva beteende (ögonrörelsemätning) och deras subjektiva attityder (survey-frågor om trovärdighet). Genom att ha detta hypotetiska experiment som underlag hoppas vi att det blir lättare för läsaren att följa en röd tråd genom planering, genomförande och rapportering av en experimentell studie.
+
+Eftersom detta tänkta experimentet innehåller olika metoder för datainsamling, och genom att texten ofta skiftar fokus mellan dessa metoder, hoppas vi att denna lärobok kan bli relevant för olika samhällsvetenskapliga discipliner, från psykologi till strategisk kommunikation. I praktiken hade kanske vårt hypotetiska experiment kunnat genomföras inom vilken samhällsvetenskaplig disciplin som helst som har tvärvetenskapliga ambitioner. Där sammanhanget kräver, kommer vi också att exemplifiera med andra typer av experimentella paradigm, bland annat så kallade \"AB split test\" inom digital marknadsföring webboptimering, och medicinska studier med kontrollgrupp och behandlingsgrupp. Exemplen kommer att hämtas från ett brett urval av vetenskapliga discipliner för att läsaren ska få en känsla för hur experimentella studier skulle kunna implementeras inom det egna ämnet.
+
+En experimentell studie består vanligtvis av två integrerade delar: 1) genomförande av ett experiment, och 2) rapportering av resultat. I denna bok fokuserar vi främst på genomförandet, men dispositionen kommer att följa den struktur som används när man rapporterar resultatet av ett experiment i form av en sakkunniggranskad journalpublikation (s.k. peer-review). Av både konvention och praktiska skäl består denna rapportering oftast av fyra delar, som inleds med **Introduktion**, och sedan följs av **Metod**, **Resultat**, och **Diskussion**. På grund av delarnas initialer kallas denna disposition ibland **IMRD** (på ett ungefär uttalat \"imrad\").
+
+Tabell 2.1 Resultatrapportering av en experimentell studie
+
+  Förkortning   Innehåll                                                                                                                                                                                                      Bokkapitel
+  ------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------
+  I             Introduktion. I denna del av en artikel behandlas tidigare forskning och hur hypoteserna för vår egen studie har härletts från tidigare resultat inom samma ämne.                                             Kapitel 6 (s NN)
+  M             Metod. I denna del behandlas experimentets utformning. Denna del måste vara tillräckligt detaljerad för att andra forskare inom samma ämne ska kunna upprepa (replikera) vår egen studie.                     Kapitel 7 (s NN)
+  R             Resultat. Denna del rapporterar kortfattat de faktiska resultaten av vårt experiment, och relaterar dessa till de förväntade resultat som uttrycktes i studiens hypoteser.                                    Kapitel 8 (s NN)
+  D             Diskussion. Denna del diskuterar relevansen av experimentets resultat i ett större samhälleligt perspektiv, samt eventuella alternativa förklaringar till studiens resultat. Undersökningens begränsningar.   Kapitel 9 (s NN)
+
+I denna lärobok har vi försökt täcka in dessa två olika men näraliggande betydelser av begreppet experimentell metod: dels som en uppsättning praktiska tillvägagångssätt som bör användas för att i **planera** och genomföra en experimentell studie; och dels som ett systematiskt och standardiserat sätt att i efterhand **rapportera** genomförandet av en studie på ett sätt som är begripligt för andra forskare. Således är detta kapitel av läroboken disponerat på ett sätt som ger oss möjlighet att i typisk turordning behandla de olika aspekter av experimentell metod som man som forskare förväntas kunna redovisa när man rapporterar sina resultat till en vetenskaplig tidskrift. Men inom varje metodaspekt kommer vi också att utförligt diskutera de olika experimentella tillvägagångssätt som är relevanta i samband med planering och genomförande av en forskningsstudie.
+
+
+
+
+
+
+
+
+
