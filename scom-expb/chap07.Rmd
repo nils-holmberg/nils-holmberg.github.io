@@ -426,16 +426,26 @@ Håll designen så enkel som möjligt för att underlätta tolkningen av resulta
 
 
 ## Procedur {#sec07.6}
-[07-6-wc-file]: <> (9.82 %)
+[07-6-wc-file]: <> (16.64 %)
 [07-6-comment]: <> (10 sidor)
 
 Handlar i grunden om reliabilitet, standardisering, alla deltagare genomgår samma procedur, externa faktorer hålls så konstanta som möjligt - **Instruktion**, **uppgift**, dvs läs Facebook-artiklarna och bedöm sedan trovärdighet på en ordinal skala. Alternativt kan den skarpa uppgiften döljas, och istället ger man en skenuppgift till deltagarna för att hålla dem naiva om experimentets syfte och undvika bias. Problematiskt med webbaserade survey experiment? Laboratoriemiljö ger mer standardisering. Fokus på experimentledare, vikten av pilottestning. Använd exempel-experimentet. Replikerbarhet.
+
+Kronologisk genomgång av experimentets samtliga delar så som de möter försöksdeltagaren. Dvs hälsning, informerat samtycke, förtest, instruktioner, applicering av mätutrustning, kalibrering, 
 
 ### Välkomsthälsning {#sub07.6.1}
 
 Kronologisk genomgång av experimentets samtliga delar så som de möter försöksdeltagaren. Dvs hälsning, informerat samtycke, förtest, instruktioner, applicering av mätutrustning, kalibrering, 
 
 ### Informerat samtycke {#sub07.6.2}
+
+Den forskningsetiska utvecklingen under de senaste decennierna har syftat till att stärka försöksdeltagarnas rättigheter gentemot de institutioner som bedriver forskningen. En viktig del av denna utveckling inträffade i maj 2018 när Sverige godtog den EU-lagstiftning som kallas General Data Protection Regulation (GDPR). I stora drag innebär denna lagstiftning att den organisation som samlar in information om försöksdeltagare, dels måste kunna motivera varför denna data samlas in och bearbetas, dels måste överväga riskerna med att samla in data och sätta dem i relation till fördelarna, dels måste kunna garantera tillräcklig säkerhet vid lagring av vissa typer av känslig persondata, och dels på begäran av försöksdeltagaren måste kunna lämna ut och/eller förstöra den data som samlats in. 
+
+Redan innan GDPR trädde i kraft fanns emellertid en tydlig ambition inom forskningsvärlden att tillgodose försöksdeltagarens rättigheter genom ett så kallat _informerat samtycke_. De forskningsetiska reglerna kring informerat samtycke har alltså sedermera inkorporerats som en del av GDPR. 
+
+- andra regler gäller för studenter?
+
+- alla vårdnadshavares medgivande om deltagaren är yngre än femton år.
 
 Avbryta när som helst. Genomgång av experimentets samtliga delar som möter försöksdeltagaren. Dvs hälsning, informerat samtycke, förtest, instruktioner, applicering av mätutrustning, kalibrering, 
 
