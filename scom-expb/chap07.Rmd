@@ -426,16 +426,16 @@ Håll designen så enkel som möjligt för att underlätta tolkningen av resulta
 
 
 ## Procedur {#sec07.6}
-[07-6-wc-file]: <> (16.64 %)
+[07-6-wc-file]: <> (16.17 %)
 [07-6-comment]: <> (10 sidor)
 
-Handlar i grunden om reliabilitet, standardisering, alla deltagare genomgår samma procedur, externa faktorer hålls så konstanta som möjligt - **Instruktion**, **uppgift**, dvs läs Facebook-artiklarna och bedöm sedan trovärdighet på en ordinal skala. Alternativt kan den skarpa uppgiften döljas, och istället ger man en skenuppgift till deltagarna för att hålla dem naiva om experimentets syfte och undvika bias. Problematiskt med webbaserade survey experiment? Laboratoriemiljö ger mer standardisering. Fokus på experimentledare, vikten av pilottestning. Använd exempel-experimentet. Replikerbarhet.
+Handlar i grunden om reliabilitet, standardisering, alla deltagare genomgår samma procedur, externa faktorer hålls så konstanta som möjligt. Laboratoriemiljö ger mer standardisering. Fokus på experimentledare, vikten av pilottestning. Använd exempel-experimentet. Replikerbarhet.
 
 Kronologisk genomgång av experimentets samtliga delar så som de möter försöksdeltagaren. Dvs hälsning, informerat samtycke, förtest, instruktioner, applicering av mätutrustning, kalibrering, 
 
 ### Välkomsthälsning {#sub07.6.1}
 
-Kronologisk genomgång av experimentets samtliga delar så som de möter försöksdeltagaren. Dvs hälsning, informerat samtycke, förtest, instruktioner, applicering av mätutrustning, kalibrering, 
+Det kan tyckas trivialt att nämna detta första steg, vilket innebär att deltagaren kommer till den lokal där experimentet är tänkt att genomföras, och hälsas välkommen av experimentledaren. 
 
 ### Informerat samtycke {#sub07.6.2}
 
@@ -457,9 +457,9 @@ Genomgång av experimentets samtliga delar som möter försöksdeltagaren. Dvs h
 
 Genomgång av experimentets samtliga delar som möter försöksdeltagaren. Dvs hälsning, informerat samtycke, förtest, instruktioner, applicering av mätutrustning, kalibrering, 
 
-### Försöksinstruktioner {#sub07.6.5}
+### Instruktioner och uppgifter {#sub07.6.5}
 
-Genomgång av experimentets samtliga delar som möter försöksdeltagaren. Dvs hälsning, informerat samtycke, förtest, instruktioner, applicering av mätutrustning, kalibrering, 
+Läs Facebook-artiklarna och bedöm sedan trovärdighet på en ordinal skala. Alternativt kan den skarpa uppgiften döljas, och istället ger man en skenuppgift till deltagarna för att hålla dem naiva om experimentets syfte och undvika bias. Problematiskt med webbaserade survey experiment? 
 
 ### Eftertest {#sub07.6.6}
 
