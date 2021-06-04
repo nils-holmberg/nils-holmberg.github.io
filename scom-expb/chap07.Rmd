@@ -426,7 +426,7 @@ Håll designen så enkel som möjligt för att underlätta tolkningen av resulta
 
 
 ## Procedur {#sec07.6}
-[07-6-wc-file]: <> (57.46 %)
+[07-6-wc-file]: <> (57.42 %)
 [07-6-comment]: <> (10 sidor)
 
 Handlar i grunden om reliabilitet, standardisering, alla deltagare genomgår samma procedur, externa faktorer hålls så konstanta som möjligt. Laboratoriemiljö ger mer standardisering. Fokus på experimentledare, vikten av pilottestning. Använd exempel-experimentet. Replikerbarhet.
@@ -457,8 +457,7 @@ Avbryta när som helst. Genomgång av experimentets samtliga delar som möter f�
 
 *Använd ett enkelt språk. Undvik svåra ord och ovanliga förkortningar. Undvik vädjande formuleringar.*
 
-Information till forskningspersoner
-===================================
+**Information till forskningspersoner**
 
 Vi vill fråga dig om du vill delta i ett forskningsprojekt. I det här dokumentet får du information om projektet och om vad det innebär att delta.
 

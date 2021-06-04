@@ -58,7 +58,6 @@ sub07.5.10
 sec07.6
 sub07.6.1
 sub07.6.2
-information-till-forskningspersoner
 vad-är-det-för-ett-projekt-och-varför-vill-ni-att-jag-ska-delta
 hur-går-projektet-till
 möjliga-följder-och-risker-med-att-delta-i-projektet
