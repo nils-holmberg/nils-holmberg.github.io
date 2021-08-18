@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Kapitel 7 Genomförande | Experiment</title>
   <meta name="description" content="The output format for this example is bookdown::gitbook." />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Kapitel 7 Genomförande | Experiment" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Nils Gustafsson &amp; Nils Holmberg" />
 
 
-<meta name="date" content="2021-06-04" />
+<meta name="date" content="2021-08-18" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,8 +33,8 @@
   
 <link rel="prev" href="chap06.html"/>
 <link rel="next" href="chap08.html"/>
-<script src="libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -52,6 +52,8 @@
 
 
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
 <style type="text/css">
@@ -117,6 +119,7 @@ code span.va { color: #19177c; } /* Variable */
 code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
+
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -763,7 +766,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Den forskningsetiska utvecklingen under de senaste decennierna har syftat till att stärka försöksdeltagarnas rättigheter gentemot de institutioner som bedriver forskningen. En viktig del av denna utveckling inträffade i maj 2018 när Sverige godtog den EU-lagstiftning som kallas General Data Protection Regulation (GDPR). I stora drag innebär denna lagstiftning att den organisation som samlar in information om försöksdeltagare, dels måste kunna motivera varför denna data samlas in och bearbetas, dels måste överväga riskerna med att samla in data och sätta dem i relation till fördelarna, dels måste kunna garantera tillräcklig säkerhet vid lagring av vissa typer av känslig persondata, och dels på begäran av försöksdeltagaren måste kunna lämna ut och/eller förstöra den data som samlats in.</p>
 <p>Redan innan GDPR trädde i kraft fanns emellertid en tydlig ambition inom forskningsvärlden att tillgodose försöksdeltagarens rättigheter genom att efterfråga ett så kallat <em>informerat samtycke</em> från dem innan deras deltagande i studien. Man kan säga att de forskningsetiska reglerna kring informerat samtycke sedermera har inkorporerats och blivit en del av GDPR, som är ett betydligt större och mer omfattande regelverk.</p>
 <ul>
-<li><p>andra regler gäller för studenter?</p></li>
+<li><p>andra regler gäller för studenter? Studentarbeten berörs inte av etikprövningslagen, men GDPR gäller alla oavsett…</p></li>
 <li><p>alla vårdnadshavares medgivande om deltagaren är yngre än femton år.</p></li>
 </ul>
 <p>Avbryta när som helst. Genomgång av experimentets samtliga delar som möter försöksdeltagaren. Dvs hälsning, informerat samtycke, förtest, instruktioner, applicering av mätutrustning, kalibrering,</p>
@@ -773,8 +776,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p><strong>Vad är det för ett projekt och varför vill ni att jag ska delta?</strong> Ge en kort men tydlig beskrivning av bakgrund och övergripande syfte med projektet. Informera om varför just den aktuella personen tillfrågas samt hur projektet har fått tillgång till uppgifter om personen som gör att denne tillfrågas. Forskningshuvudman för projektet är ange forskningshuvudman. Med forskningshuvudman menas den organisation som är ansvarig för projektet. Ansökan är godkänd av Etikprövningsmyndigheten, diarienummer för prövningen hos Etikprövningsmyndigheten är ange diarienummer.</p>
 <p><strong>Hur går projektet till?</strong> Beskriv ur forskningspersonens perspektiv vad ett deltagande innebär. Vad krävs av forskningspersonen? Vilka metoder kommer att användas? Antal besök, intervjuer, enkäter, tester och tidsåtgång? Ska prover tas? Vilken sorts prover (vävnad) ska tas? Provmängd? Det ska tydligt framgå på vilket sätt undersökningsproceduren eventuellt skiljer sig från den rutinmässiga behandlingen.</p>
 <p><strong>Möjliga följder och risker med att delta i projektet.</strong> Ge saklig information om de följder och risker som deltagandet kan innebära. Undvik förskönande formuleringar och formuleringar som kan innebära otillbörlig påverkan. Kan deltagandet innebära obehag, smärta, känslomässiga effekter, integritetsintrång etc.? Beskriv eventuella biverkningar och andra effekter på kort och lång sikt. I förekommande fall ska det framgå hur de projektansvariga kommer att hantera de problem som kan uppstå. Kan deltagandet i projektet/studien avbrytas vid vissa effekter? Vilken möjlighet finns till uppföljande undersökning eller samtal etc.?</p>
-<p><strong>Vad händer med mina uppgifter?</strong> Projektet kommer att samla in och registrera information om dig. Förklara vilken information som kommer att samlas in, hur den kommer att hanteras och förvaras samt för hur lång tid. Varifrån kommer data hämtas, vilka källor kommer att användas? Kommer informationen gå att härleda till forskningspersonen? Hur kommer tillgången till uppgifterna att se ut? Hur skyddas uppgifterna? Ange ändamålen med behandlingen av personuppgifterna och den rättsliga grunden enligt EU:s dataskyddsförordning för behandlingen.</p>
-<p>Om uppgifterna kommer att överföras till ett land utanför EU och EES-området (s.k. tredjeland) eller till en internationell organisation ska detta särskilt anges. Det ska också anges om det finns ett beslut av EU-kommissionen om att landet eller organisationen kan säkerställa en adekvat skyddsnivå och i annat fall en hänvisning till lämpliga eller passande skyddsåtgärder och hur en kopia av dessa kan erhållas eller var dessa har gjorts tillgängliga.</p>
+<p><strong>Vad händer med mina uppgifter?</strong> Projektet kommer att samla in och registrera information om dig. Förklara vilken information som kommer att samlas in, hur den kommer att hanteras och förvaras samt för hur lång tid. Varifrån kommer data hämtas, vilka källor kommer att användas? Kommer informationen gå att härleda till forskningspersonen? Hur kommer tillgången till uppgifterna att se ut? Hur skyddas uppgifterna? Ange ändamålen med behandlingen av personuppgifterna och den rättsliga grunden enligt EU:s dataskyddsförordning för behandlingen. Om uppgifterna kommer att överföras till ett land utanför EU och EES-området (s.k. tredjeland) eller till en internationell organisation ska detta särskilt anges. Det ska också anges om det finns ett beslut av EU-kommissionen om att landet eller organisationen kan säkerställa en adekvat skyddsnivå och i annat fall en hänvisning till lämpliga eller passande skyddsåtgärder och hur en kopia av dessa kan erhållas eller var dessa har gjorts tillgängliga.</p>
 <p>Dina svar och dina resultat kommer att behandlas så att inte obehöriga kan ta del av dem. Ansvarig för dina personuppgifter är ange personuppgiftsansvarig, vanligen forskningshuvudmannen. Enligt EU:s dataskyddsförordning har du rätt att kostnadsfritt få ta del av de uppgifter om dig som hanteras i projektet, och vid behov få eventuella fel rättade. Du kan också begära att uppgifter om dig raderas samt att behandlingen av dina personuppgifter begränsas. Rätten till radering och till begränsning av behandling av personuppgifter gäller dock inte när uppgifterna är nödvändiga för den aktuella forskningen. Om du vill ta del av uppgifterna ska du kontakta huvudansvarig forskare med adress och telefonnummer. Dataskyddsombud nås på Ange kontaktuppgifter till dataskyddsombud. Om du är missnöjd med hur dina personuppgifter behandlas har du rätt att ge in klagomål till Integritetsskyddsmyndigheten, som är tillsynsmyndighet.</p>
 <p><strong>Vad händer med mina prover?</strong> De prover som tas i projektet förvaras kodade i en så kallad biobank. Biobankens namn är Ange aktuell biobank och om möjligt även biobankens registreringsnummer hos IVO och den finns vid Ange var biobanken är placerad. Huvudman (ansvarig) för biobanken är Ange huvudman. Samtliga ovan nämnda prov kommer att vara kodade (pseudonymiserade) vilket innebär att de inte kan kopplas direkt till dig som person. Kodnyckel förvaras Ange var kodnyckeln finns. Kodnyckeln behandlas så att inte obehöriga kan ta del av dem. Du har rätt att utan förklaring säga nej till att proverna sparas. Om du samtycker till att proverna sparas har du rätt att senare och utan förklaring ta tillbaka (ångra) det samtycket. Dina prover kommer i så fall att kastas eller avidentifieras. Om du vill ångra ett samtycke ska du kontakta huvudansvarig forskare med adress och telefonnummer.</p>
 <p>Proverna får bara användas på det sätt som du har gett samtycke till. Om du godkänner att vi får bevara och använda dina prover för framtida ändamål måste du samtycka specifikt till detta. Tillkommer forskning som ännu inte är planerad, kommer Etikprövningsmyndigheten att besluta om du ska tillfrågas på nytt. Om prover kommer att sändas inom Sverige eller utomlands för analys ska det framgå. Information ska ges om vad som sker med proverna när analyserna är genomförda. Kommer proverna återlämnas eller förstöras? Hur lång tid kommer proverna förvaras/analyseras i Sverige eller utomlandoch inom vilken tid kommer proverna återlämnas eller förstöras?</p>
@@ -847,6 +849,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -867,6 +870,10 @@ gitbook.start({
 "text": null
 },
 "download": ["scom-expb.pdf", "scom-expb.docx"],
+"search": {
+"engine": "lunr",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }

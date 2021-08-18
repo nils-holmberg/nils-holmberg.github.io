@@ -426,7 +426,7 @@ Håll designen så enkel som möjligt för att underlätta tolkningen av resulta
 
 
 ## Procedur {#sec07.6}
-[07-6-wc-file]: <> (57.10 %)
+[07-6-wc-file]: <> (57.46 %)
 [07-6-comment]: <> (10 sidor)
 
 Handlar i grunden om reliabilitet, standardisering, alla deltagare genomgår samma procedur, externa faktorer hålls så konstanta som möjligt. Laboratoriemiljö ger mer standardisering. Fokus på experimentledare, vikten av pilottestning. Använd exempel-experimentet. Replikerbarhet.
@@ -447,7 +447,7 @@ Den forskningsetiska utvecklingen under de senaste decennierna har syftat till a
 
 Redan innan GDPR trädde i kraft fanns emellertid en tydlig ambition inom forskningsvärlden att tillgodose försöksdeltagarens rättigheter genom att efterfråga ett så kallat _informerat samtycke_ från dem innan deras deltagande i studien. Man kan säga att de forskningsetiska reglerna kring informerat samtycke sedermera har inkorporerats och blivit en del av GDPR, som är ett betydligt större och mer omfattande regelverk. 
 
-- andra regler gäller för studenter?
+- andra regler gäller för studenter? Studentarbeten berörs inte av etikprövningslagen, men GDPR gäller alla oavsett...
 
 - alla vårdnadshavares medgivande om deltagaren är yngre än femton år.
 
@@ -465,9 +465,7 @@ Avbryta när som helst. Genomgång av experimentets samtliga delar som möter f�
 
 **Möjliga följder och risker med att delta i projektet.** Ge saklig information om de följder och risker som deltagandet kan innebära. Undvik förskönande formuleringar och formuleringar som kan innebära otillbörlig påverkan. Kan deltagandet innebära obehag, smärta, känslomässiga effekter, integritetsintrång etc.? Beskriv eventuella biverkningar och andra effekter på kort och lång sikt. I förekommande fall ska det framgå hur de projektansvariga kommer att hantera de problem som kan uppstå. Kan deltagandet i projektet/studien avbrytas vid vissa effekter? Vilken möjlighet finns till uppföljande undersökning eller samtal etc.?
 
-**Vad händer med mina uppgifter?** Projektet kommer att samla in och registrera information om dig. Förklara vilken information som kommer att samlas in, hur den kommer att hanteras och förvaras samt för hur lång tid. Varifrån kommer data hämtas, vilka källor kommer att användas? Kommer informationen gå att härleda till forskningspersonen? Hur kommer tillgången till uppgifterna att se ut? Hur skyddas uppgifterna? Ange ändamålen med behandlingen av personuppgifterna och den rättsliga grunden enligt EU:s dataskyddsförordning för behandlingen.
-
-Om uppgifterna kommer att överföras till ett land utanför EU och EES-området (s.k. tredjeland) eller till en internationell organisation ska detta särskilt anges. Det ska också anges om det finns ett beslut av EU-kommissionen om att landet eller organisationen kan säkerställa en adekvat skyddsnivå och i annat fall en hänvisning till lämpliga eller passande skyddsåtgärder och hur en kopia av dessa kan erhållas eller var dessa har gjorts tillgängliga.
+**Vad händer med mina uppgifter?** Projektet kommer att samla in och registrera information om dig. Förklara vilken information som kommer att samlas in, hur den kommer att hanteras och förvaras samt för hur lång tid. Varifrån kommer data hämtas, vilka källor kommer att användas? Kommer informationen gå att härleda till forskningspersonen? Hur kommer tillgången till uppgifterna att se ut? Hur skyddas uppgifterna? Ange ändamålen med behandlingen av personuppgifterna och den rättsliga grunden enligt EU:s dataskyddsförordning för behandlingen. Om uppgifterna kommer att överföras till ett land utanför EU och EES-området (s.k. tredjeland) eller till en internationell organisation ska detta särskilt anges. Det ska också anges om det finns ett beslut av EU-kommissionen om att landet eller organisationen kan säkerställa en adekvat skyddsnivå och i annat fall en hänvisning till lämpliga eller passande skyddsåtgärder och hur en kopia av dessa kan erhållas eller var dessa har gjorts tillgängliga.
 
 Dina svar och dina resultat kommer att behandlas så att inte obehöriga kan ta del av dem. Ansvarig för dina personuppgifter är ange personuppgiftsansvarig, vanligen forskningshuvudmannen. Enligt EU:s dataskyddsförordning har du rätt att kostnadsfritt få ta del av de uppgifter om dig som hanteras i projektet, och vid behov få eventuella fel rättade. Du kan också begära att uppgifter om dig raderas samt att behandlingen av dina personuppgifter begränsas. Rätten till radering och till begränsning av behandling av personuppgifter gäller dock inte när uppgifterna är nödvändiga för den aktuella forskningen. Om du vill ta del av uppgifterna ska du kontakta huvudansvarig forskare med adress och telefonnummer. Dataskyddsombud nås på Ange kontaktuppgifter till dataskyddsombud. Om du är missnöjd med hur dina personuppgifter behandlas har du rätt att ge in klagomål till Integritetsskyddsmyndigheten, som är tillsynsmyndighet.
 

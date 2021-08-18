@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Kapitel 1 Kapitel | Experiment</title>
   <meta name="description" content="The output format for this example is bookdown::gitbook." />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Kapitel 1 Kapitel | Experiment" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Nils Gustafsson &amp; Nils Holmberg" />
 
 
-<meta name="date" content="2021-06-04" />
+<meta name="date" content="2021-08-18" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,8 +33,8 @@
   
 <link rel="prev" href="index.html"/>
 <link rel="next" href="chap02.html"/>
-<script src="libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -52,6 +52,8 @@
 
 
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
 <style type="text/css">
@@ -117,6 +119,7 @@ code span.va { color: #19177c; } /* Variable */
 code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
+
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -266,7 +269,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="chap01" class="section level1" number="1">
 <h1><span class="header-section-number">Kapitel 1</span> Kapitel</h1>
 <p>I denna del av boken följer vi utvecklingen och genomförandet av ett samhällsvetenskapligt experiment. Exempel på en <strong>figur</strong> kommer här:</p>
-<div class="figure" style="text-align: center"><span id="fig:fig01-01"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:fig01-01"></span>
 <img src="scom-expb_files/figure-html/fig01-01-1.png" alt="En figur." width="80%" />
 <p class="caption">
 Figure 1.1: En figur.
@@ -285,7 +288,7 @@ Figure 1.1: En figur.
 <span id="cb1-10"><a href="chap01.html#cb1-10" aria-hidden="true"></a><span class="co">#</span></span>
 <span id="cb1-11"><a href="chap01.html#cb1-11" aria-hidden="true"></a><span class="kw">print</span>(gp)</span></code></pre></div>
 <pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
-<div class="figure" style="text-align: center"><span id="fig:fig01-02"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:fig01-02"></span>
 <img src="scom-expb_files/figure-html/fig01-02-1.png" alt="Figur 1. Linjära modeller" width="80%" />
 <p class="caption">
 Figure 1.2: Figur 1. Linjära modeller
@@ -322,6 +325,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -342,6 +346,10 @@ gitbook.start({
 "text": null
 },
 "download": ["scom-expb.pdf", "scom-expb.docx"],
+"search": {
+"engine": "lunr",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }
