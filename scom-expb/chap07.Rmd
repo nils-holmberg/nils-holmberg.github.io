@@ -447,7 +447,7 @@ Den forskningsetiska utvecklingen under de senaste decennierna har syftat till a
 
 Redan innan GDPR trädde i kraft fanns emellertid en tydlig ambition inom forskningsvärlden att tillgodose försöksdeltagarens rättigheter genom att efterfråga ett så kallat _informerat samtycke_ från dem innan deras deltagande i studien. Man kan säga att de forskningsetiska reglerna kring informerat samtycke sedermera har inkorporerats och blivit en del av GDPR, som är ett betydligt större och mer omfattande regelverk. 
 
-- andra regler gäller för studenter? Studentarbeten berörs inte av etikprövningslagen, men GDPR gäller alla oavsett...
+- andra regler gäller för studenter? Studentarbeten berörs inte av etikprövningslagen, men GDPR gäller alla oavsett.
 
 - alla vårdnadshavares medgivande om deltagaren är yngre än femton år.
 
