@@ -1,5 +1,0 @@
-# Kapitel {#chap09}
-[09-0-wc-file]: <> (4.64 %)
-[09-0-comment]: <> (1 sidor)
-
-some line
