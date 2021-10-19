@@ -6,15 +6,15 @@
 
 ## using r in the social sciences
 
-[https://nils-holmberg.github.io/sfac-r/](https://nils-holmberg.github.io/sfac-r/)
+- [https://nils-holmberg.github.io/sfac-r/](https://nils-holmberg.github.io/sfac-r/)
 
 ## using python in the social sciences
 
-[https://nils-holmberg.github.io/sfac-py/](https://nils-holmberg.github.io/sfac-py/)
+- [https://nils-holmberg.github.io/sfac-py/](https://nils-holmberg.github.io/sfac-py/)
 
 ## using r in strategic communication
 
-[https://nils-holmberg.github.io/scom-r/](https://nils-holmberg.github.io/scom-r/)
+- [https://nils-holmberg.github.io/scom-r/](https://nils-holmberg.github.io/scom-r/)
 
 ## more repos coming soon..
 
