@@ -1,4 +1,4 @@
-[home](https://nils-holmberg.github.io/)
+- [home](https://nils-holmberg.github.io/)
 
 # nils holmberg github website
 
