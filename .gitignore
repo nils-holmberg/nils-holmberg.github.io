@@ -5,16 +5,9 @@
 # folders and files
 log/*
 tmp/*
-scom-tour/src/*
-!scom-tour/src/sjht-ms.md
-scom-tour/log/*
-scom-tour/tmp/*
 
 # keep empty dir
 !log/.gitkeep
 !tmp/.gitkeep
-!scom-tour/src/.gitkeep
-!scom-tour/log/.gitkeep
-!scom-tour/tmp/.gitkeep
 
 
